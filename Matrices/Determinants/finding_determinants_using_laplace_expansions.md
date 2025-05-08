@@ -50,9 +50,9 @@ $$
 
 **Step 2: Compute cofactors**:
 
-* $C_{11} = (+1) \cdot \det\begin{bmatrix} 4 & 5 \\ 0 & 6 \end{bmatrix} = 4 \cdot 6 - 0 \cdot 5 = 24$
-* $C_{12} = (-1) \cdot \det\begin{bmatrix} 0 & 5 \\ 1 & 6 \end{bmatrix} = - (0 \cdot 6 - 1 \cdot 5) = 5$
-* $C_{13} = (+1) \cdot \det\begin{bmatrix} 0 & 4 \\ 1 & 0 \end{bmatrix} = 0 \cdot 0 - 1 \cdot 4 = -4$
+* $`C_{11} = (+1) \cdot \det\begin{bmatrix} 4 & 5 \\ 0 & 6 \end{bmatrix} = 4 \cdot 6 - 0 \cdot 5 = 24`$
+* $`C_{12} = (-1) \cdot \det\begin{bmatrix} 0 & 5 \\ 1 & 6 \end{bmatrix} = - (0 \cdot 6 - 1 \cdot 5) = 5`$
+* $`C_{13} = (+1) \cdot \det\begin{bmatrix} 0 & 4 \\ 1 & 0 \end{bmatrix} = 0 \cdot 0 - 1 \cdot 4 = -4`$
 
 **Step 3: Plug into formula**:
 
