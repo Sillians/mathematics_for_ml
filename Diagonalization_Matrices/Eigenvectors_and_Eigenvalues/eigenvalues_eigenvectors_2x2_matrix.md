@@ -120,12 +120,12 @@ $$
 
 ### **5. Summary**
 
-For $A = \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}$:
+For $`A = \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}`$:
 
 * **Eigenvalues:** $\lambda_1 = 1$, $\lambda_2 = 3$
 * **Eigenvectors:**
-  $\mathbf{v}_1 = \begin{bmatrix} 1 \\ -1 \end{bmatrix}$,
-  $\mathbf{v}_2 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}$
+  $`\mathbf{v}_1 = \begin{bmatrix} 1 \\ -1 \end{bmatrix}`$,
+  $`\mathbf{v}_2 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}`$
 
 ---
 
