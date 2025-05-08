@@ -14,9 +14,7 @@ For a matrix $A = [a_{ij}]$, the determinant is written as:
 
 * **For a $2 \times 2$ matrix**:
 
-  $$
-  \det\begin{bmatrix} a & b \\ c & d \end{bmatrix} = ad - bc
-  $$
+$`\det\begin{bmatrix} a & b \\ c & d \end{bmatrix} = ad - bc`$
 
 * **For a $3 \times 3$ matrix**, the determinant can be computed by cofactor expansion or Sarrus' Rule.
 
@@ -28,9 +26,7 @@ For matrices of size $N \geq 4$, determinants are computed **recursively** using
 
 The **minor** of an entry $a_{ij}$, denoted $M_{ij}$, is the determinant of the $(N - 1) \times (N - 1)$ submatrix obtained by removing the $i$-th row and $j$-th column from matrix $A$:
 
-$$
-M_{ij} = \det(A_{ij})
-$$
+$`M_{ij} = \det(A_{ij})`$
 
 Where $A_{ij}$ is the reduced matrix after removing row $i$ and column $j$.
 
@@ -54,15 +50,11 @@ The determinant of matrix $A$ can be computed by expanding along any row or colu
 
 * **Expansion along the $i$-th row**:
 
-  $$
-  \det(A) = \sum_{j=1}^{n} a_{ij} \cdot C_{ij}
-  $$
+$`\det(A) = \sum_{j=1}^{n} a_{ij} \cdot C_{ij}`$
 
 * **Expansion along the $j$-th column**:
 
-  $$
-  \det(A) = \sum_{i=1}^{n} a_{ij} \cdot C_{ij}
-  $$
+$`\det(A) = \sum_{i=1}^{n} a_{ij} \cdot C_{ij}`$
 
 This method is recursive, breaking the calculation into smaller matrices.
 
@@ -88,9 +80,9 @@ $$
 
 **Step 2: Compute the minors**
 
-* $M_{11} = \det\begin{bmatrix} 4 & 5 \\ 0 & 6 \end{bmatrix} = 24$
-* $M_{12} = \det\begin{bmatrix} 0 & 5 \\ 1 & 6 \end{bmatrix} = -5$
-* $M_{13} = \det\begin{bmatrix} 0 & 4 \\ 1 & 0 \end{bmatrix} = -4$
+* $`M_{11} = \det\begin{bmatrix} 4 & 5 \\ 0 & 6 \end{bmatrix} = 24`$
+* $`M_{12} = \det\begin{bmatrix} 0 & 5 \\ 1 & 6 \end{bmatrix} = -5`$
+* $`M_{13} = \det\begin{bmatrix} 0 & 4 \\ 1 & 0 \end{bmatrix} = -4`$
 
 **Step 3: Compute the cofactors**
 
