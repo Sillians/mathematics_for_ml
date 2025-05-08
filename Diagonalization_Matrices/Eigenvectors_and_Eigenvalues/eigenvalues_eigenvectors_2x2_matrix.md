@@ -135,4 +135,4 @@ For $`A = \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}`$:
 * Eigenvalues tell how much vectors are stretched or compressed.
 * In ML and data science, they're used in PCA, spectral clustering, and more.
 
-Let me know if you'd like a visual diagram or an interactive notebook example.
+
