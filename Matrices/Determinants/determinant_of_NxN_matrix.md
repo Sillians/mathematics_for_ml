@@ -1,4 +1,4 @@
-### **Deep Dive: Determinants, Minors, and Cofactors of an $N \times N$ Matrix**
+### **Determinants, Minors, and Cofactors of an $N \times N$ Matrix**
 
 ---
 
