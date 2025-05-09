@@ -18,7 +18,7 @@ The matrix $A$ is **invertible** (also called **non-singular**) **if and only if
 
 ### **2. Equivalent Conditions for Invertibility (2×2 Version)**
 
-For a matrix $A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$, the following statements are **equivalent** — meaning they are all **true or all false**:
+For a matrix $`A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}`$, the following statements are **equivalent** — meaning they are all **true or all false**:
 
 1. **$A$ is invertible**.
 2. **The determinant of $A$ is nonzero**:
