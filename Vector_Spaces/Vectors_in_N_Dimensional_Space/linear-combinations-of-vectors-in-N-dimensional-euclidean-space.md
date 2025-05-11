@@ -113,20 +113,7 @@ Let:
 
 Set up:
 
-$$
-\begin{bmatrix}
-1 & 4 & 7 \\
--1 & -3 & -7 \\
-2 & 8 & 14
-\end{bmatrix}
-\begin{bmatrix}
-x_1 \\ x_2 \\ x_3
-\end{bmatrix}
-=
-\begin{bmatrix}
-5 \\ -3 \\ 7
-\end{bmatrix}
-$$
+$` \begin{bmatrix}  1 & 4 & 7 \\ -1 & -3 & -7 \\ 2 & 8 & 14  \end{bmatrix}  \begin{bmatrix}  x_1 \\ x_2 \\ x_3  \end{bmatrix} =  \begin{bmatrix}  5 \\ -3 \\ 7  \end{bmatrix} `$
 
 Solve using **row operations** or substitution techniques. If one vector is a linear combination of the others, reduce the system accordingly.
 
