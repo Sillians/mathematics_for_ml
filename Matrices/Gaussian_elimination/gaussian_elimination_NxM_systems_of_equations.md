@@ -130,9 +130,9 @@ Let’s solve from bottom to top:
 * From the second equation: $y = -16 + z$
 * Substitute into the first:
 
-  $$
-  x + 2(-16 + z) + z = 6 \Rightarrow x - 32 + 2z + z = 6 \Rightarrow x + 3z = 38 \Rightarrow x = 38 - 3z
-  $$
+$$
+x + 2(-16 + z) + z = 6 \Rightarrow x - 32 + 2z + z = 6 \Rightarrow x + 3z = 38 \Rightarrow x = 38 - 3z
+$$
 
 Thus, the **general solution** is:
 
@@ -142,19 +142,7 @@ $$
 
 Or:
 
-$$
-\begin{bmatrix}
-x \\ y \\ z
-\end{bmatrix}
-=
-\begin{bmatrix}
-38 \\ -16 \\ 0
-\end{bmatrix}
-+ z \cdot
-\begin{bmatrix}
--3 \\ 1 \\ 1
-\end{bmatrix}
-$$
+$` \begin{bmatrix}  x \\ y \\ z  \end{bmatrix} =  \begin{bmatrix}  38 \\ -16 \\ 0  \end{bmatrix} + z \cdot  \begin{bmatrix}  -3 \\ 1 \\ 1  \end{bmatrix} `$
 
 ---
 
