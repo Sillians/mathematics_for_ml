@@ -68,9 +68,9 @@ Write the equation as a system of equations and solve using **substitution** or 
 
 Let:
 
-* $\mathbf{v}_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$
-* $\mathbf{v}_2 = \begin{bmatrix} 3 \\ -1 \end{bmatrix}$
-* $\mathbf{b} = \begin{bmatrix} 9 \\ 1 \end{bmatrix}$
+* $`\mathbf{v}_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix}`$
+* $`\mathbf{v}_2 = \begin{bmatrix} 3 \\ -1 \end{bmatrix}`$
+* $`\mathbf{b} = \begin{bmatrix} 9 \\ 1 \end{bmatrix}`$
 
 Then:
 
@@ -105,11 +105,11 @@ Write this as a **system of 3 equations in 3 variables** and solve using **matri
 
 Let:
 
-* $\mathbf{v}_1 = \begin{bmatrix} 1 \\ -1 \\ 2 \end{bmatrix}, \quad
+* $`\mathbf{v}_1 = \begin{bmatrix} 1 \\ -1 \\ 2 \end{bmatrix}, \quad
   \mathbf{v}_2 = \begin{bmatrix} 4 \\ -3 \\ 8 \end{bmatrix}, \quad
-  \mathbf{v}_3 = \begin{bmatrix} 7 \\ -7 \\ 14 \end{bmatrix}$
+  \mathbf{v}_3 = \begin{bmatrix} 7 \\ -7 \\ 14 \end{bmatrix}`$
 
-* $\mathbf{b} = \begin{bmatrix} 5 \\ -3 \\ 7 \end{bmatrix}$
+* $`\mathbf{b} = \begin{bmatrix} 5 \\ -3 \\ 7 \end{bmatrix}`$
 
 Set up:
 
