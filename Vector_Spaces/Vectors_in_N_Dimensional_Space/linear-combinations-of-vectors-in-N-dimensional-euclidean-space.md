@@ -105,15 +105,13 @@ Write this as a **system of 3 equations in 3 variables** and solve using **matri
 
 Let:
 
-* $`\mathbf{v}_1 = \begin{bmatrix} 1 \\ -1 \\ 2 \end{bmatrix}, \quad
-  \mathbf{v}_2 = \begin{bmatrix} 4 \\ -3 \\ 8 \end{bmatrix}, \quad
-  \mathbf{v}_3 = \begin{bmatrix} 7 \\ -7 \\ 14 \end{bmatrix}`$
+* $`\mathbf{v}_1 = \begin{bmatrix} 1 \\ -1 \\ 2 \end{bmatrix}, \quad \mathbf{v}_2 = \begin{bmatrix} 4 \\ -3 \\ 8 \end{bmatrix}, \quad \mathbf{v}_3 = \begin{bmatrix} 7 \\ -7 \\ 14 \end{bmatrix}`$
 
 * $`\mathbf{b} = \begin{bmatrix} 5 \\ -3 \\ 7 \end{bmatrix}`$
 
 Set up:
 
-$` \begin{bmatrix}  1 & 4 & 7 \\ -1 & -3 & -7 \\ 2 & 8 & 14  \end{bmatrix}  \begin{bmatrix}  x_1 \\ x_2 \\ x_3  \end{bmatrix} =  \begin{bmatrix}  5 \\ -3 \\ 7  \end{bmatrix} `$
+$`\begin{bmatrix}  1 & 4 & 7 \\ -1 & -3 & -7 \\ 2 & 8 & 14  \end{bmatrix}  \begin{bmatrix}  x_1 \\ x_2 \\ x_3  \end{bmatrix} =  \begin{bmatrix}  5 \\ -3 \\ 7  \end{bmatrix}`$
 
 Solve using **row operations** or substitution techniques. If one vector is a linear combination of the others, reduce the system accordingly.
 
