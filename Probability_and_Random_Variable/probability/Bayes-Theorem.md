@@ -1,4 +1,4 @@
-## **Bayes' Theorem, Deep Dive**
+## **Bayes' Theorem**
 
 Bayes’ Theorem is a fundamental result in probability theory that allows you to update the probability 
 of a hypothesis given new evidence. It reverses conditional probabilities, making it essential in 
