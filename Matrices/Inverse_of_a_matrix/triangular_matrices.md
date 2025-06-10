@@ -10,23 +10,23 @@ There are two main types:
 
 * **Upper Triangular Matrix**: All elements **below** the main diagonal are zero.
 
-  $$
-  U = \begin{bmatrix}
-  u_{11} & u_{12} & u_{13} \\
-  0      & u_{22} & u_{23} \\
-  0      & 0      & u_{33}
-  \end{bmatrix}
-  $$
+$$
+U = \begin{bmatrix}
+u_{11} & u_{12} & u_{13} \\
+0      & u_{22} & u_{23} \\
+0      & 0      & u_{33}
+\end{bmatrix}
+$$
 
 * **Lower Triangular Matrix**: All elements **above** the main diagonal are zero.
 
-  $$
-  L = \begin{bmatrix}
-  l_{11} & 0      & 0      \\
-  l_{21} & l_{22} & 0      \\
-  l_{31} & l_{32} & l_{33}
-  \end{bmatrix}
-  $$
+$$
+L = \begin{bmatrix}
+l_{11} & 0      & 0      \\
+l_{21} & l_{22} & 0      \\
+l_{31} & l_{32} & l_{33}
+\end{bmatrix}
+$$
 
 ---
 
@@ -36,9 +36,9 @@ There are two main types:
 
   For a triangular matrix $T$:
 
-  $$
-  \det(T) = \prod_{i=1}^n t_{ii}
-  $$
+$$
+\det(T) = \prod_{i=1}^n t_{ii}
+$$
 
 * **Inverse**: The inverse of a triangular matrix (if it exists) is also triangular of the same type.
 
@@ -86,19 +86,19 @@ Triangular matrices are essential in:
 
 * **LU Decomposition**: Any square matrix (under certain conditions) can be written as:
 
-  $$
-  A = LU
-  $$
+$$
+A = LU
+$$
 
   Where $L$ is lower triangular and $U$ is upper triangular.
 
 * **Cholesky Decomposition**: For symmetric positive-definite matrices:
 
-  $$
-  A = LL^T
-  $$
+$$
+A = LL^T
+$$
 
-  Where $L$ is lower triangular.
+Where $L$ is lower triangular.
 
 ---
 
