@@ -57,26 +57,14 @@ If $A \mathbf{x} = \mathbf{b}$, and $A$ is triangular:
 
 Example with lower triangular matrix:
 
-$$
-\begin{bmatrix}
-2 & 0 & 0 \\
-3 & 1 & 0 \\
-1 & -4 & 3
-\end{bmatrix}
-\begin{bmatrix}
-x_1 \\ x_2 \\ x_3
-\end{bmatrix}
-=
-\begin{bmatrix}
-4 \\ 5 \\ -1
-\end{bmatrix}
-$$
+
+$` \begin{bmatrix} 2 & 0 & 0 \\ 3 & 1 & 0 \\ 1 & -4 & 3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix}  4 \\ 5 \\ -1  \end{bmatrix}`$
 
 Solve using **forward substitution**:
 
-* First row: $2x_1 = 4 \Rightarrow x_1 = 2$
-* Second row: $3x_1 + x_2 = 5 \Rightarrow 6 + x_2 = 5 \Rightarrow x_2 = -1$
-* Third row: $x_1 - 4x_2 + 3x_3 = -1 \Rightarrow 2 + 4 + 3x_3 = -1 \Rightarrow x_3 = -7/3$
+* First row: $`2x_1 = 4 \Rightarrow x_1 = 2`$
+* Second row: $`3x_1 + x_2 = 5 \Rightarrow 6 + x_2 = 5 \Rightarrow x_2 = -1`$
+* Third row: $`x_1 - 4x_2 + 3x_3 = -1 \Rightarrow 2 + 4 + 3x_3 = -1 \Rightarrow x_3 = -7/3`$
 
 ---
 
