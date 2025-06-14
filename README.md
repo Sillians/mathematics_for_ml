@@ -1,5 +1,5 @@
-# mathematics_for_ml
-Core mathematics for machine learning that tackles concepts such as 
+# mathematics for machine learning
+Core mathematics for machine learning that tackles concepts such as;
 
 - Matrices, 
 - Vector Spaces, 
@@ -11,6 +11,7 @@ Core mathematics for machine learning that tackles concepts such as
 - Combining Random Variables, and
 - Parametric Inference. 
 
+---
 
 ## **Master the following;**
 - Master determinants, Gaussian elimination, and learn how to compute inverse matrices efficiently.
