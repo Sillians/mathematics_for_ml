@@ -34,7 +34,7 @@ $$
 Construct matrix $`A`$ as:
 
 * $`A_{ii} =`$ coefficient of $`x_i^2`$
-* $`A_{ij} = A_{ji} = \frac{1}{2} \times$ coefficient of $x_i x_j`$
+* $`A_{ij} = A_{ji} = \frac{1}{2} \times`$ coefficient of $`x_i x_j`$
 
 ### **Example**
 
