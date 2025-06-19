@@ -25,7 +25,7 @@ $$
 
 **Inverse Rule:**
 
-If **none** of the diagonal entries are zero ($`d_i \ne 0$ for all $i`$), then the inverse is simply:
+If **none** of the diagonal entries are zero ($`d_i \ne 0`$ for all $`i`$), then the inverse is simply:
 
 $$
 D^{-1} = \begin{bmatrix}
