@@ -18,6 +18,11 @@ $$
 $$
 
 
+$$
+\mathrm{Var}\left(\sum_{i=1}^n X_i\right) = \sum_{i=1}^n \mathrm{Var}(X_i) + 2 \sum_{i<j} \mathrm{Cov}(X_i, X_j)
+$$
+
+
 If the $`X_i`$'s are **pairwise independent**, the covariances are zero:
 
 $$
