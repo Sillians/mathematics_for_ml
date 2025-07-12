@@ -95,6 +95,8 @@ Let:
 * 
 $$ = \begin{bmatrix}\ \lambda\_1 & 0 & 0 \\ 0 & \lambda\_2 & 0 \\ 0 & 0 & \lambda\_3 \end{bmatrix}\ $$
 
+
+
 Then:
 
 $$

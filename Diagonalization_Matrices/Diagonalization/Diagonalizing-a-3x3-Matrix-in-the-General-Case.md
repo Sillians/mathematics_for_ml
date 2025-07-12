@@ -1,4 +1,4 @@
-#  Diagonalizing a 3×3 Matrix (Deep Dive)
+#  Diagonalizing a 3×3 Matrix
 
 ---
 
@@ -13,7 +13,10 @@ $$
 Where:
 
 * $P$ is a matrix whose **columns are the eigenvectors** of $A$
+
+
 * $D$ is a **diagonal matrix** whose **entries are the eigenvalues** of $A$
+
 
 Diagonalization simplifies computations like matrix powers, exponentials, and solving systems.
 
@@ -54,6 +57,7 @@ A $`3 \times 3`$ matrix $A$ is **diagonalizable** if it has **three linearly ind
 ### Step 4: Construct $P$ and $D$
 
 * Matrix $P$ contains the eigenvectors as columns:
+
 
 $$
 P = \begin{bmatrix} \mathbf{v}_1 & \mathbf{v}_2 & \mathbf{v}_3 \end{bmatrix}
@@ -98,6 +102,8 @@ $$
 ### Eigenvalues:
 
 * $`\lambda\_1 = 6`$
+
+
 * $`\lambda\_2 = \lambda\_3 = 3`$
 
 ### Eigenvectors:
@@ -143,13 +149,23 @@ $$
 Suppose you're given:
 
 * 1 or 2 eigenvectors
+
+
 * Partial $`P`$ and $`D`$
+
+
 
 **Steps:**
 
 1. Use the known eigenvalue(s) and vector(s)
+
+
 2. Compute missing eigenvectors using $`(A - \lambda I)\mathbf{v} = 0`$
+
+
 3. Build full $P$, ensuring invertibility
+
+
 4. Match eigenvalues to eigenvectors in $D$
 
 ---
@@ -168,12 +184,12 @@ The order of eigenvalues in $D$ must correspond to the order of the eigenvectors
 
 ##  Summary
 
-| Step | Description                                            |
-| ---- | ------------------------------------------------------ |
-| 1    | Find eigenvalues: $`\det(A - \lambda I) = 0`$          |
+| Step | Description                                                  |
+| ---- |--------------------------------------------------------------|
+| 1    | Find eigenvalues: $`\det(A - \lambda I) = 0`$                |
 | 2    | Solve $`(A - \lambda I)\mathbf{v} = 0`$ for each $`\lambda`$ |
-| 3    | Ensure eigenvectors are linearly independent           |
-| 4    | Construct $P$ and $D$                                  |
-| 5    | Verify: $`A = P D P^{-1}`$                              |
+| 3    | Ensure eigenvectors are linearly independent                 |
+| 4    | Construct $P$ and $D$                                        |
+| 5    | Verify: $`A = P D P^{-1}`$                                   |
 
 ---
