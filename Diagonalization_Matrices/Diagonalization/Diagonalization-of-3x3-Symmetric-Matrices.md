@@ -13,6 +13,8 @@ $$
 Where:
 
 * $`Q`$ is an **orthogonal matrix** ($`Q^T = Q^{-1}`$), whose columns are **orthonormal eigenvectors** of $`A`$
+
+
 * $`D`$ is a **diagonal matrix** whose diagonal entries are the **real eigenvalues** of $`A`$
 
 ---
@@ -22,7 +24,11 @@ Where:
 A matrix $`A = A^T`$ satisfies:
 
 * All eigenvalues are **real**
+
+
 * There exists a set of **orthonormal eigenvectors**
+
+
 * The matrix is always **diagonalizable via an orthogonal matrix**
 
 ---
@@ -66,7 +72,11 @@ $$
 $$
 
 * Find **linearly independent** eigenvectors for repeated eigenvalues.
+
+
 * Use the **Gram-Schmidt process** if necessary to orthonormalize the vectors.
+
+
 * Normalize:
 
 $$
@@ -80,12 +90,14 @@ $$
 Let:
 
 * $`Q = [\mathbf{q}_1 \ \mathbf{q}_2 \ \mathbf{q}_3]`$
-* $$ = \begin{bmatrix}\
+
+
+* $` = \begin{bmatrix}\
 \lambda\_1 & 0 & 0 \\
 0 & \lambda\_2 & 0 \\
 0 & 0 & \lambda\_3
 \end{bmatrix}\
-$$
+`$
 
 Then:
 
@@ -100,7 +112,11 @@ $$
 If **partial information** is given (e.g., one eigenvalue/vector or part of $`Q`$ or $`D`$), use:
 
 * $`A Q = Q D`$
+
+
 * Orthogonality: all eigenvectors must be **mutually orthogonal**
+
+
 * Use the structure of $Q$ (columns are orthonormal eigenvectors) to deduce missing entries
 
 ---
@@ -120,20 +136,35 @@ A = \begin{bmatrix}
 $$
 
 * Step 1: Find eigenvalues $`\lambda_1, \lambda_2, \lambda_3`$
+
+
 * Step 2: Solve $`(A - \lambda_i I)\mathbf{v}_i = 0`$ for each $`\lambda_i`$
+
+
 * Step 3: Normalize the eigenvectors
+
+
 * Step 4: Form $`Q`$ from the orthonormal eigenvectors
+
+
 * Step 5: Compute $`D = Q^T A Q`$
 
 ---
+
 
 ## **7. Orthogonally Diagonalizing a 3×3 Matrix With Repeated Eigenvalues**
 
 If eigenvalues repeat (e.g., $`\lambda = 5`$ with multiplicity 2):
 
 * Ensure the **algebraic multiplicity** equals the **geometric multiplicity**
+
+
 * Find **two linearly independent eigenvectors** for $`\lambda`$
+
+
 * Orthonormalize them
+
+
 * Proceed as usual with $Q$ and $D$
 
 ---

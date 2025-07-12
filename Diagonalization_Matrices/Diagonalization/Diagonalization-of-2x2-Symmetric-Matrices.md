@@ -13,7 +13,11 @@ $$
 Where:
 
 * $`Q`$ is an **orthogonal matrix** whose columns are eigenvectors of $`A`$
+
+
 * $`D`$ is a **diagonal matrix** of eigenvalues
+
+
 * $`Q^T = Q^{-1}`$
 
 ---
@@ -62,15 +66,20 @@ This gives the **eigenvalues** $`\lambda_1, \lambda_2`$.
 ### Step 2: Find orthonormal eigenvectors
 
 * Solve $`(A - \lambda_i I)\mathbf{v}_i = 0`$ for each eigenvalue
+
+
 * Normalize the eigenvectors:
 
 $$
 \mathbf{q}_i = \frac{\mathbf{v}_i}{\|\mathbf{v}_i\|}
 $$
 
+
 ### Step 3: Form matrices $Q$ and $D$
 
 * $`Q = [\mathbf{q}_1 \,\, \mathbf{q}_2]`$ (orthonormal eigenvectors)
+
+
 * $`D = \begin{bmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{bmatrix}`$
 
 Then:
@@ -86,12 +95,19 @@ $$
 Given partial info, such as:
 
 * One eigenvector
+
+
 * One eigenvalue
+
+
 * A diagonalized matrix
+
 
 You can deduce the missing parts using:
 
 * Orthogonality of eigenvectors
+
+
 * Matrix multiplication:
 
 $$
@@ -137,6 +153,8 @@ For each eigenvalue, solve $`(A - \lambda I)\mathbf{v} = 0`$, then normalize.
 Let’s say:
 
 * $`\mathbf{v}_1 = \begin{bmatrix} 1 \\ \alpha \end{bmatrix}`$ for $`\lambda_1`$
+
+
 * $`\mathbf{v}_2 = \begin{bmatrix} 1 \\ \beta \end{bmatrix}`$ for $`\lambda_2`$
 
 Normalize each to get $`\mathbf{q}_1, \mathbf{q}_2`$.
@@ -164,13 +182,21 @@ $$
 Given:
 
 * One eigenvalue $`\lambda_1`$
+
+
 * A vector $`\mathbf{q}_1`$
 
 Then:
 
 * Use $`A\mathbf{q}_1 = \lambda_1 \mathbf{q}_1`$ to verify or complete $`\mathbf{q}_1`$
+
+
 * Find $`\mathbf{q}_2`$ orthogonal to $`\mathbf{q}_1`$
+
+
 * Normalize $`\mathbf{q}_2`$
+
+
 * Compute second eigenvalue $`\lambda_2`$ from:
 
 $$
@@ -181,13 +207,13 @@ $$
 
 ## Summary Table
 
-| **Component**                        | **Meaning**                                     |
-| ------------------------------------ | ----------------------------------------------- |
-| Symmetric matrix $`A`$                 | $`A^T = A`$                                       |
-| Orthogonal matrix $`Q`$                | $`Q^T Q = I`$, columns = orthonormal eigenvectors |
-| Diagonal matrix $`D`$                  | Contains real eigenvalues of $`A`$                |
-| Diagonalization                      | $`A = Q D Q^T`$                                   |
-| Eigenvectors of distinct eigenvalues | Orthogonal                                      |
-| Diagonalization preserves            | Lengths, angles (when $`Q`$ orthogonal)           |
+| **Component**                         | **Meaning**                                     |
+|---------------------------------------| ----------------------------------------------- |
+| Symmetric matrix $`A`$                | $`A^T = A`$                                       |
+| Orthogonal matrix $`Q`$               | $`Q^T Q = I`$, columns = orthonormal eigenvectors |
+| Diagonal matrix $`D`$                 | Contains real eigenvalues of $`A`$                |
+| Diagonalization                       | $`A = Q D Q^T`$                                   |
+| Eigenvectors of distinct eigenvalues  | Orthogonal                                      |
+| Diagonalization preserves             | Lengths, angles (when $`Q`$ orthogonal)           |
 
 ---
