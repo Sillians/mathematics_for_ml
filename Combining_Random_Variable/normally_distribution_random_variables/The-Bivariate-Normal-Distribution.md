@@ -78,16 +78,12 @@ Then $`Z \sim \mathcal{N}(\mu_Z, \sigma_Z^2)`$, where:
 
 * **Mean:**
 
-  $$
-  \mu_Z = a\mu_X + b\mu_Y
-  $$
+  $`\mu_Z = a\mu_X + b\mu_Y`$
 
 
 * **Variance:**
 
-  $$
-  \sigma_Z^2 = a^2\sigma_X^2 + b^2\sigma_Y^2 + 2ab\rho\sigma_X\sigma_Y
-  $$
+  $`\sigma_Z^2 = a^2\sigma_X^2 + b^2\sigma_Y^2 + 2ab\rho\sigma_X\sigma_Y`$
 
 #### **Example:**
 

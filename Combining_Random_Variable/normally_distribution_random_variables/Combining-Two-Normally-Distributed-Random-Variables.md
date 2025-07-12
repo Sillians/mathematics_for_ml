@@ -22,15 +22,11 @@ For $`Z = X + Y`$ or $`Z = X - Y`$:
 
 * **Sum**:
 
-  $$
-  Z = X + Y \sim \mathcal{N}(\mu_X + \mu_Y,\; \sigma_X^2 + \sigma_Y^2)
-  $$
+  $`Z = X + Y \sim \mathcal{N}(\mu_X + \mu_Y,\; \sigma_X^2 + \sigma_Y^2)`$
 
 * **Difference**:
 
-  $$
-  Z = X - Y \sim \mathcal{N}(\mu_X - \mu_Y,\; \sigma_X^2 + \sigma_Y^2)
-  $$
+  $`Z = X - Y \sim \mathcal{N}(\mu_X - \mu_Y,\; \sigma_X^2 + \sigma_Y^2)`$
 
 #### **If dependent** (known correlation $`\rho`$):
 
@@ -73,9 +69,7 @@ Then:
 1. Determine $`\mu_Z`$ and $`\sigma_Z^2`$
 2. Standardize:
 
-   $$
-   Z^* = \frac{Z - \mu_Z}{\sigma_Z}
-   $$
+   $`Z^* = \frac{Z - \mu_Z}{\sigma_Z}`$
 
 3. Use standard normal tables (or software) to compute $`\mathbb{P}(Z \le z)`$
 
