@@ -139,15 +139,12 @@ From the joint PDF $`f(x,y)`$, the **marginal PDFs** are:
 
 * For $X$:
 
-  $$
-  f_X(x) = \int_{-\infty}^{\infty} f(x,y)\,dy
-  $$
+  $`f_X(x) = \int_{-\infty}^{\infty} f(x,y)\,dy`$
 
 * For $Y$:
 
-  $$
-  f_Y(y) = \int_{-\infty}^{\infty} f(x,y)\,dx
-  $$
+  $`f_Y(y) = \int_{-\infty}^{\infty} f(x,y)\,dx`$
+
 
 Used to compute distributions of individual variables.
 
