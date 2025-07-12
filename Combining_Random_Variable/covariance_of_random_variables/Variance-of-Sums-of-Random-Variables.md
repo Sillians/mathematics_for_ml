@@ -9,13 +9,13 @@ For random variables $`X_1, X_2, \dots, X_n`$, the **variance of their sum** is 
 #### **General Formula:**
 
 $$
-\operatorname{Var}\left( \sum_{i=1}^n X_i \right) = \sum_{i=1}^n \operatorname{Var}(X_i) + 2 \sum_{i<j} \operatorname{Cov}(X_i, X_j)
+\mathrm{Var}\left( \sum_{i=1}^n X_i \right) = \sum_{i=1}^n \mathrm{Var}(X_i) + 2 \sum_{i<j} \mathrm{Cov}(X_i, X_j)
 $$
 
 If the $`X_i`$'s are **pairwise independent**, the covariances are zero:
 
 $$
-\operatorname{Var}\left( \sum X_i \right) = \sum \operatorname{Var}(X_i)
+\mathrm{Var}\left( \sum X_i \right) = \sum \mathrm{Var}(X_i)
 $$
 
 ---
@@ -27,25 +27,25 @@ Let $X$ and $Y$ be two random variables.
 #### **Sum:**
 
 $$
-\operatorname{Var}(X + Y) = \operatorname{Var}(X) + \operatorname{Var}(Y) + 2\operatorname{Cov}(X, Y)
+\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y) + 2\mathrm{Cov}(X, Y)
 $$
 
 #### **Difference:**
 
 $$
-\operatorname{Var}(X - Y) = \operatorname{Var}(X) + \operatorname{Var}(Y) - 2\operatorname{Cov}(X, Y)
+\mathrm{Var}(X - Y) = \mathrm{Var}(X) + \mathrm{Var}(Y) - 2\mathrm{Cov}(X, Y)
 $$
 
-> If $X$ and $Y$ are independent: $`\operatorname{Cov}(X, Y) = 0`$
+> If $X$ and $Y$ are independent: $`\mathrm{Cov}(X, Y) = 0`$
 
 #### **Example**:
 
-If $`\operatorname{Var}(X) = 4`$, $`\operatorname{Var}(Y) = 9`$, $`\operatorname{Cov}(X, Y) = 3`$
+If $`\mathrm{Var}(X) = 4`$, $`\mathrm{Var}(Y) = 9`$, $`\mathrm{Cov}(X, Y) = 3`$
 
-* $`\operatorname{Var}(X + Y) = 4 + 9 + 2(3) = 19`$
+* $`\mathrm{Var}(X + Y) = 4 + 9 + 2(3) = 19`$
 
 
-* $`\operatorname{Var}(X - Y) = 4 + 9 - 2(3) = 7`$
+* $`\mathrm{Var}(X - Y) = 4 + 9 - 2(3) = 7`$
 
 ---
 
@@ -54,7 +54,7 @@ If $`\operatorname{Var}(X) = 4`$, $`\operatorname{Var}(Y) = 9`$, $`\operatorname
 Let $`Z = aX + bY`$. Then:
 
 $$
-\operatorname{Var}(Z) = a^2 \operatorname{Var}(X) + b^2 \operatorname{Var}(Y) + 2ab\, \operatorname{Cov}(X, Y)
+\mathrm{Var}(Z) = a^2 \mathrm{Var}(X) + b^2 \mathrm{Var}(Y) + 2ab\, \mathrm{Cov}(X, Y)
 $$
 
 
@@ -62,13 +62,13 @@ $$
 
 Let $`X, Y`$ be random variables with:
 
-* $`\operatorname{Var}(X) = 1`$
+* $`\mathrm{Var}(X) = 1`$
 
 
-* $`\operatorname{Var}(Y) = 4`$
+* $`\mathrm{Var}(Y) = 4`$
 
 
-* $`\operatorname{Cov}(X, Y) = -1`$
+* $`\mathrm{Cov}(X, Y) = -1`$
 
 
 * Let $`Z = 2X - 3Y`$
@@ -76,7 +76,7 @@ Let $`X, Y`$ be random variables with:
 Then:
 
 $$
-\operatorname{Var}(Z) = 4(1) + 9(4) + 2(2)(-3)(-1) = 4 + 36 + 12 = 52
+\mathrm{Var}(Z) = 4(1) + 9(4) + 2(2)(-3)(-1) = 4 + 36 + 12 = 52
 $$
 
 ---
@@ -93,20 +93,20 @@ Given:
 
 * $`\mathbb{E}[XY] = 15`$
 
-Find: $`\operatorname{Var}(X + Y)`$
+Find: $`\mathrm{Var}(X + Y)`$
 
 #### **Step 1**: Compute variances and covariance
 
 $$
-\operatorname{Var}(X) = 6 - 2^2 = 2,\quad
-\operatorname{Var}(Y) = 30 - 5^2 = 5,\quad
-\operatorname{Cov}(X, Y) = 15 - (2)(5) = 5
+\mathrm{Var}(X) = 6 - 2^2 = 2,\quad
+\mathrm{Var}(Y) = 30 - 5^2 = 5,\quad
+\mathrm{Cov}(X, Y) = 15 - (2)(5) = 5
 $$
 
 #### **Step 2**: Plug into variance of a sum:
 
 $$
-\operatorname{Var}(X + Y) = 2 + 5 + 2(5) = 17
+\mathrm{Var}(X + Y) = 2 + 5 + 2(5) = 17
 $$
 
 ---
@@ -116,22 +116,22 @@ $$
 Let $`S = X + Y + Z`$. Then:
 
 $$
-\operatorname{Var}(S) = \operatorname{Var}(X) + \operatorname{Var}(Y) + \operatorname{Var}(Z) + 2\operatorname{Cov}(X,Y) + 2\operatorname{Cov}(X,Z) + 2\operatorname{Cov}(Y,Z)
+\mathrm{Var}(S) = \mathrm{Var}(X) + \mathrm{Var}(Y) + \mathrm{Var}(Z) + 2\mathrm{Cov}(X,Y) + 2\mathrm{Cov}(X,Z) + 2\mathrm{Cov}(Y,Z)
 $$
 
 #### **Example**:
 
 Let:
 
-* $`\operatorname{Var}(X) = 2`$, $`\operatorname{Var}(Y) = 3`$, $`\operatorname{Var}(Z) = 1`$
+* $`\mathrm{Var}(X) = 2`$, $`\mathrm{Var}(Y) = 3`$, $`\mathrm{Var}(Z) = 1`$
 
 
-* $`\operatorname{Cov}(X, Y) = 1`$, $`\operatorname{Cov}(X, Z) = 0`$, $`\operatorname{Cov}(Y, Z) = -1`$
+* $`\mathrm{Cov}(X, Y) = 1`$, $`\mathrm{Cov}(X, Z) = 0`$, $`\mathrm{Cov}(Y, Z) = -1`$
 
 Then:
 
 $$
-\operatorname{Var}(X + Y + Z) = 2 + 3 + 1 + 2(1) + 2(0) + 2(-1) = 6 + 2 - 2 = 6
+\mathrm{Var}(X + Y + Z) = 2 + 3 + 1 + 2(1) + 2(0) + 2(-1) = 6 + 2 - 2 = 6
 $$
 
 ---
@@ -140,10 +140,10 @@ $$
 
 | Type                              | Formula                                                                              |
 |-----------------------------------|--------------------------------------------------------------------------------------|
-| $`\operatorname{Var}(X + Y)`$     | $`\operatorname{Var}(X) + \operatorname{Var}(Y) + 2\operatorname{Cov}(X, Y)`$        |
-| $`\operatorname{Var}(aX + bY)`$   | $`a^2\operatorname{Var}(X) + b^2\operatorname{Var}(Y) + 2ab\operatorname{Cov}(X, Y)`$ |
-| $`\operatorname{Var}(X - Y)`$     | $`\operatorname{Var}(X) + \operatorname{Var}(Y) - 2\operatorname{Cov}(X, Y)`$        |
-| $`\operatorname{Var}(X + Y + Z)`$ | $`\sum \operatorname{Var}(X_i) + 2\sum_{i<j} \operatorname{Cov}(X_i, X_j)`$          |
+| $`\mathrm{Var}(X + Y)`$     | $`\mathrm{Var}(X) + \mathrm{Var}(Y) + 2\mathrm{Cov}(X, Y)`$        |
+| $`\mathrm{Var}(aX + bY)`$   | $`a^2\mathrm{Var}(X) + b^2\mathrm{Var}(Y) + 2ab\mathrm{Cov}(X, Y)`$ |
+| $`\mathrm{Var}(X - Y)`$     | $`\mathrm{Var}(X) + \mathrm{Var}(Y) - 2\mathrm{Cov}(X, Y)`$        |
+| $`\mathrm{Var}(X + Y + Z)`$ | $`\sum \mathrm{Var}(X_i) + 2\sum_{i<j} \mathrm{Cov}(X_i, X_j)`$          |
 
 ---
 
