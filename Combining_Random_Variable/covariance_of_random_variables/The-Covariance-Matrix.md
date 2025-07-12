@@ -26,10 +26,10 @@ $$
 
 So:
 
-* Diagonal entries: $`\operatorname{Var}(X_i)`$
+* Diagonal entries: $`\mathrm{Var}(X_i)`$
 
 
-* Off-diagonal entries: $`\operatorname{Cov}(X_i, X_j)`$
+* Off-diagonal entries: $`\mathrm{Cov}(X_i, X_j)`$
 
 The matrix is:
 
@@ -55,13 +55,13 @@ Let $`\mathbb{E}[X] = 2`$, $`\mathbb{E}[Y] = 3`$, $`\mathbb{E}[X^2] = 5`$, $`\ma
 
 Then:
 
-* $`\operatorname{Var}(X) = 5 - 2^2 = 1`$
+* $`\mathrm{Var}(X) = 5 - 2^2 = 1`$
 
 
-* $`\operatorname{Var}(Y) = 10 - 3^2 = 1`$
+* $`\mathrm{Var}(Y) = 10 - 3^2 = 1`$
 
 
-* $`\operatorname{Cov}(X, Y) = 6 - (2)(3) = 0`$
+* $`\mathrm{Cov}(X, Y) = 6 - (2)(3) = 0`$
 
 So:
 
@@ -91,9 +91,9 @@ Then:
 
 $$
 \begin{aligned}
-\operatorname{Var}(X) &= \mathbb{E}[X^2] - \mathbb{E}[X]^2 \\
-\operatorname{Var}(Y) &= \mathbb{E}[Y^2] - \mathbb{E}[Y]^2 \\
-\operatorname{Cov}(X, Y) &= \mathbb{E}[XY] - \mathbb{E}[X] \mathbb{E}[Y]
+\mathrm{Var}(X) &= \mathbb{E}[X^2] - \mathbb{E}[X]^2 \\
+\mathrm{Var}(Y) &= \mathbb{E}[Y^2] - \mathbb{E}[Y]^2 \\
+\mathrm{Cov}(X, Y) &= \mathbb{E}[XY] - \mathbb{E}[X] \mathbb{E}[Y]
 \end{aligned}
 $$
 
@@ -131,13 +131,13 @@ $$
 #### **Step 2: Compute elements**
 
 $$
-\operatorname{Var}(X) = \mathbb{E}[X^2] - \mathbb{E}[X]^2 = (1^2)(0.3) + (2^2)(0.7) - 1.7^2 = (0.3 + 2.8) - 2.89 = 3.1 - 2.89 = 0.21
+\mathrm{Var}(X) = \mathbb{E}[X^2] - \mathbb{E}[X]^2 = (1^2)(0.3) + (2^2)(0.7) - 1.7^2 = (0.3 + 2.8) - 2.89 = 3.1 - 2.89 = 0.21
 $$
 
 
 $$
-\operatorname{Var}(Y) = \text{(similar steps)} = 0.24,\quad
-\operatorname{Cov}(X, Y) = 2.7 - 1.7 \cdot 1.6 = 2.7 - 2.72 = -0.02
+\mathrm{Var}(Y) = \text{(similar steps)} = 0.24,\quad
+\mathrm{Cov}(X, Y) = 2.7 - 1.7 \cdot 1.6 = 2.7 - 2.72 = -0.02
 $$
 
 Final matrix:
@@ -177,13 +177,13 @@ $$
 **Step 2: Compute Matrix Elements**
 
 $$
-\operatorname{Var}(X) = \frac{1}{3} - \left(\frac{1}{2}\right)^2 = \frac{1}{12},\quad
-\operatorname{Var}(Y) = \frac{1}{12}
+\mathrm{Var}(X) = \frac{1}{3} - \left(\frac{1}{2}\right)^2 = \frac{1}{12},\quad
+\mathrm{Var}(Y) = \frac{1}{12}
 $$
 
 
 $$
-\operatorname{Cov}(X, Y) = \frac{4}{9} - \frac{1}{4} = \frac{7}{36}
+\mathrm{Cov}(X, Y) = \frac{4}{9} - \frac{1}{4} = \frac{7}{36}
 $$
 
 Final matrix:
