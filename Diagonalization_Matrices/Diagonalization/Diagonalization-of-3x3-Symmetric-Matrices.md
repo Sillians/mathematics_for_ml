@@ -92,12 +92,7 @@ Let:
 * $`Q = [\mathbf{q}_1 \ \mathbf{q}_2 \ \mathbf{q}_3]`$
 
 
-* $` = \begin{bmatrix}\
-\lambda\_1 & 0 & 0 \\
-0 & \lambda\_2 & 0 \\
-0 & 0 & \lambda\_3
-\end{bmatrix}\
-`$
+* $` = \begin{bmatrix}\ \lambda\_1 & 0 & 0 \\ 0 & \lambda\_2 & 0 \\ 0 & 0 & \lambda\_3 \end{bmatrix}\`$
 
 Then:
 
