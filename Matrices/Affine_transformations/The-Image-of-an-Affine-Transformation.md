@@ -13,6 +13,8 @@ $$
 Where:
 
 * $`A`$ is a matrix representing a **linear transformation** (rotation, scaling, shear)
+
+
 * $`\mathbf{b}`$ is a **translation vector**
 
 ---
@@ -51,7 +53,11 @@ To transform a polygon:
 Affine transformations preserve:
 
 * **Straightness** (lines map to lines),
+
+
 * **Parallelism** (parallel lines remain parallel),
+
+
 * But not necessarily **lengths** or **angles**.
 
 ---
@@ -61,7 +67,11 @@ Affine transformations preserve:
 The **orientation** of an affine transformation depends on the **determinant** of matrix $A$:
 
 * If $`\det(A) > 0`$: The transformation is **orientation-preserving**
+
+
 * If $`\det(A) < 0`$: The transformation **reverses orientation**
+
+
 * If $`\det(A) = 0`$: The transformation is **degenerate** (collapses space)
 
 ---
@@ -90,12 +100,12 @@ So, any area under this transformation is **multiplied by 6**.
 
 ### ✅ **Summary Table**
 
-| Task                        | Method                                           |         |   |
-| --------------------------- | ------------------------------------------------ | ------- | - |
-| **Image of a point**        | Apply $`T(\mathbf{x}) = A\mathbf{x} + \mathbf{b}`$ |         |   |
-| **Image of a polygon**      | Transform all vertices and reconnect             |         |   |
-| **Orientation-preserving?** | Check sign of $`\det(A)`$                          |         |   |
-| **Area scaling**            | (                                                | \det(A) | ) |
+| Task                        | Method                                             |        | 
+| --------------------------- |----------------------------------------------------|--------| 
+| **Image of a point**        | Apply $`T(\mathbf{x}) = A\mathbf{x} + \mathbf{b}`$ |        |   
+| **Image of a polygon**      | Transform all vertices and reconnect               |        |   
+| **Orientation-preserving?** | Check sign of $`\det(A)`$                          |        |   
+| **Area scaling**            | $`(\mid \det(A) \mid)`$                            |        |
 
 ---
 

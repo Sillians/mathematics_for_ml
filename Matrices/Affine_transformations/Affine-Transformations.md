@@ -18,12 +18,20 @@ $$
 Where:
 
 * $`\mathbf{x}`$ is a vector in $`\mathbb{R}^n`$
+
+
 * $`A`$ is an $`n \times n`$ matrix (linear transformation)
+
+
 * $`\mathbf{b} \in \mathbb{R}^n`$ is a translation vector
+
+
 
 This form defines **affine maps** because they preserve:
 
 * Parallelism (but not necessarily lengths or angles)
+
+
 * Convex combinations (affine combinations of points)
 
 ---
@@ -78,11 +86,16 @@ $$
 Identify linear and constant terms:
 
 * First component: $`4x + 2y + 1`$
+
+
 * Second component: $`-x + 3y - 5`$
+
 
 So:
 
 * Matrix $`A = \begin{bmatrix} 4 & 2 \\ -1 & 3 \end{bmatrix}`$
+
+
 * Translation vector $`\mathbf{b} = \begin{bmatrix} 1 \\ -5 \end{bmatrix}`$
 
 Therefore:

@@ -21,10 +21,15 @@ An affine transformation $`T(\mathbf{x}) = A\mathbf{x} + \mathbf{b}`$ is **inver
 #### ✅ To be invertible:
 
 * $`\det(A) \neq 0`$
+
+
 * $`A^{-1}`$ exists
+
+
 * The transformation is **non-degenerate** (does not collapse space)
 
 ---
+
 
 ### **2. Inverting Affine Transformations Given in Matrix Form**
 
@@ -47,6 +52,7 @@ Let
 $$
 A = \begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix}, \quad \mathbf{b} = \begin{bmatrix} 1 \\ -2 \end{bmatrix}
 $$
+
 
 Then:
 
@@ -97,6 +103,8 @@ $$
 Then:
 
 * $`A = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix}`$
+
+
 * $`\mathbf{b} = \begin{bmatrix} 3 \\ -1 \end{bmatrix}`$
 
 Use matrix inversion and subtraction to find $`T^{-1}`$.
@@ -108,8 +116,13 @@ Use matrix inversion and subtraction to find $`T^{-1}`$.
 Affine transformations **preserve**:
 
 * **Lines and segments**
+
+
 * **Parallelism**
+
+
 * **Ratios of distances along parallel lines**
+
 
 They **do not necessarily preserve**:
 
@@ -117,11 +130,18 @@ They **do not necessarily preserve**:
 * Lengths
 * Areas (unless determinant = ±1)
 
+
 #### **Types of images** (based on the transformation):
 
 * If $`\det(A) > 0`$: orientation preserved
+
+
 * If $`\det(A) < 0`$: orientation reversed (reflection included)
+
+
 * If $`|\det(A)| = 1`$: area preserved
+
+
 * If $`|\det(A)| \neq 1`$: shape is distorted (scaled or sheared)
 
 ---
