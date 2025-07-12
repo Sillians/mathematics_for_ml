@@ -12,6 +12,13 @@ $$
 \mathrm{Var}\left( \sum_{i=1}^n X_i \right) = \sum_{i=1}^n \mathrm{Var}(X_i) + 2 \sum_{i<j} \mathrm{Cov}(X_i, X_j)
 $$
 
+$$
+\mathrm{Var} \Big( \sum_{i=1}^n X_i \Big) = \sum_{i=1}^n \mathrm{Var}(X_i) + 2 \sum_{i<j} \mathrm{Cov}(X_i, X_j)
+$$
+
+$$
+\mathrm{Var} ( \sum_{i=1}^n X_i ) = \sum_{i=1}^n \mathrm{Var}(X_i) + 2 \sum_{i<j} \mathrm{Cov}(X_i, X_j)
+$$
 
 
 $$
