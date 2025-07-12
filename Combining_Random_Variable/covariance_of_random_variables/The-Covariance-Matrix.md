@@ -20,7 +20,7 @@ For $`\mathbf{X} = [X_1, X_2, \dots, X_n]^T`$, the $`(i,j)`$-th entry is:
 
 
 $$
-\Sigma_{ij} = \operatorname{Cov}(X_i, X_j) = \mathbb{E}[(X_i - \mu_i)(X_j - \mu_j)]
+\Sigma_{ij} = \mathrm{Cov}(X_i, X_j) = \mathbb{E}[(X_i - \mu_i)(X_j - \mu_j)]
 $$
 
 
