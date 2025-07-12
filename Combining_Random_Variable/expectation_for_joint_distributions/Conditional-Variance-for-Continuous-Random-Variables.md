@@ -7,7 +7,7 @@
 For continuous random variables $X$ and $Y$, the **conditional variance** of $Y$ given $`X = x`$, denoted as:
 
 $$
-\operatorname{Var}(Y \mid X = x)
+\mathrm{Var}(Y \mid X = x)
 $$
 
 measures the spread of $Y$ assuming that $`X = x`$ is known. This is a **function of $x$** and captures how the variability of $Y$ changes as $X$ varies.
@@ -19,7 +19,7 @@ measures the spread of $Y$ assuming that $`X = x`$ is known. This is a **functio
 Given the **conditional probability density function** $`f_{Y|X}(y|x)`$, the conditional variance is computed as:
 
 $$
-\operatorname{Var}(Y \mid X = x) = \mathbb{E}[Y^2 \mid X = x] - \left( \mathbb{E}[Y \mid X = x] \right)^2
+\mathrm{Var}(Y \mid X = x) = \mathbb{E}[Y^2 \mid X = x] - \left( \mathbb{E}[Y \mid X = x] \right)^2
 $$
 
 Where:
@@ -63,7 +63,7 @@ $$
 **Step 3: Apply the formula**:
 
 $$
-\operatorname{Var}(Y \mid X = x) = \frac{1}{2} - \left( \frac{2}{3} \right)^2 = \frac{1}{2} - \frac{4}{9} = \frac{1}{18}
+\mathrm{Var}(Y \mid X = x) = \frac{1}{2} - \left( \frac{2}{3} \right)^2 = \frac{1}{2} - \frac{4}{9} = \frac{1}{18}
 $$
 
 ---
@@ -96,7 +96,7 @@ This is the **Exponential(λ)** distribution. Then:
 So the conditional variance:
 
 $$
-\operatorname{Var}(Y \mid X = x) = \frac{2}{\lambda^2} - \left( \frac{1}{\lambda} \right)^2 = \frac{1}{\lambda^2}
+\mathrm{Var}(Y \mid X = x) = \frac{2}{\lambda^2} - \left( \frac{1}{\lambda} \right)^2 = \frac{1}{\lambda^2}
 $$
 
 ---
@@ -139,7 +139,7 @@ $$
 This is the same conditional distribution from earlier, so:
 
 $$
-\operatorname{Var}(Y \mid X = x) = \frac{1}{18}
+\mathrm{Var}(Y \mid X = x) = \frac{1}{18}
 $$
 
 ---
@@ -162,7 +162,7 @@ $$
 | 1    | Obtain the conditional PDF $`( f\_{Y  X}(y x) )`$                                                                |  |  |
 | 2    | Compute $`\mathbb{E}[Y \mid X = x]`$                                                                             |             |      |
 | 3    | Compute $`\mathbb{E}[Y^2 \mid X = x]`$                                                                           |             |      |
-| 4    | Use $`\operatorname{Var}(Y \mid X = x) = \mathbb{E}[Y^2 \mid X = x] - \left( \mathbb{E}[Y \mid X = x] \right)^2`$ |             |      |
+| 4    | Use $`\mathrm{Var}(Y \mid X = x) = \mathbb{E}[Y^2 \mid X = x] - \left( \mathbb{E}[Y \mid X = x] \right)^2`$ |             |      |
 | 5    | Apply improper integration if the domain is unbounded                                                            |             |      |
 
 ---
