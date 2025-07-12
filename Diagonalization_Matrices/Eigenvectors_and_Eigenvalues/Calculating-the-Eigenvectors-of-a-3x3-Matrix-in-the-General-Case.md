@@ -201,20 +201,7 @@ $$
 
 That is,
 
-$$
-\begin{bmatrix}
-1 & 1 & -1 \\
-1 & 1 & -1 \\
--1 & -1 & 1
-\end{bmatrix}
-\begin{bmatrix}
-x \\ y \\ z
-\end{bmatrix}
-=
-\begin{bmatrix}
-0 \\ 0 \\ 0
-\end{bmatrix}
-$$
+$$\begin{bmatrix} 1 & 1 & -1 \\ 1 & 1 & -1 \\ -1 & -1 & 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ z \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$$
 
 Reducing gives:
 
