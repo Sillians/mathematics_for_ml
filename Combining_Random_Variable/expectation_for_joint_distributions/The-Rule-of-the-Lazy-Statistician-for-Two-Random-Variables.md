@@ -11,15 +11,11 @@ If $`g(X, Y)`$ is a function of two random variables, the rule says:
 
 * **Discrete case:**
 
-  $$
-  \mathbb{E}[g(X, Y)] = \sum_x \sum_y g(x, y)\, P(X = x, Y = y)
-  $$
+  $`\mathbb{E}[g(X, Y)] = \sum_x \sum_y g(x, y)\, P(X = x, Y = y)`$
 
 * **Continuous case:**
 
-  $$
-  \mathbb{E}[g(X, Y)] = \iint g(x, y)\, f_{X,Y}(x, y)\,dx\,dy
-  $$
+  $`\mathbb{E}[g(X, Y)] = \iint g(x, y)\, f_{X,Y}(x, y)\,dx\,dy`$
 
 This avoids the intermediate step of finding marginal distributions, hence the term “lazy.”
 
