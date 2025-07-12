@@ -103,11 +103,11 @@ This gives a new **probability distribution** over $X$, **conditioned on** a par
 
 ### ✅ Summary Table
 
-| **Task**                                      | **Method**                                       |                                                    |
-| --------------------------------------------- | ------------------------------------------------ | -------------------------------------------------- |
-| Conditional Probability $`P(X = x \mid Y = y)`$ | $`\frac{P(X = x, Y = y)}{P(Y = y)}`$               |                                                    |
-| Conditional Probability Over Interval         | Sum $`P(X = x \mid Y = y)`$ for values in interval |                                                    |
-| Conditional PMF at a Point                    | ( f\_{X                                          | Y}(x \mid y) = \frac{f(x, y)}{f\_Y(y)} )           |
-| Full Conditional PMF                          | Compute ( f\_{X                                  | Y}(x \mid y) ) for all $x$, normalize over $`Y = y`$ |
+| **Task**                                      | **Method**                                                                              |                                                    
+| --------------------------------------------- |-----------------------------------------------------------------------------------------| 
+| Conditional Probability $`P(X = x \mid Y = y)`$ | $`\frac{P(X = x, Y = y)}{P(Y = y)}`$                                                  |                                                     
+| Conditional Probability Over Interval         | Sum $`P(X = x \mid Y = y)`$ for values in interval                                      |                                                    
+| Conditional PMF at a Point                    | $`(f\_{X \mid Y}(x \mid y) = \frac{f(x, y)}{f\_Y(y)} )`$                                |
+| Full Conditional PMF                          | Compute $`( f\_{X \mid Y}(x \mid y) )`$ for all $x$, normalize over $`Y = y`$           |
 
 Conditional distributions are fundamental for understanding **dependency**, **Bayesian inference**, and **predictive modeling** in probability and statistics.
