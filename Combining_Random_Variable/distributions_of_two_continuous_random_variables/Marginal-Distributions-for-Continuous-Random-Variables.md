@@ -9,15 +9,11 @@ If $X$ and $Y$ are continuous random variables with a **joint PDF** $`f\_{X,Y}(x
 
 * The **marginal PDF of $X$** is:
 
-  $$
-  f_X(x) = \int_{-\infty}^\infty f_{X,Y}(x, y)\,dy
-  $$
+  $`f_X(x) = \int_{-\infty}^\infty f_{X,Y}(x, y)\,dy`$
 
 * The **marginal PDF of $Y$** is:
 
-  $$
-  f_Y(y) = \int_{-\infty}^\infty f_{X,Y}(x, y)\,dx
-  $$
+  $`f_Y(y) = \int_{-\infty}^\infty f_{X,Y}(x, y)\,dx`$
 
 These functions describe the distribution of one variable independently of the other.
 
