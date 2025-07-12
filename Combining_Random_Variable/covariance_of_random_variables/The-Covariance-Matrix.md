@@ -7,12 +7,12 @@
 The **covariance matrix** generalizes the concept of variance and covariance to **higher-dimensional** random vectors.
 
 Let $`\mathbf{X} = \begin{bmatrix} X_1 \\ X_2 \\ \cdots \\ X_n \end{bmatrix}`$ be an $n$-dimensional random vector. 
+
+
 The **covariance matrix** is:
 
 
-$$
-\Sigma = \operatorname{Cov}(\mathbf{X}) = \mathbb{E}\left[(\mathbf{X} - \mathbb{E}[\mathbf{X}])(\mathbf{X} - \mathbb{E}[\mathbf{X}])^T\right]
-$$
+$`\Sigma = \operatorname{Cov}(\mathbf{X}) = \mathbb{E}\left[(\mathbf{X} - \mathbb{E}[\mathbf{X}])(\mathbf{X} - \mathbb{E}[\mathbf{X}])^T\right]`$
 
 ---
 
