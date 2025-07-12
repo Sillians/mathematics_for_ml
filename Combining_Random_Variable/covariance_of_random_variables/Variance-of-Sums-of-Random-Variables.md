@@ -9,7 +9,7 @@ For random variables $`X_1, X_2, \dots, X_n`$, the **variance of their sum** is 
 #### **General Formula:**
 
 $$
-\mathrm{Var}\left( \sum_{i=1}^n X_i \right) = (\sum_{i=1}^n \mathrm{Var}(X_i) + (2 \sum_{i<j} \mathrm{Cov}(X_i, X_j)
+\mathrm{Var}\left( \sum_{i=1}^n X_i \right) = (\sum_{i=1}^n \mathrm{Var}(X_i)) + (2 \sum_{i<j} \mathrm{Cov}(X_i, X_j))
 $$
 
 If the $`X_i`$'s are **pairwise independent**, the covariances are zero:
