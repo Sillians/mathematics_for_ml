@@ -51,19 +51,7 @@ $$
 
 Then the Jacobian matrix is:
 
-$`
-J = \begin{bmatrix}
-\frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} & \frac{\partial x}{\partial w} \\
-\frac{\partial y}{\partial u} & \frac{\partial y}{\partial v} & \frac{\partial y}{\partial w} \\
-\frac{\partial z}{\partial u} & \frac{\partial z}{\partial v} & \frac{\partial z}{\partial w}
-\end{bmatrix}
-=
-\begin{bmatrix}
-v & u & 0 \\
-0 & w & v \\
-w & 0 & u
-\end{bmatrix}
-`$
+$`J = \begin{bmatrix} \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} & \frac{\partial x}{\partial w} \\ \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v} & \frac{\partial y}{\partial w} \\ \frac{\partial z}{\partial u} & \frac{\partial z}{\partial v} & \frac{\partial z}{\partial w} \end{bmatrix} = \begin{bmatrix} v & u & 0 \\ 0 & w & v \\ w & 0 & u \end{bmatrix}`$
 
 
 $$
