@@ -16,8 +16,12 @@ $$
 such that for all $`\mathbf{u}, \mathbf{v}, \mathbf{w} \in V`$ and scalar $`\alpha`$:
 
 1. **Conjugate symmetry**: $`\langle \mathbf{u}, \mathbf{v} \rangle = \overline{\langle \mathbf{v}, \mathbf{u} \rangle}`$
+
+
 2. **Linearity in the first argument**: $`\langle \alpha \mathbf{u} + \mathbf{v}, \mathbf{w} \rangle = \alpha \langle \mathbf{u}, \mathbf{w} \rangle + \langle \mathbf{v}, \mathbf{w} \rangle`$
-3. **Positive-definiteness**: $`\langle \mathbf{v}, \mathbf{v} \rangle \ge 0`$, with equality only if $`\mathbf{v} = \mathbf{0}`$
+
+
+4. **Positive-definiteness**: $`\langle \mathbf{v}, \mathbf{v} \rangle \ge 0`$, with equality only if $`\mathbf{v} = \mathbf{0}`$
 
 ---
 
@@ -88,10 +92,10 @@ $`\Rightarrow`$ $`\sin x`$ and $`\cos x`$ are **orthogonal** on $`[0, \pi]`$
 
 ##  **Summary Table**
 
-| Vector Space          | Inner Product                                           |
-| --------------------- | ------------------------------------------------------- |
+| Vector Space          | Inner Product                                               |
+| --------------------- |-------------------------------------------------------------|
 | $`\mathbb{R}^n`$      | $`\langle \mathbf{u}, \mathbf{v} \rangle = \sum u\_i v\_i`$ |
-| $`P\_n`$ (Polynomials) | $`\langle p, q \rangle = \int\_a^b p(x) q(x) , dx`$      |
-| $`C[a,b]`$ (Functions) | $`\langle f, g \rangle = \int\_a^b f(x) g(x) , dx`$      |
+| $`P\_n`$ (Polynomials) | $`\langle p, q \rangle = \int\_a^b p(x) q(x) , dx`$         |
+| $`C[a,b]`$ (Functions) | $`\langle f, g \rangle = \int\_a^b f(x) g(x) , dx`$         |
 
 ---

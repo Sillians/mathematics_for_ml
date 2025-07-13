@@ -82,12 +82,12 @@ $$
 
 ### ✅ **Summary Table**
 
-| Concept                                   | Formula / Rule                                                 |   |                  |
-| ----------------------------------------- | -------------------------------------------------------------- | - | ---------------- |
-| Norm of $\mathbf{v} \in \mathbb{R}^n$     | $\|\mathbf{v}\| = \sqrt{\sum v_i^2}$                           |   |                  |
-| Distance between $\mathbf{u}, \mathbf{v}$ | $\|\mathbf{u} - \mathbf{v}\|$                                  |   |                  |
-| Scalar multiple inside norm               | ( \|c\mathbf{v}\| =                                            | c | \|\mathbf{v}\| ) |
-| Normalized (unit) vector                  | $\mathbf{v}_{\text{unit}} = \frac{\mathbf{v}}{\|\mathbf{v}\|}$ |   |                  |
+| Concept                                   | Formula / Rule                                                 |  
+| ----------------------------------------- |----------------------------------------------------------------| 
+| Norm of $\mathbf{v} \in \mathbb{R}^n$     | $\|\mathbf{v}\| = \sqrt{\sum v_i^2}$                           |  
+| Distance between $\mathbf{u}, \mathbf{v}$ | $\|\mathbf{u} - \mathbf{v}\|$                                  |   
+| Scalar multiple inside norm               | $`( \|c\mathbf{v}\| = \mid c \mid \|\mathbf{v}\| )`$           |
+| Normalized (unit) vector                  | $\mathbf{v}_{\text{unit}} = \frac{\mathbf{v}}{\|\mathbf{v}\|}$ | 
 
 ---
 

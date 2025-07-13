@@ -41,12 +41,18 @@ $$
 Where:
 
 * $`\|\mathbf{u}\|`$ is the magnitude of $`\mathbf{u}`$,
+
+
 * $`\theta`$ is the angle between $`\mathbf{u}`$ and $`\mathbf{v}`$.
 
 From this form, we derive that:
 
 * If $`\mathbf{u} \cdot \mathbf{v} > 0`$: angle is **acute**
+
+
 * If $`\mathbf{u} \cdot \mathbf{v} < 0`$: angle is **obtuse**
+
+
 * If $`\mathbf{u} \cdot \mathbf{v} = 0`$: vectors are **orthogonal (perpendicular)**
 
 ---
@@ -70,14 +76,24 @@ Given these properties, we can assess whether certain statements are true.
 #### **True Statements:**
 
 * $`\mathbf{u} \cdot \mathbf{v} = \mathbf{v} \cdot \mathbf{u}`$
+
+
 * $`\mathbf{u} \cdot \mathbf{u} = \|\mathbf{u}\|^2`$
+
+
 * $`\mathbf{u} \cdot \mathbf{v} = 0`$ implies $`\mathbf{u}`$ and $`\mathbf{v}`$ are perpendicular
+
+
 * $`\cos \theta = \dfrac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\|\|\mathbf{v}\|}`$
+
+
 * If $`\mathbf{u} \cdot \mathbf{v} = \|\mathbf{u}\|\|\mathbf{v}\|`$, then $`\mathbf{u} \parallel \mathbf{v}`$
 
 #### ❌ **Common Misconceptions (False Statements):**
 
 * $`\mathbf{u} \cdot \mathbf{v}`$ is a vector → **False**, it's a scalar
+
+
 * $`\mathbf{u} \cdot \mathbf{v} = \|\mathbf{u}\|\|\mathbf{v}\|`$ always → **False**, only when vectors are parallel and aligned
 
 ---
@@ -86,10 +102,10 @@ Given these properties, we can assess whether certain statements are true.
 
 | Operation                            | Result                                                                           |
 | ------------------------------------ | -------------------------------------------------------------------------------- |
-| $\mathbf{u} \cdot \mathbf{v}$        | Scalar (real number)                                                             |
-| If $\mathbf{u} \cdot \mathbf{v} = 0$ | Vectors are perpendicular                                                        |
-| If $\mathbf{u} \cdot \mathbf{v} > 0$ | Angle between them is acute                                                      |
-| $\mathbf{u} \cdot \mathbf{u}$        | $\|\mathbf{u}\|^2$                                                               |
+| $`\mathbf{u} \cdot \mathbf{v}`$        | Scalar (real number)                                                             |
+| If $`\mathbf{u} \cdot \mathbf{v} = 0`$ | Vectors are perpendicular                                                        |
+| If $`\mathbf{u} \cdot \mathbf{v} > 0`$ | Angle between them is acute                                                      |
+| $`\mathbf{u} \cdot \mathbf{u}`$        | $\|\mathbf{u}\|^2$                                                               |
 | Directional relationship             | $\cos\theta = \dfrac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\|\|\mathbf{v}\|}$ |
 
 ---
