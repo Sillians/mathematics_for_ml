@@ -8,23 +8,27 @@ In multivariable calculus, the **second derivative** of a scalar-valued function
 about the **curvature**, **concavity**, and **local behavior** of the function. 
 It generalizes the second derivative in single-variable calculus to higher dimensions using the **Hessian matrix**.
 
+
 Let $`f:\mathbb{R}^n \to \mathbb{R}`$ be a scalar-valued function.
+
 
 * The **gradient** is a vector of first-order partials:
 
-  $$
-  \nabla f(x) = \begin{bmatrix}
-  \frac{\partial f}{\partial x_1} \\
-  \vdots \\
-  \frac{\partial f}{\partial x_n}
-  \end{bmatrix}
-  $$
+$$
+\nabla f(x) = \begin{bmatrix}
+\frac{\partial f}{\partial x_1} \\
+\vdots \\
+\frac{\partial f}{\partial x_n}
+\end{bmatrix}
+$$
+
 
 * The **second derivative** is the **Hessian matrix**, denoted:
 
-  $$
-  H_f(x) = \left[ \frac{\partial^2 f}{\partial x_i \partial x_j} \right]_{i,j=1}^{n}
-  $$
+$$
+H_f(x) = \left[ \frac{\partial^2 f}{\partial x_i \partial x_j} \right]_{i,j=1}^{n}
+$$
+
 
 ---
 
@@ -63,6 +67,7 @@ $$
 
 Each entry is computed by differentiating the appropriate gradient component.
 
+
 ---
 
 ### **3. Finding the Second Derivative of a Function**
@@ -70,7 +75,11 @@ Each entry is computed by differentiating the appropriate gradient component.
 Let $`f:\mathbb{R}^2 \to \mathbb{R}`$. The second-order partial derivatives are:
 
 * $`f\_{xx} = \dfrac{\partial^2 f}{\partial x^2}`$
+
+
 * $`f\_{yy} = \dfrac{\partial^2 f}{\partial y^2}`$
+
+
 * $`f\_{xy} = \dfrac{\partial^2 f}{\partial x \partial y} = f\_{yx}`$ (under mild smoothness conditions)
 
 The Hessian matrix is:
@@ -82,6 +91,8 @@ f_{xx} & f_{xy} \\
 f_{yx} & f_{yy}
 \end{bmatrix}
 $$
+
+
 
 #### **Example**
 
@@ -130,6 +141,7 @@ This determinant helps in **second derivative tests** for local extrema:
 | $`D > 0`$ and $`f\_{xx} < 0`$  | Local **maximum** |
 | $`D < 0`$                      | **Saddle point**  |
 | $`D = 0`$                      | Inconclusive      |
+
 
 #### **Example**
 
