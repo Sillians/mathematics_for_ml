@@ -102,6 +102,7 @@ $$
 $$
 L(1.1, -0.1, 2.05) \approx 1.1 + 2(-0.1) = 0.9
 $$
+
 (The exact value is $\approx 0.904$, so the approximation is reasonable.)
 
 ---
