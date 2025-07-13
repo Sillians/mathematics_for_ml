@@ -117,7 +117,7 @@ $$
 \iint_R x \, dA
 $$
 
-where $R$ is bounded by:
+where $`R`$ is bounded by:
 
 * $`x = y^2`$, $`x = 4`$, and $`y \in [-2, 2]`$
 
@@ -125,12 +125,7 @@ where $R$ is bounded by:
 
 Then:
 
-$$
-\iint_R x \, dA = \int_{y=-2}^{2} \int_{x=y^2}^{4} x \, dx \, dy
-= \int_{y=-2}^{2} \left[ \frac{x^2}{2} \right]_{x=y^2}^{4} dy
-= \int_{y=-2}^{2} \left( \frac{16}{2} - \frac{y^4}{2} \right) dy
-= \int_{-2}^{2} \left( 8 - \frac{y^4}{2} \right) dy
-$$
+$`\iint_R x \, dA = \int_{y=-2}^{2} \int_{x=y^2}^{4} x \, dx \, dy  = \int_{y=-2}^{2} \left[ \frac{x^2}{2} \right]_{x=y^2}^{4} dy  = \int_{y=-2}^{2} \left( \frac{16}{2} - \frac{y^4}{2} \right) dy  = \int_{-2}^{2} \left( 8 - \frac{y^4}{2} \right) dy`$
 
 Now compute:
 
@@ -145,8 +140,8 @@ $$
 | **Task**                    | **Approach**                                                      |
 | --------------------------- | ----------------------------------------------------------------- |
 | Represent with limits given | Use $`\int_{y=c}^{d} \int_{x=g_1(y)}^{g_2(y)} f(x, y) \, dx \, dy`$ |
-| Without limits              | Sketch → find horizontal bounds as functions of $y$               |
-| Evaluate repeated integral  | Inner: integrate w\.r.t. $x$; Outer: w\.r.t. $y$                  |
+| Without limits              | Sketch → find horizontal bounds as functions of $`y`$               |
+| Evaluate repeated integral  | Inner: integrate w\.r.t. $`x`$; Outer: w\.r.t. $`y`$                 |
 | Calculate over region       | Reduce to definite integral using correct bounds                  |
 
 ---
