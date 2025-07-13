@@ -196,9 +196,7 @@ A **linear system is consistent** if it has **at least one solution** (either un
 
 When solving systems via **Gaussian elimination**, **inconsistency** appears when you reach a row like:
 
-$$
-0x + 0y + 0z = c \quad \text{(where \( c \neq 0 \))}
-$$
+$`0x + 0y + 0z = c \quad \text{(where \( c \neq 0 \))}`$
 
 This is a contradiction (e.g., $0 = 5$) and means **no solution** exists.
 
@@ -209,6 +207,8 @@ This is a contradiction (e.g., $0 = 5$) and means **no solution** exists.
 Given a linear system that contains an **unknown constant parameter** (e.g., $k$), you can use Gaussian elimination to reduce the system and **identify the value(s) of $k$** for which:
 
 * The system is **consistent** (no contradictory equation appears),
+
+
 * The system is **inconsistent** (contradiction arises from some $k$).
 
 ---
@@ -316,6 +316,8 @@ So the system is **inconsistent when $k = 2$**.
 ### **7. Final Conclusion**
 
 * The system is **inconsistent** when $k = 2$.
+
+
 * The system is **consistent** for **all other values of $k \neq 2$**.
 
 ---
@@ -362,22 +364,32 @@ Convert the augmented matrix to **Row Echelon Form (REF)** using **elementary ro
 #### ✅ **Consistent Independent (Unique Solution)**
 
 * The system has **as many pivot rows as variables** (full rank).
+
+
 * No contradictory rows.
+
+
 * The matrix reduces to an identity form.
+
+
 
 #### ✅ **Consistent Dependent (Infinitely Many Solutions)**
 
 * There is **at least one free variable** (i.e., a column without a pivot).
+
+
 * No contradictory rows.
+
+
 * The system has **fewer pivot rows than variables**, implying parameters.
+
+
 
 #### ❌ **Inconsistent (No Solution)**
 
 * The REF has a row like:
 
-  $$
-  [0 \ 0 \ \dots \ 0 \ | \ c] \quad \text{where } c \ne 0
-  $$
+$`[0 \ 0 \ \dots \ 0 \ | \ c] \quad \text{where } c \ne 0`$
 
 * This indicates a contradiction like $0 = 5$, meaning **no solution exists**.
 
