@@ -24,7 +24,10 @@ $$
 To find $`\frac{\partial f}{\partial x}`$ at $`(0, 0)`$:
 
 * Define $`f(x, y)`$ along the path $`y = 0`$:
+
+
   $`f(x, 0) = 0`$ for $`x \ne 0`$ ⇒ $`\partial f / \partial x = 0`$ at $`(0, 0)`$ exists.
+
 
 To determine the **domain where $`\partial f/\partial x`$ exists**, analyze the limit definition:
 
@@ -53,8 +56,11 @@ $$
 To find the domain where all partials exist:
 
 * The logarithm is defined when the argument is **positive**:
+
   $`4 - x^2 - 4y^2 > 0`$
   ⇒ $`x^2 + 4y^2 < 4`$
+
+
 * This is the **interior of an ellipse**, which is the domain of all partial derivatives.
 
 ---
@@ -78,6 +84,8 @@ $$
 * At $`(0, 0)`$:
 
   * $`\frac{\partial f}{\partial x}(0, 0) = \lim\_{h \to 0} \frac{f(h, 0) - f(0, 0)}{h} = 0`$
+
+
   * $`\frac{\partial f}{\partial y}(0, 0) = \lim\_{h \to 0} \frac{f(0, h) - f(0, 0)}{h} = 0`$
 
   ⇒ Both partial derivatives exist at $`(0, 0)`$.
