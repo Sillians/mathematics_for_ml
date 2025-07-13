@@ -16,7 +16,11 @@ where $`a, b, c \in \mathbb{R}^{+}`$.
 This equation represents a **cone with elliptical cross-sections**.
 
 * The **vertex** is at the origin $`(0, 0, 0)`$
+
+
 * The cone is **symmetric** about the $`z`$-axis
+
+
 * The surface is **double-napped**, meaning it extends in both the positive and negative directions of the axis of symmetry
 
 ---

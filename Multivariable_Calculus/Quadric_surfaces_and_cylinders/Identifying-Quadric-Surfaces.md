@@ -13,9 +13,13 @@ $$
 Common quadric surfaces include:
 
 * **Ellipsoids**
+
 * **Hyperboloids (1-sheet or 2-sheets)**
+
 * **Elliptic and Hyperbolic Paraboloids**
+
 * **Cones**
+
 * **Cylinders**
 
 ---
@@ -43,14 +47,20 @@ Quadric surfaces can be **rotated** or **shifted** from their standard positions
 ### **Tips to Identify Orientation**:
 
 * If $`z`$ is missing: the surface extends **along** the $`z`$-axis → **cylinder**.
+
 * If only one variable is linear: think **paraboloid**.
+
 * If two squares have opposite signs: **hyperboloid**.
+
 * If all terms are squared and positive: **ellipsoid**.
+
 * If $`= 0`$ rather than $`= 1`$: likely a **cone**.
 
 **Example**:
 
 * $`y^2 + z^2 = 1`$ → **cylinder along x-axis**
+
+
 * $`x^2 + z^2 - y = 0`$ → **elliptic paraboloid, opens along y-axis**
 
 ---
@@ -79,14 +89,14 @@ This is an **elliptic paraboloid** opening along the $`z`$-axis.
 
 ## **5. Summary Table of Surface Features**
 
-| Surface               | Signs                   | Degree            | Example Form           | Traces               |
-| --------------------- | ----------------------- | ----------------- | ---------------------- | -------------------- |
-| Ellipsoid             | All positive            | All squared       | $`x^2 + y^2 + z^2 = r^2`$ | Ellipses             |
-| Hyperboloid (1-sheet) | One negative            | All squared       | $`x^2 + y^2 - z^2 = 1`$ | Hyperbolas, ellipses |
-| Hyperboloid (2-sheet) | Two negative            | All squared       | $`-x^2 - y^2 + z^2 = 1`$ | Hyperbolas           |
-| Cone                  | Mixed signs             | All squared, equals 0 | $`x^2 + y^2 - z^2 = 0`$ | Intersects origin    |
-| Elliptic paraboloid   | Two squares, one linear | $`z = x^2 + y^2`$ | Parabolas, ellipses    |                      |
-| Hyperbolic paraboloid | Opposite signs          | $`z = x^2 - y^2`$ | Saddle                 |                      |
-| Cylinder              | Two variables squared   | $`x^2 + y^2 = 1`$  | Infinite length        |                      |
+| Surface               | Signs                   | Degree                | Example Form              | Traces               |
+| --------------------- | ----------------------- |-----------------------|---------------------------|----------------------|
+| Ellipsoid             | All positive            | All squared           | $`x^2 + y^2 + z^2 = r^2`$ | Ellipses             |
+| Hyperboloid (1-sheet) | One negative            | All squared           | $`x^2 + y^2 - z^2 = 1`$   | Hyperbolas, ellipses |
+| Hyperboloid (2-sheet) | Two negative            | All squared           | $`-x^2 - y^2 + z^2 = 1`$  | Hyperbolas           |
+| Cone                  | Mixed signs             | All squared, equals 0 | $`x^2 + y^2 - z^2 = 0`$   | Intersects origin    |
+| Elliptic paraboloid   | Two squares, one linear | $`z = x^2 + y^2`$     | Parabolas, ellipses       |                      |
+| Hyperbolic paraboloid | Opposite signs          | $`z = x^2 - y^2`$     | Saddle                    |                      |
+| Cylinder              | Two variables squared   | $`x^2 + y^2 = 1`$     | Infinite length           |                      |
 
 ---

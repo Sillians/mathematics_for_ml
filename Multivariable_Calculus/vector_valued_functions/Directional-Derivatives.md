@@ -9,9 +9,11 @@ The **directional derivative** of a scalar-valued multivariable function measure
 If $`f: \mathbb{R}^n \to \mathbb{R}`$, and $`\vec{u} \in \mathbb{R}^n`$ is a **unit vector**, 
 then the **directional derivative** of $f$ at point $`\vec{a}`$ in the direction of $`\vec{u}`$ is:
 
+
 $$
 D_{\vec{u}} f(\vec{a}) = \nabla f(\vec{a}) \cdot \vec{u}
 $$
+
 
 Where:
 
@@ -31,23 +33,28 @@ Where:
 
 1. Compute the **gradient vector** of $f$:
 
-   $$
-   \nabla f(x, y) = \left\langle \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \right\rangle
-   $$
+$$
+\nabla f(x, y) = \left\langle \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \right\rangle
+$$
+
 
 2. Evaluate the gradient at the point $`\vec{a}`$.
 
+
 3. Normalize the direction vector $`\vec{v}`$ to get unit vector $`\vec{u} = \frac{\vec{v}}{\|\vec{v}\|}`$.
+
 
 4. Compute the dot product:
 
-   $$
-   D_{\vec{u}} f(\vec{a}) = \nabla f(\vec{a}) \cdot \vec{u}
-   $$
+
+$$
+D_{\vec{u}} f(\vec{a}) = \nabla f(\vec{a}) \cdot \vec{u}
+$$
 
 **Example:**
 
 Let $`f(x, y) = x^2 y + y^2`$, find $`D_{\vec{v}} f(1, 2)`$ in direction $`\vec{v} = \langle 3, 4 \rangle`$:
+
 
 * $`\nabla f = \langle 2xy, x^2 + 2y \rangle \Rightarrow \nabla f(1,2) = \langle 4, 5 \rangle`$
 
@@ -82,7 +89,7 @@ $$
 
 ### **4. Finding the Rate of Change of a Function in a Given Direction**
 
-Let $ f: \mathbb{R}^n \to \mathbb{R} $, and $   \vec{v} \in \mathbb{R}^n   $ be **any** direction vector (not necessarily unit length). Then:
+Let $` f: \mathbb{R}^n \to \mathbb{R} `$, and $`   \vec{v} \in \mathbb{R}^n   `$ be **any** direction vector (not necessarily unit length). Then:
 
 $$
 \text{Rate of change of } f \text{ at } \vec{a} \text{ in direction } \vec{v} =

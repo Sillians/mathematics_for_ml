@@ -18,9 +18,9 @@ $$
 * Opens **upward** if coefficients are positive.
 * Opens **downward** if the equation is negated:
 
-  $$
-  z = -\left( \frac{x^2}{a^2} + \frac{y^2}{b^2} \right)
-  $$
+$$
+z = -\left( \frac{x^2}{a^2} + \frac{y^2}{b^2} \right)
+$$
 
 ### **Identifying Properties**
 
