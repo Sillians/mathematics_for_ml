@@ -68,11 +68,14 @@ At $`P(1,2,2,2)`$
 
 ($`\lVert P\rVert^2=13!\not=9`$ 
 
-so pick point 
+so pick point $`(1,2,2,2)`$ 
 
-$`(1,2,2,2)`$ on radius-3 scaled to 
+on radius-3 scaled to 
 
 $`(\frac1{\sqrt3},\frac2{\sqrt3},\frac2{\sqrt3},\frac2{\sqrt3}})`$ etc.  
+
+$`(\frac{1}{\sqrt{3}}, \frac{2}{\sqrt{3}}, \frac{2}{\sqrt{3}}, \frac{2}{\sqrt{3}})`$
+
 
 Illustration skipped.)
 
