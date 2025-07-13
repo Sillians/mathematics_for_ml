@@ -70,12 +70,10 @@ At $`P(1,2,2,2)`$
 
 so pick point $`(1,2,2,2)`$ 
 
-on radius-3 scaled to 
+on radius-3 scaled to
 
-$`(\frac1{\sqrt3},\frac2{\sqrt3},\frac2{\sqrt3},\frac2{\sqrt3}})`$ etc.  
 
-$`(\frac{1}{\sqrt{3}}, \frac{2}{\sqrt{3}}, \frac{2}{\sqrt{3}}, \frac{2}{\sqrt{3}})`$
-
+$`(\frac{1}{\sqrt{3}}, \frac{2}{\sqrt{3}}, \frac{2}{\sqrt{3}}, \frac{2}{\sqrt{3}})`$  etc.  
 
 Illustration skipped.)
 

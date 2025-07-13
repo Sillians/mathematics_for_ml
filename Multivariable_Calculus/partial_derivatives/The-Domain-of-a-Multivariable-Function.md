@@ -10,7 +10,7 @@ It depends on the algebraic structure of the function — specifically, whether 
 For a function $`f : \mathbb{R}^n \rightarrow \mathbb{R}`$, the **domain** is:
 
 $$
-\text{dom}(f) = \left\{ \mathbf{x} \in \mathbb{R}^n \mid f(\mathbf{x}) \text{ is defined} \right\}
+\text{dom}(f) = \lbrace\{ \mathbf{x} \in \mathbb{R}^n \mid f(\mathbf{x}) \text{ is defined} \rbrace\}
 $$
 
 This means identifying where **no undefined operations** (like division by zero or taking the log of a negative number) occur.
@@ -45,15 +45,15 @@ $$
 
 1. **Radical (square root)**: the expression inside must be **≥ 0**:
 
-   $$
-   x^2 + y^2 - 4 > 0
-   $$
+$$
+x^2 + y^2 - 4 > 0
+$$
 
 2. **Denominator**: must not be **zero**, so:
 
-   $$
-   x^2 + y^2 - 4 \ne 0
-   $$
+$$
+x^2 + y^2 - 4 \ne 0
+$$
 
 ### ➤ Combine:
 
@@ -64,7 +64,7 @@ $$
 ### Domain:
 
 $$
-\boxed{ \left\{ (x, y) \in \mathbb{R}^2 \mid x^2 + y^2 > 4 \right\} }
+\boxed{ \lbrace\{ (x, y) \in \mathbb{R}^2 \mid x^2 + y^2 > 4 \rbrace\} }
 $$
 
 ---
@@ -81,9 +81,9 @@ $$
 
 1. **Logarithmic term**: \$4 - x^2 - y^2 > 0\$
 
-   $$
-   x^2 + y^2 < 4
-   $$
+$$
+x^2 + y^2 < 4
+$$
 
 2. **Denominator**: \$y \ne 0\$
 
