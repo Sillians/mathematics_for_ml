@@ -90,7 +90,7 @@ $$
 ### Domain:
 
 $$
-\boxed{ \left\{ (x, y) \in \mathbb{R}^2 \mid x^2 + y^2 < 4 \text{ and } y \ne 0 \right\} }
+\boxed{ \lbrace\{ (x, y) \in \mathbb{R}^2 \mid x^2 + y^2 < 4 \text{ and } y \ne 0 \rbrace\} }
 $$
 
 ---
