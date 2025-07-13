@@ -91,7 +91,12 @@ $$
 Let $`f:\mathbb{R}^n \to \mathbb{R}`$ be differentiable, and let $`x_0 \in \mathbb{R}^n`$. The **graph** of $`f`$ is the set:
 
 $$
-\text{Graph}(f) = \left\{ \begin{bmatrix} x \\ f(x) \end{bmatrix} \in \mathbb{R}^{n+1} \right\}
+\text{Graph}(f) = \left\{\begin{bmatrix} x \\ f(x) \end{bmatrix} \in \mathbb{R}^{n+1} \right\}
+$$
+
+
+$$
+\text{Graph}(f) = \left\{\begin{bmatrix} x \\ f(x) \end{bmatrix} \in \mathbb{R}^{n+1} \right\}
 $$
 
 
