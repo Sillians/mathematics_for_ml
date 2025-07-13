@@ -84,11 +84,15 @@ $$
 \det(kA) = k^n \cdot \det(A)
 $$
 
+
+
 #### **b. Determinant of a product**
 
 $$
 \det(AB) = \det(A) \cdot \det(B)
 $$
+
+
 
 #### **c. Determinant of an inverse**
 
@@ -98,6 +102,8 @@ $$
 \det(A^{-1}) = \frac{1}{\det(A)}
 $$
 
+
+
 #### **d. Determinant of a transpose**
 
 $$
@@ -105,6 +111,7 @@ $$
 $$
 
 ---
+
 
 ### **Example Problem**
 
@@ -121,20 +128,20 @@ Then:
 
 ---
 
+
 ### **5. Summary of Key Properties**
 
-| Property                              | Formula                        |                                            |   |
-| ------------------------------------- | ------------------------------ | ------------------------------------------ | - |
-| Determinant of triangular matrix      | Product of diagonal entries    |                                            |   |
-| Determinant of matrix with zero row   | Zero                           |                                            |   |
-| Determinant of matrix with many zeros | Expand along sparse row/column |                                            |   |
-| Determinant of $kA$                   | $k^n \cdot \det(A)$            |                                            |   |
-| Determinant of $AB$                   | $\det(A) \cdot \det(B)$        |                                            |   |
-| Determinant of $A^T$                  | $\det(A)$                      |                                            |   |
-| Determinant of $A^{-1}$               | $\frac{1}{\det(A)}$            |                                            |   |
-| Volume of parallelepiped from vectors | (                              | \det(\[\mathbf{v}\_1 \dots \mathbf{v}\_n]) | ) |
+| Property                              | Formula                                                    |                                            
+| ------------------------------------- |------------------------------------------------------------|  
+| Determinant of triangular matrix      | Product of diagonal entries                                |                                             
+| Determinant of matrix with zero row   | Zero                                                       |                                             
+| Determinant of matrix with many zeros | Expand along sparse row/column                             |                                              
+| Determinant of $kA$                   | $k^n \cdot \det(A)$                                        |                                              
+| Determinant of $AB$                   | $\det(A) \cdot \det(B)$                                    |                                              
+| Determinant of $A^T$                  | $\det(A)$                                                  |                                             
+| Determinant of $A^{-1}$               | $\frac{1}{\det(A)}$                                        |                                            
+| Volume of parallelepiped from vectors | $`(\mid \det([\mathbf{v}\_1 \dots \mathbf{v}\_n]) \mid)`$  | 
 
 ---
 
-Determinants encode both **algebraic structure** and **geometric meaning**, making them a central 
-tool in linear algebra for simplification, transformation, and analysis.
+Determinants encode both **algebraic structure** and **geometric meaning**, making them a central tool in linear algebra for simplification, transformation, and analysis.
