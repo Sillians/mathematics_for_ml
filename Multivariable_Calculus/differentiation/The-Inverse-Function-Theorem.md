@@ -75,7 +75,8 @@ Consider $`T(u, v) = (u^2 - v^2, 2uv)`$. Find the critical points.
 $`\det(J_T) = (2u \cdot 2u) - (-2v \cdot 2v) = 4u^2 + 4v^2`$
 
 
-- Set $$ \det(J_T) = 0 $$:
+- Set $`\det(J_T) = 0`$:
+
 $`4u^2 + 4v^2 = 0`$
 
 
