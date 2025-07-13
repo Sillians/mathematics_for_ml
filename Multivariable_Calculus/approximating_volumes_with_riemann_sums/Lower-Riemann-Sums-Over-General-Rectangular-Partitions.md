@@ -96,6 +96,7 @@ $$
 
 If $`f(x, y)`$ varies irregularly, then:
 
+
 $$
 m_{ij} = \min \{ f(x, y) \mid (x, y) \in R_{ij} \}
 $$
@@ -103,13 +104,15 @@ $$
 We typically:
 
 * Pick sample points $`(x^*_{ij}, y^*_{ij}) \in R_{ij}`$
+
+
 * Estimate $`m_{ij} \approx f(x^*_{ij}, y^*_{ij})`$, where $`f(x^*_{ij}, y^*_{ij})`$ is the **minimum** value among corners or sampled points within each subrectangle
+
 
 Hence:
 
-$$
-L(f, \mathcal{P}) \approx \sum_{i=1}^{m} \sum_{j=1}^{n} f(x^*_{ij}, y^*_{ij}) \cdot \Delta A_{ij}
-$$
+$`L(f, \mathcal{P}) \approx \sum_{i=1}^{m} \sum_{j=1}^{n} f(x^*_{ij}, y^*_{ij}) \cdot \Delta A_{ij}`$
+
 
 This form must be **adapted** based on available knowledge about $f$ in each region.
 
@@ -118,12 +121,19 @@ This form must be **adapted** based on available knowledge about $f$ in each reg
 ### **5. Visual Intuition**
 
 * Each term in the sum represents a "box" with height equal to the **smallest** value of $f$ over the rectangle.
+
+
+
 * For increasing functions, the "boxes" hug the **lower-left** of each subrectangle.
+
+
+
 * For decreasing functions, they hug the **upper-right**.
 
 This results in a **"stepped surface"** under the actual graph of $f(x, y)$, underestimating the volume.
 
 ---
+
 
 ### **6. Summary Table**
 
@@ -138,7 +148,13 @@ This results in a **"stepped surface"** under the actual graph of $f(x, y)$, und
 ### **7. Applications and Importance**
 
 * **Lower Riemann sums** give underapproximations useful for **bounds** in numerical integration.
+
+
+
 * Essential in defining **Riemann integrability**: if lower and upper sums converge as partition gets finer.
+
+
+
 * Used in early stages of **integration theory** and **computational geometry**.
 
 ---
