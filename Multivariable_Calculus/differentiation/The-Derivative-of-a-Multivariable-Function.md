@@ -99,6 +99,10 @@ $$
 \text{Graph}(f) = \left\\{\begin{bmatrix} x \\ f(x) \end{bmatrix} \in \mathbb{R}^{n+1} \right\}
 $$
 
+$$
+\text{Graph}(f) = \left\lbrace \begin{pmatrix} x \\ f(x) \end{pmatrix} \in \mathbb{R}^{n+1} \right\rbrace
+$$
+
 
 Define an augmented function:
 
