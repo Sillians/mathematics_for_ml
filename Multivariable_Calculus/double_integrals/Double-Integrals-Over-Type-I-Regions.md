@@ -10,6 +10,18 @@ $$
 D=\bigl\{(x,y)\mid a\le x\le b,\; g_1(x)\le y\le g_2(x)\bigr\},
 $$
 
+
+$$
+D=\bigl\{(x,y) \mid a \le x \le b,\; g_1(x) \le y \le g_2(x)\bigr\}
+$$
+
+
+$$
+D = \left\{(x,y) \mid a \leq x \leq b,\; g_1(x) \leq y \leq g_2(x)\right\}
+$$
+
+
+
 with continuous bounds $`g_1,g_2`$ on $[a,b]$ and $`g_1(x)\le g_2(x)`$.
 For an integrable function $`f(x,y)`$,
 
