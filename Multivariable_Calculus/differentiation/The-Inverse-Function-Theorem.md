@@ -127,7 +127,7 @@ find the Jacobian determinant of $`T^{-1}`$ and verify the relationship.
 
 
 Verify:
-$$
-\frac{1}{\det(J_T)} = \frac{1}{-2} = -\frac{1}{2}
-$$
+
+$`\frac{1}{\det(J_T)} = \frac{1}{-2} = -\frac{1}{2}`$
+
 The determinants match, confirming the relationship.
