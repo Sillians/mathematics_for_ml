@@ -75,11 +75,11 @@ $$
 T_2f(x,y)=
 3+
 \begin{bmatrix}2&-1\end{bmatrix}
-\begin{bmatrix}x-1\\y-1\end{bmatrix}
+\begin{bmatrix}x-1\y-1\end{bmatrix}
 +\tfrac12
 \begin{bmatrix}x-1&y-1\end{bmatrix}
-\!\begin{bmatrix}4&1\\1&2\end{bmatrix}\!
-\begin{bmatrix}x-1\\y-1\end{bmatrix}.
+\!\begin{bmatrix}4&1\1&2\end{bmatrix}\!
+\begin{bmatrix}x-1\y-1\end{bmatrix}.
 $$
 
 Simplified form (expand if desired).
@@ -91,16 +91,20 @@ Simplified form (expand if desired).
 **Task**: estimate $`f(1.1,0.9)`$ using the polynomial above.
 
 1. **Displacement**: $`\mathbf{h}=(0.1,-0.1)`$.
+
+
 2. **Linear term**: $`\nabla f^{\!\top}\mathbf{h}=2(0.1)+(-1)(-0.1)=0.30`$.
+
+
 3. **Quadratic term**:
 
 
-   $$
-   \tfrac12\,\mathbf{h}^{\!\top}H\mathbf{h}
-   =\tfrac12\begin{bmatrix}0.1&-0.1\end{bmatrix}
-   \begin{bmatrix}0.3\\-0.1\end{bmatrix}
-   =\tfrac12(0.04)=0.02.
-   $$
+$$
+\tfrac12\,\mathbf{h}^{\!\top}H\mathbf{h}
+=\tfrac12\begin{bmatrix}0.1&-0.1\end{bmatrix}
+\begin{bmatrix}0.3\\-0.1\end{bmatrix}
+=\tfrac12(0.04)=0.02.
+$$
 
 
 4. **Approximation**: $`T_2f(1.1,0.9)=3+0.30+0.02=3.32`$.
