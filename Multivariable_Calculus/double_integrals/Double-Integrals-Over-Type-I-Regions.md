@@ -6,23 +6,15 @@
 
 A planar region $`D`$ is **Type I** if it can be swept out by vertical segments:
 
-$$
-D=\bigl\{(x,y)\mid a\le x\le b,\; g_1(x)\le y\le g_2(x)\bigr\},
-$$
-
 
 $$
-D=\bigl\{(x,y) \mid a \le x \le b,\; g_1(x) \le y \le g_2(x)\bigr\}
+D = \lbrace{(x,y) \mid a \leq x \leq b,\; g_1(x) \leq y \leq g_2(x)\rbrace}
 $$
 
 
-$$
-D = \left\{(x,y) \mid a \leq x \leq b,\; g_1(x) \leq y \leq g_2(x)\right\}
-$$
+with continuous bounds $`g_1,g_2`$ on $`[a,b]`$ and $`g_1(x)\le g_2(x)`$.
 
 
-
-with continuous bounds $`g_1,g_2`$ on $[a,b]$ and $`g_1(x)\le g_2(x)`$.
 For an integrable function $`f(x,y)`$,
 
 $$
@@ -53,18 +45,32 @@ $$
 \iint_D f\,dA=\int_0^1\!\int_{x^{2}}^{x+1} f(x,y)\,dy\,dx.
 $$
 
+
+
 #### **2.2 When the Limits Are Not Given**
 
 1. **Sketch or visualize** the region.
+
+
 2. **Project onto the $x$‑axis** to find $`a\le x\le b`$.
+
+
 3. For each $`x`$ in $[a,b]$, identify
+
+
    $`g_1(x)=\text{lower }y`$ and $`g_2(x)=\text{upper }y`$.
+
+
 4. Write the repeated integral in the same form.
+
+
 
 *Example*
 Region bounded by $`y=x^2`$ (below) and $`y=2`$ (above) for $`x\ge0`$:
 
 * Projection → $`0\le x\le\sqrt2`$.
+
+
 * Bounds → $`g_1(x)=x^2,\; g_2(x)=2`$.
 
 $$
@@ -77,15 +83,15 @@ $$
 
 1. **Inner integral** (first with respect to $`y`$):
 
-   $$
-   F(x)=\int_{g_1(x)}^{g_2(x)} f(x,y)\,dy.
-   $$
+$$
+F(x)=\int_{g_1(x)}^{g_2(x)} f(x,y)\,dy.
+$$
 
 2. **Outer integral** (with respect to $`x`$):
 
-   $$
-   \iint_D f\,dA=\int_{a}^{b} F(x)\,dx.
-   $$
+$$
+\iint_D f\,dA=\int_{a}^{b} F(x)\,dx.
+$$
 
 *Worked example*
 Evaluate $`\displaystyle \iint_D (x+y)\,dA`$ for
@@ -109,9 +115,9 @@ $$
 
 * **Area** ($`f\equiv1`$):
 
-  $$
-  \text{Area}(D)=\int_{a}^{b}\!\bigl[g_2(x)-g_1(x)\bigr]\,dx.
-  $$
+$$
+\text{Area}(D)=\int_{a}^{b}\!\bigl[g_2(x)-g_1(x)\bigr]\,dx.
+$$
 
 * **Mass** with density $`\rho(x,y)`$: use the same integral with $`\rho`$ in place of 1.
 
