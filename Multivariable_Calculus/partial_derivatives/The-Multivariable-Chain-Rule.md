@@ -10,6 +10,8 @@ It allows one to compute the derivative of a composition of functions when each 
 It is especially useful when dealing with **composite functions** of the form:
 
 * $`z = f(x, y)`$, with $`x = x(t), y = y(t)`$
+
+
 * or more generally, $`z = f(u_1, u_2, ..., u_n)`$, where each $`u_i`$ is a function of one or more variables.
 
 ---
@@ -73,7 +75,11 @@ Suppose:
 * $`w = f(x, y, z)`$, where:
 
   * $`x = x(u, v)`$
+  
+
   * $`y = y(u, v)`$
+  
+
   * $`z = z(u, v)`$
 
 Then the **partial derivatives** of $w$ are:
@@ -101,7 +107,11 @@ $$
 where:
 
 * $f$ is a function of intermediate variables $`x_1, x_2, ..., x_m`$,
+
+
 * each $`x_i`$ is a function of independent variables $`t_1, t_2, ..., t_n`$,
+
+
 * and $`\frac{\partial f}{\partial t_j}`$ is the total rate of change of $f$ with respect to one of those independent variables.
 
 ---
