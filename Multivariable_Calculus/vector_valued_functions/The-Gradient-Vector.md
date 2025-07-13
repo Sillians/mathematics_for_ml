@@ -117,21 +117,21 @@ So the gradient vanishes at **(2, 3)**.
 
 * **Linearity**:
 
-  $$
-  \nabla(af + bg) = a \nabla f + b \nabla g
-  $$
+$$
+\nabla(af + bg) = a \nabla f + b \nabla g
+$$
 
 * **Product Rule**:
 
-  $$
-  \nabla(fg) = f \nabla g + g \nabla f
-  $$
+$$
+\nabla(fg) = f \nabla g + g \nabla f
+$$
 
 * **Quotient Rule**:
 
-  $$
-  \nabla\left(\frac{f}{g}\right) = \frac{g \nabla f - f \nabla g}{g^2}
-  $$
+$$
+\nabla\left(\frac{f}{g}\right) = \frac{g \nabla f - f \nabla g}{g^2}
+$$
 
 ### **Example (Product Rule)**
 
