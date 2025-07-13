@@ -103,7 +103,7 @@ find the Jacobian determinant of $`T^{-1}`$ and verify the relationship.
 **Solution:**
 
 - Jacobian of $T$:
-  - $$J_T = \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}$$
+  - $`J_T = \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}`$
 
 
   - $$\det(J_T) = (1 \cdot -1) - (1 \cdot 1) = -1 - 1 = -2$$
@@ -119,7 +119,7 @@ find the Jacobian determinant of $`T^{-1}`$ and verify the relationship.
   - $$\frac{\partial v}{\partial x} = \frac{1}{2}$$, $$\frac{\partial v}{\partial y} = -\frac{1}{2}$$
 
 
-  - $$J_{T^{-1}} = \begin{bmatrix} \frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & -\frac{1}{2} \end{bmatrix}$$
+  - $`J_{T^{-1}} = \begin{bmatrix} \frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & -\frac{1}{2} \end{bmatrix}`$
 
 
   - $$\det(J_{T^{-1}}) = \left(\frac{1}{2} \cdot -\frac{1}{2}\right) - \left(\frac{1}{2} \cdot \frac{1}{2}\right) = -\frac{1}{4} - \frac{1}{4} = -\frac{1}{2}$$
