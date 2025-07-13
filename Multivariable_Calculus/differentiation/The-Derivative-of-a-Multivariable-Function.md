@@ -94,6 +94,7 @@ $$
 \text{Graph}(f) = \left\{ \begin{bmatrix} x \\ f(x) \end{bmatrix} \in \mathbb{R}^{n+1} \right\}
 $$
 
+
 Define an augmented function:
 
 $$
@@ -119,8 +120,14 @@ $$
 Which gives:
 
 $$
-\text{Tangent plane:} \quad \left\{ \left(x_0 + h,\; f(x_0) + \nabla f(x_0)^\top h\right) \;\middle|\; h \in \mathbb{R}^n \right\}
+\text{Tangent plane:} \quad 
+\left\{ 
+\left(x_0 + h,\; f(x_0) + \nabla f(x_0)^\top h\right) 
+\;\middle|\; 
+h \in \mathbb{R}^n 
+\right\}
 $$
+
 
 ---
 

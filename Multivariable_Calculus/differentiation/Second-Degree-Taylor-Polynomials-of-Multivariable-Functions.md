@@ -75,10 +75,10 @@ $$
 T_2f(x,y)=
 3+
 \begin{bmatrix}2&-1\end{bmatrix}
-\begin{bmatrix}x-1\y-1\end{bmatrix}
+\begin{bmatrix}x-1\\y-1\end{bmatrix}
 +\tfrac12
 \begin{bmatrix}x-1&y-1\end{bmatrix}
-\!\begin{bmatrix}4&1\1&2\end{bmatrix}\!
+\!\begin{bmatrix}4&1\\1&2\end{bmatrix}\!
 \begin{bmatrix}x-1\y-1\end{bmatrix}.
 $$
 
@@ -113,13 +113,13 @@ $$
 
 ### **6. Summary Table**
 
-| Step                                                     | Action                                                |
-|----------------------------------------------------------| ----------------------------------------------------- |
-| Evaluate $`f,\nabla f,H_f`$ at base point $`\mathbf{a}`$ | Gather constants                                      |
-| Form $`\mathbf{h}=\mathbf{x}-\mathbf{a}`$                | Displacement                                          |
-| Compute linear term                                      | $`\nabla f(\mathbf{a})^{\!\top}\mathbf{h}`$             |
+| Step                                                     | Action                                                 |
+|----------------------------------------------------------|--------------------------------------------------------|
+| Evaluate $`f,\nabla f,H_f`$ at base point $`\mathbf{a}`$ | Gather constants                                       |
+| Form $`\mathbf{h}=\mathbf{x}-\mathbf{a}`$                | Displacement                                           |
+| Compute linear term                                      | $`\nabla f(\mathbf{a})^{\!\top}\mathbf{h}`$            |
 | Compute quadratic term                                   | $`\frac12\mathbf{h}^{\!\top}H_f(\mathbf{a})\mathbf{h}`$ |
-| Sum with $`f(\mathbf{a})`$                               | Quadratic approximation                               |
+| Sum with $`f(\mathbf{a})`$                               | Quadratic approximation                                |
 
 ---
 
