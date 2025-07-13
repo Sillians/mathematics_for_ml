@@ -125,15 +125,18 @@ where:
 
 
 2. **Compute the gradient:**
+
 $$
 \nabla f = (y \cos(xy), x \cos(xy)) \implies \nabla f(0,0) = (0, 0)
 $$
 
 
 3. **The best linear approximation is:**
+
 $$
 L(x,y) = 0 + 0 \cdot x + 0 \cdot y = 0
 $$
+
 (This makes sense because $`\sin(xy) \approx xy`$ near $`(0,0)`$, but the best **linear** approximation is just $0$.)
 
 ---
