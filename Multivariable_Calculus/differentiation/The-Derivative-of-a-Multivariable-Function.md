@@ -90,14 +90,6 @@ $$
 
 Let $`f:\mathbb{R}^n \to \mathbb{R}`$ be differentiable, and let $`x_0 \in \mathbb{R}^n`$. The **graph** of $`f`$ is the set:
 
-$$
-\text{Graph}(f) = \left\{\begin{bmatrix} x \\ f(x) \end{bmatrix} \in \mathbb{R}^{n+1} \right\}
-$$
-
-
-$$
-\text{Graph}(f) = \left\\{\begin{bmatrix} x \\ f(x) \end{bmatrix} \in \mathbb{R}^{n+1} \right\}
-$$
 
 $$
 \text{Graph}(f) = \left\lbrace \begin{pmatrix} x \\ f(x) \end{pmatrix} \in \mathbb{R}^{n+1} \right\rbrace
@@ -126,15 +118,17 @@ $$
 \tilde{f}(x_0) + J_{\tilde{f}}(x_0)h \quad \text{for} \quad h \in \mathbb{R}^n
 $$
 
+
 Which gives:
 
+
 $$
-\text{Tangent plane:} \quad 
-\left\{ 
-\left(x_0 + h,\; f(x_0) + \nabla f(x_0)^\top h\right) 
-\;\middle|\; 
-h \in \mathbb{R}^n 
-\right\}
+\text{Tangent plane:} \quad
+\left\lbrace
+\left(x_0 + h,\; f(x_0) + \nabla f(x_0)^\top h\right)
+\;\middle|\;
+h \in \mathbb{R}^n
+\right\rbrace
 $$
 
 
