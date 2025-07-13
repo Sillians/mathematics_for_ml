@@ -51,10 +51,10 @@ $$
 
 4. **Use it to estimate $f(3.1, 3.9)$:**
 
-
 $$
 L(3.1, 3.9) \approx 5 + \frac{3}{5}(0.1) + \frac{4}{5}(-0.1) = 5 - 0.02 = 4.98
 $$
+
 (The exact value is $`\approx 4.9802`$, so the approximation is good.)
 
 ---
