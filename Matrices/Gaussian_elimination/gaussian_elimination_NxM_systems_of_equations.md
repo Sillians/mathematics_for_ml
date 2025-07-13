@@ -17,8 +17,12 @@ $$
 Where:
 
 * $A$ is an $N \times M$ matrix of coefficients,
-* $\mathbf{x}$ is a vector of unknowns (length $M$),
-* $\mathbf{b}$ is a vector of constants (length $N$).
+
+
+* $`\mathbf{x}`$ is a vector of unknowns (length $M$),
+
+
+* $`\mathbf{b}`$ is a vector of constants (length $N$).
 
 ---
 
@@ -27,8 +31,13 @@ Where:
 Gaussian elimination uses three allowed operations:
 
 * **Swap** two rows.
+
+
 * **Scale** a row by a non-zero constant.
+
+
 * **Add or subtract** a multiple of one row to another row.
+
 
 These operations do not change the solution set.
 
@@ -39,7 +48,11 @@ These operations do not change the solution set.
 A matrix is in **row echelon form** if:
 
 * All nonzero rows are above any rows of all zeros.
+
+
 * The leading entry (pivot) in each row is to the right of the pivot in the row above.
+
+
 * All entries below a pivot are zero.
 
 **Reduced Row Echelon Form (RREF)** goes further by making all entries **above** each pivot zero, and all pivots equal to 1. RREF is used in **Gauss–Jordan elimination**, not basic Gaussian elimination.
@@ -72,15 +85,15 @@ $$
 
 * Replace Row 2 with (Row 2 - 2 × Row 1):
 
-  $$
-  R_2 = [2,5,1,-4] - 2 \cdot [1,2,1,6] = [0,1,-1,-16]
-  $$
+$$
+R_2 = [2,5,1,-4] - 2 \cdot [1,2,1,6] = [0,1,-1,-16]
+$$
 
 * Replace Row 3 with (Row 3 - 4 × Row 1):
 
-  $$
-  R_3 = [4,10,2,-8] - 4 \cdot [1,2,1,6] = [0,2,-2,-32]
-  $$
+$$
+R_3 = [4,10,2,-8] - 4 \cdot [1,2,1,6] = [0,2,-2,-32]
+$$
 
 Now:
 
@@ -96,9 +109,9 @@ $$
 
 * Replace Row 3 with (Row 3 - 2 × Row 2):
 
-  $$
-  R_3 = [0,2,-2,-32] - 2 \cdot [0,1,-1,-16] = [0,0,0,0]
-  $$
+$$
+R_3 = [0,2,-2,-32] - 2 \cdot [0,1,-1,-16] = [0,0,0,0]
+$$
 
 Now:
 

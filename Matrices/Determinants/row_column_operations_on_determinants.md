@@ -68,7 +68,11 @@ $$
 Let’s analyze the effect cumulatively:
 
 * **Row swap** → Multiply determinant by $-1$
+
+
 * **Row scaling by $k$** → Multiply determinant by $k$
+
+
 * **Row replacement (e.g., $`R_i \to R_i + mR_j`$)** → No change to determinant
 
 **Example:**
@@ -101,11 +105,11 @@ $$
 
 ### **6. Summary**
 
-| Operation                            | Determinant Effect                           |
-| ------------------------------------ | -------------------------------------------- |
-| Swap rows/columns                    | Multiply by $-1$                             |
-| Scale a row/column by $k$            | Multiply by $k$                              |
-| Add a multiple of one row to another | No change                                    |
-| Multiply entire matrix by $k$        | Multiply by $k^n$ for an $n \times n$ matrix |
+| Operation                            | Determinant Effect                             |
+| ------------------------------------ |------------------------------------------------|
+| Swap rows/columns                    | Multiply by $-1$                               |
+| Scale a row/column by $k$            | Multiply by $k$                                |
+| Add a multiple of one row to another | No change                                      |
+| Multiply entire matrix by $k$        | Multiply by $k^n$ for an $`n \times n`$ matrix |
 
 Understanding these rules allows you to simplify determinants using row operations while keeping track of how each operation modifies the result. This is especially useful when reducing matrices to upper triangular form, where the determinant is the **product of the diagonal entries** (after accounting for operation effects).
