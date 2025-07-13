@@ -94,20 +94,14 @@ $$
 $$
 
 *Worked example*
+
+
 Evaluate $`\displaystyle \iint_D (x+y)\,dA`$ for
 $`D=\{(x,y)\mid 0\le x\le1,\;x\le y\le x+1\}`$.
 
-$$
-\begin{aligned}
-\text{Inner: }&\int_{y=x}^{x+1} (x+y)\,dy
-               =\bigl[x\,y+\tfrac12 y^{2}\bigr]_{x}^{x+1}
-               =x(1)+\tfrac12[(x+1)^2-x^{2}]
-               =x+\tfrac12(2x+1).\\[4pt]
-\text{Outer: }&\int_{0}^{1} \!\bigl(2x+\tfrac12\bigr)\,dx
-               =\Bigl[x^{2}+\tfrac12x\Bigr]_{0}^{1}
-               =\tfrac32.
-\end{aligned}
-$$
+
+$`\begin{aligned} \text{Inner: }&\int_{y=x}^{x+1} (x+y)\,dy =\bigl[x\,y+\tfrac12 y^{2}\bigr]_{x}^{x+1} =x(1)+\tfrac12[(x+1)^2-x^{2}] =x+\tfrac12(2x+1).\\[4pt] \text{Outer: }&\int_{0}^{1} \!\bigl(2x+\tfrac12\bigr)\,dx =\Bigl[x^{2}+\tfrac12x\Bigr]_{0}^{1} =\tfrac32. \end{aligned}`$
+
 
 ---
 
