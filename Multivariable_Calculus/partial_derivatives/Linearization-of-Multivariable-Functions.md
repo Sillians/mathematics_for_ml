@@ -69,12 +69,14 @@ $$
 
 ### **Example: Approximating $`f(x,y,z) = x e^{y z}`$ near $`(1,0,2)`$**
 1. **Compute $`f(1,0,2)`$:**
+
 $$
 f(1,0,2) = 1 \cdot e^{0} = 1
 $$
 
 
 2. **Compute partial derivatives:**
+
 $$
 f_x = e^{y z} \implies f_x(1,0,2) = 1
 $$
@@ -89,12 +91,14 @@ $$
 
 
 3. **Write the linear approximation:**
+
 $$
 L(x,y,z) = 1 + (1)(x - 1) + (2)(y - 0) + (0)(z - 2) = x + 2y
 $$
 
 
 4. **Use it to estimate \( f(1.1, -0.1, 2.05) \):**
+
 $$
 L(1.1, -0.1, 2.05) \approx 1.1 + 2(-0.1) = 0.9
 $$
