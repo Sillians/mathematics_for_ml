@@ -16,27 +16,28 @@ A **non-rectangular domain** can be:
 
 * **Type I (vertical slices):**
 
-  $$
-  D = \{(x, y) \in \mathbb{R}^2 \mid a \leq x \leq b,\; g_1(x) \leq y \leq g_2(x) \}
-  $$
+$$
+D = \{(x, y) \in \mathbb{R}^2 \mid a \leq x \leq b,\; g_1(x) \leq y \leq g_2(x) \}
+$$
 
-  Evaluate as:
 
-  $$
-  \iint_D f(x, y)\, dA = \int_a^b \int_{g_1(x)}^{g_2(x)} f(x, y)\, dy\, dx
-  $$
+Evaluate as:
+
+$$
+\iint_D f(x, y)\, dA = \int_a^b \int_{g_1(x)}^{g_2(x)} f(x, y)\, dy\, dx
+$$
 
 * **Type II (horizontal slices):**
 
-  $$
-  D = \{(x, y) \in \mathbb{R}^2 \mid c \leq y \leq d,\; h_1(y) \leq x \leq h_2(y) \}
-  $$
+$$
+D = \{(x, y) \in \mathbb{R}^2 \mid c \leq y \leq d,\; h_1(y) \leq x \leq h_2(y) \}
+$$
 
-  Evaluate as:
+Evaluate as:
 
-  $$
-  \iint_D f(x, y)\, dA = \int_c^d \int_{h_1(y)}^{h_2(y)} f(x, y)\, dx\, dy
-  $$
+$$
+\iint_D f(x, y)\, dA = \int_c^d \int_{h_1(y)}^{h_2(y)} f(x, y)\, dx\, dy
+$$
 
 > ✅ **A valid region** must be described clearly using continuous boundary functions and appropriate limits.
 
@@ -78,7 +79,11 @@ $$
 To better visualize integration:
 
 1. **Graph both boundary curves**
+
+
 2. **Shade the region between the curves**
+
+
 3. **Draw arrows in the direction of integration (vertical/horizontal slices)**
 
 This helps determine whether it’s better to treat the domain as Type I or II.
