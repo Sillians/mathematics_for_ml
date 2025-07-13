@@ -10,9 +10,7 @@ It is formally defined as the **limit of Riemann sums**, which approximate this 
 
 #### **Double Integral Definition**:
 
-$$
-\iint_R f(x, y)\, dA = \lim_{\|P\| \to 0} \sum_{i,j} f(x_{ij}^*, y_{ij}^*) \Delta A_{ij}
-$$
+$`\iint_R f(x, y)\, dA = \lim_{\|P\| \to 0} \sum_{i,j} f(x_{ij}^*, y_{ij}^*) \Delta A_{ij}`$
 
 Where:
 
@@ -105,15 +103,15 @@ Each $`\Delta A = 0.25`$
 
 * Lower sum:
 
-  $$
-  L = (0 + 0.5 + 0.5 + 1) \cdot 0.25 = 0.5
-  $$
+$$
+L = (0 + 0.5 + 0.5 + 1) \cdot 0.25 = 0.5
+$$
 
 * Upper sum:
 
-  $$
-  U = (1 + 1.5 + 1.5 + 2) \cdot 0.25 = 1.5
-  $$
+$$
+U = (1 + 1.5 + 1.5 + 2) \cdot 0.25 = 1.5
+$$
 
 So:
 
