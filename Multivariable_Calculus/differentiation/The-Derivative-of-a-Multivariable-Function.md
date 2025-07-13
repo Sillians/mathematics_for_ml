@@ -96,7 +96,7 @@ $$
 
 
 $$
-\text{Graph}(f) = \left\{\begin{bmatrix} x \\ f(x) \end{bmatrix} \in \mathbb{R}^{n+1} \right\}
+\text{Graph}(f) = \left\\{\begin{bmatrix} x \\ f(x) \end{bmatrix} \in \mathbb{R}^{n+1} \right\}
 $$
 
 
