@@ -51,7 +51,7 @@ $$
 
 Then the Jacobian matrix is:
 
-$$
+$`
 J = \begin{bmatrix}
 \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} & \frac{\partial x}{\partial w} \\
 \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v} & \frac{\partial y}{\partial w} \\
@@ -63,7 +63,8 @@ v & u & 0 \\
 0 & w & v \\
 w & 0 & u
 \end{bmatrix}
-$$
+`$
+
 
 $$
 \det(J) = v(wu - 0) - u(0 \cdot u - v \cdot w) + 0 = vwu + uvw = 2uvw
@@ -120,13 +121,13 @@ Solving for $`u, v, w`$, you can compute the inverse transformation $`\mathbf{T}
 
 ### **Summary Table**
 
-| Concept                      | Expression or Condition                                                      |                          |                        |
-| ---------------------------- |------------------------------------------------------------------------------|--------------------------|------------------------|
-| Jacobian Matrix              | $`J_{\mathbf{T}} = \left[\frac{\partial(x, y, z)}{\partial(u, v, w)}\right]`$ |                          |                        |
-| Jacobian Determinant         | $`\det(J_{\mathbf{T}})`$                                                     |                          |                        |
-| Local Volume Scale Factor    | Absolute value: ($`\det(J\_{\mathbf{T})}`$ )                                 |   |
-| Critical Points              | $`\det(J_{\mathbf{T}}) = 0`$                                                 |                          |                        |
-| Inverse Jacobian Determinant | $`\det(J_{\mathbf{T}^{-1}}) = 1/\det(J_{\mathbf{T}})`$                       |                          |                        |
+| Concept                      | Expression or Condition                                                       |                  
+| ---------------------------- |-------------------------------------------------------------------------------|
+| Jacobian Matrix              | $`J_{\mathbf{T}} = \left[\frac{\partial(x, y, z)}{\partial(u, v, w)}\right]`$ |                                                 
+| Jacobian Determinant         | $`\det(J_{\mathbf{T}})`$                                                      |                                                 
+| Local Volume Scale Factor    | Absolute value: ($`\det(J\_{\mathbf{T})}`$ )                                  |   
+| Critical Points              | $`\det(J_{\mathbf{T}}) = 0`$                                                  |                                               
+| Inverse Jacobian Determinant | $`\det(J_{\mathbf{T}^{-1}}) = 1/\det(J_{\mathbf{T}})`$                        |                                                 
 
 This framework is essential for changing variables in triple integrals,
 analyzing nonlinear maps, and solving PDEs involving coordinate transformations.
