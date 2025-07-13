@@ -52,10 +52,10 @@ $$
 1. **Sketch or visualize** the region.
 
 
-2. **Project onto the $x$‑axis** to find $`a\le x\le b`$.
+2. **Project onto the $`x`$‑axis** to find $`a\le x\le b`$.
 
 
-3. For each $`x`$ in $[a,b]$, identify
+3. For each $`x`$ in $`[a,b]`$, identify
 
 
    $`g_1(x)=\text{lower }y`$ and $`g_2(x)=\text{upper }y`$.
@@ -115,7 +115,7 @@ $$
 
 * **Mass** with density $`\rho(x,y)`$: use the same integral with $`\rho`$ in place of 1.
 
-*Example (area of upper half‑circle of radius $r$)*
+*Example (area of upper half‑circle of radius $`r`$)*
 $`D=\{(x,y)\mid -r\le x\le r,\;0\le y\le\sqrt{r^{2}-x^{2}}\}`$
 
 $$
@@ -132,8 +132,8 @@ $$
 |----------------------------|----------------------------------------------|
 | Identify Type I limits | $`a\le x\le b`$, $`g_1(x)\le y\le g_2(x)`$.  |
 | **Given** limits           | Insert directly into $`\int\int f\,dy\,dx`$. |
-| **Not given** limits    | Sketch → project onto $x$ → read $`g_1, g_2`$. |
-| Evaluate                   | Integrate in $y$ first, then $x$.            |
-| Constant $f$               | Integral equals geometric area of $D$.       |
+| **Not given** limits    | Sketch → project onto $`x`$ → read $`g_1, g_2`$. |
+| Evaluate                   | Integrate in $`y`$ first, then $`x`$.            |
+| Constant $f$               | Integral equals geometric area of $`D`$.       |
 
 Mastery of Type I regions streamlines setup and evaluation of double integrals, turning geometric descriptions into precise analytic results.
