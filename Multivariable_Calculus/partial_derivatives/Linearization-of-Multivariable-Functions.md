@@ -42,6 +42,7 @@ $$
 
 
 3. **Write the linear approximation:**
+
 $$
 L(x,y) = 5 + \frac{3}{5}(x - 3) + \frac{4}{5}(y - 4)
 $$
@@ -49,6 +50,8 @@ $$
 
 
 4. **Use it to estimate $f(3.1, 3.9)$:**
+
+
 $$
 L(3.1, 3.9) \approx 5 + \frac{3}{5}(0.1) + \frac{4}{5}(-0.1) = 5 - 0.02 = 4.98
 $$
