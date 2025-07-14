@@ -88,15 +88,6 @@ Check $`\mathbf{v} = \begin{bmatrix}2\\-1\end{bmatrix}`$:
 
 
 $$
-\mathbf{v} \cdot \begin{pmatrix}1\\2\end{pmatrix} = 2 \cdot 1 + (-1)\cdot 2 = 0 \Rightarrow \mathbf{v} \in S^\perp
-$$
-
-$$
-\mathbf{v} \cdot \left(\begin{smallmatrix}1\\2\end{smallmatrix}\right) = 2 \cdot 1 + (-1) \cdot 2 = 0 \Rightarrow \mathbf{v} \in S^\perp
-$$
-
-
-$$
 \mathbf{v} \cdot \begin{bmatrix}1\\2\end{bmatrix} = 2 \cdot 1 + (-1) \cdot 2 = 0 \Rightarrow \mathbf{v} \in S^\perp
 $$
 

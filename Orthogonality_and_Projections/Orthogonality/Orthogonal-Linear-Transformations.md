@@ -49,8 +49,14 @@ $$
 If $`Q \in \mathbb{R}^{n \times n}`$ is an orthogonal matrix:
 
 * $`Q^T Q = I_n`$
+
+
 * $`Q^{-1} = Q^T`$
+
+
 * Columns and rows of $Q$ form **orthonormal sets**
+
+
 * $`\det(Q) = \pm 1`$
 
   * $`\det(Q) = +1`$ → rotation
@@ -70,11 +76,13 @@ $$
 \cos \theta = \frac{\langle \mathbf{u}, \mathbf{v} \rangle}{\|\mathbf{u}\| \|\mathbf{v}\|}
 $$
 
+
 2. Apply transformation:
 
 $$
 T(\mathbf{u}), \quad T(\mathbf{v})
 $$
+
 
 3. Use:
 
@@ -126,12 +134,18 @@ $$
 Let:
 
 * $`\mathbf{u} = \begin{bmatrix}1 \\ 0\end{bmatrix}`$
+
+
 * $`\mathbf{v} = \begin{bmatrix}0 \\ 1\end{bmatrix}`$
 
 Then:
 
 * $`\langle \mathbf{u}, \mathbf{v} \rangle = 0`$
+
+
 * $`T(\mathbf{u}) = \begin{bmatrix} \cos \theta \\ \sin \theta \end{bmatrix}`$
+
+
 * $`T(\mathbf{v}) = \begin{bmatrix} -\sin \theta \\ \cos \theta \end{bmatrix}`$
 
 Check:

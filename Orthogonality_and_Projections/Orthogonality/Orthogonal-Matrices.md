@@ -9,7 +9,11 @@ An **orthogonal matrix** is a square matrix whose columns (and rows) are orthono
 A matrix $Q$ is **orthogonal** if any of the following equivalent conditions hold:
 
 * $`Q^\top Q = QQ^\top = I`$
+
+
 * $`Q^{-1} = Q^\top`$
+
+
 * $`\|Q\mathbf{x}\| = \|\mathbf{x}\|`$ for all vectors $`\mathbf{x}`$
 
 ---
@@ -19,6 +23,8 @@ A matrix $Q$ is **orthogonal** if any of the following equivalent conditions hol
 To determine if a matrix $Q$ is orthogonal:
 
 * Verify that $`Q^\top Q = I`$
+
+
 * Check that its columns (or rows):
 
   * Are unit vectors: $`\|\mathbf{q}_i\| = 1`$
@@ -62,6 +68,8 @@ For square matrices $A$ and $B$ of the same size:
 For orthogonal matrices:
 
 * $`\det(Q) = \pm 1`$
+
+
 * If $`Q_1`$ and $`Q_2`$ are orthogonal:
   $`\det(Q_1 Q_2) = \det(Q_1) \cdot \det(Q_2)`$
 

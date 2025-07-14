@@ -35,6 +35,8 @@ Let $`\|\mathbf{u}\| = 4`$, $`\|\mathbf{v}\| = 3`$
 Then:
 
 * **Maximum dot product**: $`4 \cdot 3 = 12`$
+
+
 * **Minimum dot product**: $`-4 \cdot 3 = -12`$
 
 ---
@@ -61,7 +63,11 @@ $$
 Let $`\mathbf{u} = \langle 2, 1 \rangle`$, $`\mathbf{v} = \langle 1, 3 \rangle`$
 
 * $`\mathbf{u} \cdot \mathbf{v} = (2)(1) + (1)(3) = 5`$
+
+
 * $`\|\mathbf{u}\| = \sqrt{2^2 + 1^2} = \sqrt{5}`$
+
+
 * $`\|\mathbf{v}\| = \sqrt{1^2 + 3^2} = \sqrt{10}`$
 
 Then:
@@ -77,7 +83,11 @@ $$
 The cosine gives a **measure of alignment**:
 
 * $`\cos\theta = 1 \Rightarrow \theta = 0^\circ`$ (vectors point in the same direction)
+
+
 * $`\cos\theta = 0 \Rightarrow \theta = 90^\circ`$ (vectors are orthogonal)
+
+
 * $`\cos\theta = -1 \Rightarrow \theta = 180^\circ`$ (vectors point in opposite directions)
 
 
@@ -90,13 +100,12 @@ $$
 ---
 
 ### ✅ **Summary Table**
-
-| Task                      | Formula                                                                                              |                             |                                     |
-| ------------------------- | ---------------------------------------------------------------------------------------------------- | --------------------------- | ----------------------------------- |
-| Cauchy–Schwarz Inequality | (                                                                                                    | \mathbf{u} \cdot \mathbf{v} | \leq \|\mathbf{u}\|\|\mathbf{v}\| ) |
-| Minimum dot product       | $-\|\mathbf{u}\|\|\mathbf{v}\|$                                                                      |                             |                                     |
-| Cosine of angle           | $\cos\theta = \dfrac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\|\|\mathbf{v}\|}$                     |                             |                                     |
-| Angle between vectors     | $\theta = \cos^{-1} \left( \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\|\|\mathbf{v}\|} \right)$ |                             |                                     |
+| Task                      | Formula                                                                                              |                                          
+| ------------------------- |------------------------------------------------------------------------------------------------------|  
+| Cauchy–Schwarz Inequality | $`(\mid \mathbf{u} \cdot \mathbf{v} \mid \leq \|\mathbf{u}\|\|\mathbf{v}\| )`$                       |
+| Minimum dot product       | $-\|\mathbf{u}\|\|\mathbf{v}\|$                                                                      |                                                          
+| Cosine of angle           | $\cos\theta = \dfrac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\|\|\mathbf{v}\|}$                     |                                                           
+| Angle between vectors     | $\theta = \cos^{-1} \left( \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\|\|\mathbf{v}\|} \right)$ |                             
 
 ---
 

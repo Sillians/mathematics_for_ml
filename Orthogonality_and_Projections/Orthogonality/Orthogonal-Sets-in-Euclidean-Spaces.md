@@ -22,7 +22,11 @@ To check if a set is **orthogonal**, compute the pairwise dot products:
 For $`\{\mathbf{u}, \mathbf{v}, \mathbf{w}\} \subset \mathbb{R}^n`$, check:
 
 * $`\mathbf{u} \cdot \mathbf{v} = 0`$
+
+
 * $`\mathbf{u} \cdot \mathbf{w} = 0`$
+
+
 * $`\mathbf{v} \cdot \mathbf{w} = 0`$
 
 If all are zero, the set is orthogonal.
@@ -36,7 +40,10 @@ If all are zero, the set is orthogonal.
 To check if a set is **orthonormal**, perform two checks:
 
 * All vectors are orthogonal (as above).
+
+
 * Each vector has norm 1: $`\|\mathbf{v}_i\| = \sqrt{\mathbf{v}_i \cdot \mathbf{v}_i} = 1`$
+
 
 If both conditions are satisfied, the set is orthonormal.
 
@@ -47,7 +54,10 @@ If both conditions are satisfied, the set is orthonormal.
 To extend a set $`\{\mathbf{v}_1, ..., \mathbf{v}_k\} \subset \mathbb{R}^n`$ to an **orthogonal basis** of $`\mathbb{R}^n`$:
 
 * Use the **Gram-Schmidt process**.
+
+
 * Add new linearly independent vectors and orthogonalize them against the existing set.
+
 
 **Example:**
 
