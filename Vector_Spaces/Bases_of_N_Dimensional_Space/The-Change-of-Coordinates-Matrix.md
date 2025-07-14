@@ -15,19 +15,17 @@ in another basis, we apply the appropriate change-of-coordinates matrix.
 Let:
 
 * $`\mathcal{B} = \{ \mathbf{b}_1, \dots, \mathbf{b}_n \}`$ be a basis of a vector space $V$
+
+
 * $`\mathcal{C} = \{ \mathbf{c}_1, \dots, \mathbf{c}_n \}`$ be another basis of $V$
 
 Then, the **change-of-coordinates matrix** from $\mathcal{B}$ to $`\mathcal{C}`$ is denoted by:
 
-$$
-P_{\mathcal{C} \leftarrow \mathcal{B}}
-$$
+$`P_{\mathcal{C} \leftarrow \mathcal{B}}`$
 
 This matrix satisfies:
 
-$$
-[\mathbf{v}]_{\mathcal{C}} = P_{\mathcal{C} \leftarrow \mathcal{B}} \cdot [\mathbf{v}]_{\mathcal{B}}
-$$
+$`[\mathbf{v}]_{\mathcal{C}} = P_{\mathcal{C} \leftarrow \mathcal{B}} \cdot [\mathbf{v}]_{\mathcal{B}}`$
 
 ---
 
@@ -35,22 +33,14 @@ $$
 
 Suppose you know each $`\mathbf{b}_i`$ in terms of $`\mathcal{C}`$:
 
-$$
-\mathbf{b}_1 = a_{11} \mathbf{c}_1 + \dots + a_{1n} \mathbf{c}_n \\
-\mathbf{b}_2 = a_{21} \mathbf{c}_1 + \dots + a_{2n} \mathbf{c}_n \\
-\vdots \\
-\mathbf{b}_n = a_{n1} \mathbf{c}_1 + \dots + a_{nn} \mathbf{c}_n
-$$
+
+$`\mathbf{b}_1 = a_{11} \mathbf{c}_1 + \dots + a_{1n} \mathbf{c}_n \\\mathbf{b}_2 = a_{21} \mathbf{c}_1 + \dots + a_{2n} \mathbf{c}_n \\\vdots \\\mathbf{b}_n = a_{n1} \mathbf{c}_1 + \dots + a_{nn} \mathbf{c}_n`$
+
 
 Then the change-of-coordinates matrix $`P_{\mathcal{C} \leftarrow \mathcal{B}}`$ is the matrix whose columns are the 
 coordinates of the $`\mathbf{b}_i`$ vectors **expressed in the $`\mathcal{C}`$-basis**.
 
-$$
-P_{\mathcal{C} \leftarrow \mathcal{B}} = 
-\begin{bmatrix}
-[\mathbf{b}_1]_{\mathcal{C}} & \cdots & [\mathbf{b}_n]_{\mathcal{C}}
-\end{bmatrix}
-$$
+$`P_{\mathcal{C} \leftarrow \mathcal{B}} = \begin{bmatrix}[\mathbf{b}_1]_{\mathcal{C}} & \cdots & [\mathbf{b}_n]_{\mathcal{C}} \end{bmatrix}`$
 
 ---
 
@@ -61,24 +51,19 @@ and let $`\mathcal{B} = \{ \mathbf{b}_1, \dots, \mathbf{b}_n \}`$ be another bas
 
 * Then:
 
-$$
-P_{\mathcal{E} \leftarrow \mathcal{B}} = 
-\begin{bmatrix}
-\mathbf{b}_1 & \mathbf{b}_2 & \cdots & \mathbf{b}_n
-\end{bmatrix}
-$$
+$`P_{\mathcal{E} \leftarrow \mathcal{B}} = \begin{bmatrix} \mathbf{b}_1 & \mathbf{b}_2 & \cdots & \mathbf{b}_n \end{bmatrix}`$
+
 
 This matrix maps $`\mathcal{B}`$-coordinates to standard coordinates:
 
-$$
-[\mathbf{v}]_{\mathcal{E}} = P_{\mathcal{E} \leftarrow \mathcal{B}} \cdot [\mathbf{v}]_{\mathcal{B}}
-$$
+
+$`[\mathbf{v}]_{\mathcal{E}} = P_{\mathcal{E} \leftarrow \mathcal{B}} \cdot [\mathbf{v}]_{\mathcal{B}}`$
+
 
 To go **from standard coordinates to $`\mathcal{B}`$-coordinates**, invert the matrix:
 
-$$
-P_{\mathcal{B} \leftarrow \mathcal{E}} = P_{\mathcal{E} \leftarrow \mathcal{B}}^{-1}
-$$
+
+$`P_{\mathcal{B} \leftarrow \mathcal{E}} = P_{\mathcal{E} \leftarrow \mathcal{B}}^{-1}`$
 
 ---
 
@@ -87,9 +72,7 @@ $$
 If $`\mathcal{B}`$ and $`\mathcal{C}`$ are both bases (i.e., sets of linearly independent vectors), 
 then the change-of-coordinates matrix is **invertible**:
 
-$$
-P_{\mathcal{B} \leftarrow \mathcal{C}} = \left( P_{\mathcal{C} \leftarrow \mathcal{B}} \right)^{-1}
-$$
+$`P_{\mathcal{B} \leftarrow \mathcal{C}} = \left( P_{\mathcal{C} \leftarrow \mathcal{B}} \right)^{-1}`$
 
 This means that you can reverse the transformation between coordinate systems by using the matrix inverse.
 
