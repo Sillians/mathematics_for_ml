@@ -110,14 +110,16 @@ To find $W^\perp$:
 
 #### **Example**:
 
-Let $W = \text{span} \left\{
+Let 
+
+$$W = \text{span} \left\{
 \begin{bmatrix}
 1\\1\\0
 \end{bmatrix},
 \begin{bmatrix}
 0\\1\\1
 \end{bmatrix}
-\right\}$
+\right\}$$
 
 Form matrix:
 
