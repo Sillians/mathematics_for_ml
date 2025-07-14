@@ -13,6 +13,8 @@ $$
 Where:
 
 * $`\mathbf{x} \in \mathbb{R}^n`$ is a column vector
+
+
 * $`A`$ is a **symmetric** $`n \times n`$ matrix
 
 The optimization problem:
@@ -87,6 +89,8 @@ $$
 Then:
 
 * **Minimum** of $`Q(\mathbf{x}) = \mathbf{x}^T A \mathbf{x}`$ on $`|\mathbf{x}| = 1`$ is $`\lambda\_1`$
+
+
 * **Maximum** is $`\lambda\_n`$
 
 These occur at the **unit eigenvectors** of $A$ corresponding to $`\lambda\_1`$ and $`\lambda\_n`$ respectively.
@@ -114,6 +118,8 @@ $$
 Eigenvalues: $`\lambda\_1 = 1`$, $`\lambda\_2 = 2`$, $`\lambda\_3 = 3`$
 
 * **Minimum**: 1, at $`\mathbf{x} = \begin{bmatrix} 1 \ 0 \ 0 \end{bmatrix}`$
+
+
 * **Maximum**: 3, at $`\mathbf{x} = \begin{bmatrix} 0 \ 0 \ 1 \end{bmatrix}`$
 
 ---

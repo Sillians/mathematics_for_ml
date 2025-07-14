@@ -30,7 +30,10 @@ $$
 and
 
 * $`\rho(\mathbf{x})=\lambda\_{\max}`$ only when $`\mathbf{x}`$ is any eigenvector for $`\lambda\_{\max}`$.
+
+
 * $`\rho(\mathbf{x})=\lambda\_{\min}`$ only when $`\mathbf{x}`$ is any eigenvector for $`\lambda\_{\min}`$.
+
 
 Because many geometric constraints can be rewritten as $`\lVert\mathbf x\rVert=`$ 
 constant (or an affine equivalent), extrema almost always occur along eigen-directions.
@@ -56,18 +59,22 @@ find where $Q$ attains its maximum and minimum.
 ### Solution sketch
 
 1. **Diagonalize** $A$: find eigenvalues $`\lambda\_1,\lambda\_2`$ ($`\lambda\_1\le\lambda\_2`$) with orthonormal eigenvectors $`\mathbf{v}\_1,\mathbf{v}\_2`$.
-2. Any point on the unit circle may be expressed as
 
-   $$
-   \mathbf{x}=t\,\mathbf{v}_1+\sqrt{1-t^2}\,\mathbf{v}_2,\quad -1\le t\le 1.
-   $$
+
+3. Any point on the unit circle may be expressed as
+
+
+$$
+\mathbf{x}=t\,\mathbf{v}_1+\sqrt{1-t^2}\,\mathbf{v}_2,\quad -1\le t\le 1.
+$$
+
 
 3. Then
 
-   $$
-   Q(\mathbf{x})=\lambda_1t^2+\lambda_2(1-t^2)
-   =\lambda_2+t^2(\lambda_1-\lambda_2).
-   $$
+$$
+Q(\mathbf{x})=\lambda_1t^2+\lambda_2(1-t^2)
+=\lambda_2+t^2(\lambda_1-\lambda_2).
+$$
 
    * If $`\lambda\_1<\lambda\_2`$ the maximum occurs at $`|t|=0`$ (vector $`\mathbf{v}\_2`$) and the minimum at $`|t|=1`$ (vector $`\mathbf{v}\_1`$).
    * If $`\lambda\_1=\lambda\_2`$ the form is isotropic; every direction yields the same value.
@@ -162,6 +169,7 @@ Conversely, if \$A\$ has both positive and negative eigen-values, level sets of 
 ### Worked micro-example on an ellipse
 
 > **Form** $`Q(x,y)=5x^2+6xy+2y^2`$
+
 > **Constraint** $`x^2+4y^2=1`$.
 
 *Scaling matrix* $$B=\operatorname{diag}(1,2)\Rightarrow \tilde A=B^\mathsf{T}AB=
@@ -172,6 +180,8 @@ Eigenvalues of $`\tilde A`$ are $`\lambda\_{1}\approx4`$, $`\lambda\_{2}\approx3
 *Therefore*
 
 * Minimum $=4$ at $`\mathbf{u}=\mathbf{v}\_1`$, so $`\mathbf{x}=B\mathbf{u}`$ gives the ellipse point of minimum.
+
+
 * Maximum $`=33`$ analogously.
 
 ---
