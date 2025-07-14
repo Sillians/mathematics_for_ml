@@ -95,12 +95,12 @@ These are often **periodic** sets with infinite elements.
 
 ### ✅ Summary Table
 
-| Condition Type | Example                                 | Resulting Set      |           |           |
-| -------------- | --------------------------------------- | ------------------ | --------- | --------- |
-| Linear         | $`\{x \in \mathbb{Z} \mid 3x + 1 = 10\}`$ | $`\{3\}`$            |           |           |
-| Quadratic      | $`\{x \in \mathbb{R} \mid x^2 < 16\}`$    | $`(-4, 4)`$          |           |           |
-| Absolute Value | ( {x \in \mathbb{R} \mid                | x                  | \leq 2} ) | $[-2, 2]$ |
-| Trigonometric  | $`\{x \in [0, 2\pi] \mid \sin(x) = 0 \}`$ | $`\{0, \pi, 2\pi\}`$ |           |           |
+| Condition Type | Example                                   | Resulting Set        |          
+| -------------- |-------------------------------------------|----------------------| 
+| Linear         | $`\{x \in \mathbb{Z} \mid 3x + 1 = 10\}`$ | $`\{3\}`$            |          
+| Quadratic      | $`\{x \in \mathbb{R} \mid x^2 < 16\}`$    | $`(-4, 4)`$          |           
+| Absolute Value | $`( {x \in \mathbb{R} \mid x \leq 2} )`$  | $[-2, 2]$            |
+| Trigonometric  | $`\{x \in [0, 2\pi] \mid \sin(x) = 0 \}`$ | $`\{0, \pi, 2\pi\}`$ |           
 
 ---
 
