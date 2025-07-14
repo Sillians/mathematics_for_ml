@@ -9,13 +9,17 @@ The **orthogonal complement** of a subspace $`W \subseteq \mathbb{R}^n`$, denote
 Formally:
 
 $$
-W^\perp = \left\{ \mathbf{v} \in \mathbb{R}^n \mid \mathbf{v} \cdot \mathbf{w} = 0 \text{ for all } \mathbf{w} \in W \right\}
+W^\perp = \lbrace\{ \mathbf{v} \in \mathbb{R}^n \mid \mathbf{v} \cdot \mathbf{w} = 0 \text{ for all } \mathbf{w} \in W \rbrace\}
 $$
 
 **Key Properties**:
 
 * $`W^\perp`$ is a **subspace** of $`\mathbb{R}^n`$
+
+
 * $`\dim(W) + \dim(W^\perp) = n`$
+
+
 * $`(W^\perp)^\perp = W`$ if $W$ is a subspace of $`\mathbb{R}^n`$
 
 ---
@@ -72,6 +76,8 @@ $$
 **Steps**:
 
 1. Compute dot product: $`\mathbf{v} \cdot \mathbf{w}_i`$
+
+
 2. If all dot products are zero ⇒ $`\mathbf{v} \in \text{span}(S)^\perp`$
 
 #### **Example**:
@@ -95,7 +101,11 @@ To find $W^\perp$:
 **Steps**:
 
 1. Form a matrix $`A \in \mathbb{R}^{n \times k}`$ with columns $`\mathbf{w}_i`$
+
+
 2. Solve the **homogeneous system** $`A^T\mathbf{x} = 0`$
+
+
 3. The solution set is $`W^\perp`$
 
 #### **Example**:
@@ -126,24 +136,13 @@ $$
 
 Solve:
 
-$$
-A^T\mathbf{x} = 0 \Rightarrow
-\begin{bmatrix}
-1 & 1 & 0 \\
-0 & 1 & 1
-\end{bmatrix}
-\begin{bmatrix}
-x_1 \\ x_2 \\ x_3
-\end{bmatrix}
-=
-\begin{bmatrix}
-0 \\ 0
-\end{bmatrix}
-$$
+$`A^T\mathbf{x} = 0 \Rightarrow  \begin{bmatrix} 1 & 1 & 0 \\ 0 & 1 & 1  \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}`$
 
 Equations:
 
 * $`x_1 + x_2 = 0`$
+
+
 * $`x_2 + x_3 = 0`$
 
 Solution:
@@ -153,11 +152,11 @@ Solution:
 So:
 
 $$
-W^\perp = \text{span} \left\{
+W^\perp = \text{span} \lbrace\{
 \begin{bmatrix}
 1 \\ -1 \\ 1
 \end{bmatrix}
-\right\}
+\rbrace\}
 $$
 
 ---
