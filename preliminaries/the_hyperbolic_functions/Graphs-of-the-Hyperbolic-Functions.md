@@ -108,6 +108,8 @@ $$
 
 * **Derivative**: $`\frac{d}{dx} \tanh(x) = \\mathrm{sech}^2(x)`$
 
+$$\frac{d}{dx} \tanh(x) = \text{sech}^2(x)$$
+
 #### **Graph Highlights:**
 
 * S-shaped curve bounded between −1 and 1.
