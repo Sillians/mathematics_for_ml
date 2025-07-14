@@ -17,7 +17,11 @@ $$
 ### **2. Properties**
 
 * All outcomes are equally likely.
+
+
 * The support set is finite and discrete.
+
+
 * Mean:
 
 $$
@@ -73,7 +77,10 @@ $$
 For intervals like $`X > k`$ or $`X < k`$:
 
 * $`P(X > k) = \frac{\text{Number of values greater than } k}{n}`$
+
+
 * $`P(X < k) = \frac{\text{Number of values less than } k}{n}`$
+
 
 **Example:**
 If $`X \sim \text{Uniform}(1, 5)`$, then:

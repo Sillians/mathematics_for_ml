@@ -16,7 +16,11 @@ $$
 Where:
 
 * $`n`$ is the number of trials
+
+
 * $`p`$ is the probability of success on each trial
+
+
 * $`q = 1 - p`$ is the probability of failure
 
 ---

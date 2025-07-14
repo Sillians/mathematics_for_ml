@@ -4,7 +4,11 @@ The **Poisson distribution** is a powerful tool used to model the number of time
 area, volume, or any other continuous domain, under the assumptions that events occur:
 
 1. **Independently** of each other
+
+
 2. At a **constant average rate**
+
+
 3. Not simultaneously (i.e., events happen one at a time)
 
 ---
@@ -16,9 +20,16 @@ A random variable $X$ follows a **Poisson distribution** if it models the **numb
 #### **Typical examples:**
 
 * Number of emails received per hour
+
+
 * Number of decay events per second in radioactive material
+
+
 * Number of phone calls to a call center per minute
+
+
 * Number of typos on a page of a book
+
 
 If the **average rate $`\lambda`$** of occurrence is known, and the variance roughly matches the mean, it likely follows a Poisson distribution.
 

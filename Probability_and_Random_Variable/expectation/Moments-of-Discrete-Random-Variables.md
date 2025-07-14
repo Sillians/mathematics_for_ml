@@ -11,9 +11,7 @@ Moments are centered around either the origin or the mean.
 
 The **k-th moment** about the origin is defined as:
 
-$$
-\mu'_k = \mathbb{E}[X^k] = \sum_{x \in \text{Support}(X)} x^k \cdot P(X = x)
-$$
+$`\mu'_k = \mathbb{E}[X^k] = \sum_{x \in \text{Support}(X)} x^k \cdot P(X = x)`$
 
 ---
 

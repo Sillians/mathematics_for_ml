@@ -13,8 +13,13 @@ $$
 P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}, \quad \text{where } k = 0, 1, 2, \dots
 $$
 
+
 * $`\lambda`$: average number of occurrences in the interval
+
+
 * $`k`$: number of actual occurrences
+
+
 * $`e`$: Euler’s number ($\approx 2.718$)
 
 ---

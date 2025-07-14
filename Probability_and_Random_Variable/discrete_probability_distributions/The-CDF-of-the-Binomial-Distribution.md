@@ -12,7 +12,11 @@ dealing with intervals or complements.
 Let $`X \sim \text{Bin}(n, p)`$, where:
 
 * $`n`$ is the number of trials,
+
+
 * $`p`$ is the probability of success in each trial,
+
+
 * $`X`$ counts the number of successes.
 
 The **CDF** is:
@@ -30,8 +34,13 @@ This represents the probability of obtaining **at most** $k$ successes.
 A **Binomial CDF table** lists cumulative probabilities for given values of:
 
 * $`n`$: number of trials,
+
+
 * $`p`$: probability of success,
+
+
 * $`k`$: number of successes.
+
 
 #### **Example (excerpt)**
 
