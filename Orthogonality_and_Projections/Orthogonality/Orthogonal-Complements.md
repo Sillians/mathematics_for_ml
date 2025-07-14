@@ -84,7 +84,7 @@ $$
 
 Let $`S = \left\{ \begin{bmatrix}1\\2\end{bmatrix} \right\}`$
 
-Check $`\mathbf{v} = \begin{bmatrix}2\\-1\end{bmatrix}`$:
+Check $`\mathbf{v} = \begin{bmatrix}2 \\ -1\end{bmatrix}`$:
 
 $$
 \mathbf{v} \cdot \begin{bmatrix}1\\2\end{bmatrix} = 2 \cdot 1 + (-1)\cdot 2 = 0 \Rightarrow \mathbf{v} \in S^\perp
