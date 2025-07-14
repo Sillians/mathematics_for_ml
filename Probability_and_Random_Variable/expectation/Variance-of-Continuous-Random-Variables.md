@@ -18,6 +18,8 @@ $$
 Where:
 
 * $`\mathbb{E}[X] = \int_{-\infty}^{\infty} x f(x)\, dx`$
+
+
 * $`\mathbb{E}[X^2] = \int_{-\infty}^{\infty} x^2 f(x)\, dx`$
 
 ---
@@ -69,7 +71,11 @@ $$
 Verify it’s a valid PDF and then compute:
 
 * $`\mathbb{E}[X] = \int_0^1 x^2 dx + \int_1^2 x(2 - x) dx`$
+
+
 * $`\mathbb{E}[X^2] = \int_0^1 x^3 dx + \int_1^2 x^2(2 - x) dx`$
+
+
 * Compute variance with:
 
 $$
@@ -126,7 +132,11 @@ $$
 2. Use this to compute:
 
 * $`\mathbb{E}[X] = \int_0^1 x \cdot \frac{1}{4} dx + \int_1^2 x \cdot \frac{2}{4} dx + \int_2^3 x \cdot \frac{1}{4} dx`$
+
+
 * $`\mathbb{E}[X^2] = \int_0^1 x^2 \cdot \frac{1}{4} dx + \int_1^2 x^2 \cdot \frac{2}{4} dx + \int_2^3 x^2 \cdot \frac{1}{4} dx`$
+
+
 * Then compute variance.
 
 ---
