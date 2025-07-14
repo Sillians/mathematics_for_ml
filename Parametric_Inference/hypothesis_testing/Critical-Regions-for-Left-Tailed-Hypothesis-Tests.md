@@ -7,6 +7,8 @@
 A **left-tailed hypothesis test** is used when the alternative hypothesis states that the population parameter is **less than** a specified value:
 
 * Null Hypothesis: $`H_0: \mu = \mu_0`$
+
+
 * Alternative Hypothesis: $`H_a: \mu < \mu_0`$
 
 The **critical region** (or rejection region) lies in the **left tail** of the sampling distribution.
@@ -18,6 +20,8 @@ The **critical region** (or rejection region) lies in the **left tail** of the s
 To determine the critical region using the **Cumulative Distribution Function (CDF)**:
 
 * Choose a significance level $`\alpha`$
+
+
 * Determine the critical value $`x_c`$ such that:
 
 $$
@@ -55,6 +59,8 @@ You typically iterate through values of $`X`$ until the cumulative probability c
 Using the CDF:
 
 * $`P(X \leq 0) = e^{-3} \approx 0.0498`$ → Critical value $`x_c = 0`$
+
+
 * Reject $`H_0`$ if $`X \leq 0`$
 
 ---
@@ -97,8 +103,14 @@ $$
 If:
 
 * $`H_0: \mu = 50`$
+
+
 * $`H_a: \mu < 50`$
+
+
 * Sample mean $`\bar{x} = 47.5`$, $`\sigma = 5`$, $`n = 25`$
+
+
 * Then:
 
 $$

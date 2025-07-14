@@ -8,7 +8,11 @@ Hypothesis testing is a formal statistical method for making inferences or decis
 using sample data. It involves:
 
 * **Proposing hypotheses** about a population.
+
+
 * **Collecting and analyzing data**.
+
+
 * **Making a decision** based on the results.
 
 The goal is to test a **claim** or **assumption** (often called a *hypothesis*) about a population parameter (e.g., mean, proportion, variance).
@@ -27,8 +31,14 @@ There are always two competing hypotheses:
 * Testing a mean:
 
 * $`H_0: \mu = 10`$
+
+
 * $`H_a: \mu \ne 10`$ (two-tailed)
+
+
 * $`H_a: \mu > 10`$ (right-tailed)
+
+
 * $`H_a: \mu < 10`$ (left-tailed)
 
 The **form of $H_a$** determines the direction of the test.

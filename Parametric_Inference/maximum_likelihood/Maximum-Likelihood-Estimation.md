@@ -48,9 +48,9 @@ If $`X_i \sim \text{Bernoulli}(p)`$, then:
 
 * Maximize:
 
-  $$
-  \hat{p} = \frac{1}{n} \sum_{i=1}^{n} x_i
-  $$
+$$
+\hat{p} = \frac{1}{n} \sum_{i=1}^{n} x_i
+$$
 
 #### **Binomial Distribution**
 
@@ -71,16 +71,16 @@ If $`X_i \sim \text{Poisson}(\lambda)`$, then:
 
 * Log-likelihood:
 
-  $$
-  \ell(\lambda) = \sum x_i \log \lambda - n \lambda + \text{const}
-  $$
+$$
+\ell(\lambda) = \sum x_i \log \lambda - n \lambda + \text{const}
+$$
 
 
 * Maximize:
 
-  $$
-  \hat{\lambda} = \bar{x}
-  $$
+$$
+\hat{\lambda} = \bar{x}
+$$
 
 ---
 
@@ -93,16 +93,16 @@ Given data $`x_1, x_2, \dots, x_n \sim \mathcal{N}(\mu, \sigma^2)`$:
 
 * Log-likelihood:
 
-  $$
-  \ell(\mu, \sigma^2) = -\frac{n}{2} \log(2\pi \sigma^2) - \frac{1}{2\sigma^2} \sum_{i=1}^{n} (x_i - \mu)^2
-  $$
+$$
+\ell(\mu, \sigma^2) = -\frac{n}{2} \log(2\pi \sigma^2) - \frac{1}{2\sigma^2} \sum_{i=1}^{n} (x_i - \mu)^2
+$$
 
 
 * MLE estimates:
 
-  $$
-  \hat{\mu} = \bar{x}, \quad \hat{\sigma}^2 = \frac{1}{n} \sum (x_i - \bar{x})^2
-  $$
+$$
+\hat{\mu} = \bar{x}, \quad \hat{\sigma}^2 = \frac{1}{n} \sum (x_i - \bar{x})^2
+$$
 
   > **Note:** This differs from the unbiased estimator, which divides by $`n - 1`$.
 
@@ -111,16 +111,16 @@ Given data $`x_1, x_2, \dots, x_n \sim \mathcal{N}(\mu, \sigma^2)`$:
 
 * Log-likelihood:
 
-  $$
-  \ell(\lambda) = n \log \lambda - \lambda \sum x_i
-  $$
+$$
+\ell(\lambda) = n \log \lambda - \lambda \sum x_i
+$$
 
 
 * MLE:
 
-  $$
-  \hat{\lambda} = \frac{1}{\bar{x}}
-  $$
+$$
+\hat{\lambda} = \frac{1}{\bar{x}}
+$$
 
 #### **Uniform Distribution** $`U(0, \theta)`$
 
@@ -132,9 +132,9 @@ Given data $`x_1, x_2, \dots, x_n \sim \mathcal{N}(\mu, \sigma^2)`$:
 
 * MLE:
 
-  $$
-  \hat{\theta} = \max(x_1, \dots, x_n)
-  $$
+$$
+\hat{\theta} = \max(x_1, \dots, x_n)
+$$
 
 ---
 

@@ -7,6 +7,8 @@
 In hypothesis testing, we assess:
 
 * **Null hypothesis**: $`H_0`$ (e.g., population mean is $`\mu_0`$)
+
+
 * **Alternative hypothesis**: $`H_1`$ (e.g., mean is **greater** than $`\mu_0`$)
 
 A **right-tailed test** is used when we're testing for values significantly **greater** than expected under $H_0$:
@@ -22,7 +24,10 @@ We define a **critical region** (or rejection region) in the **right tail** of t
 ### **2. Critical Region and Critical Value**
 
 * The **critical region** is the set of test statistic values that lead to rejection of $H_0$.
+
+
 * The **critical value** is the threshold value that separates the **non-rejection region** from the **rejection region**.
+
 
 In a **right-tailed test**, the critical region is:
 
@@ -130,6 +135,8 @@ $$
 A drug is effective if mean blood pressure reduction exceeds 10 mmHg. Under $H_0$: $`\mu = 10`$, under $`H_1`$: $`\mu > 10`$. Let:
 
 * $`\overline{X} \sim \mathcal{N}(10, 4/25)`$
+
+
 * $`\alpha = 0.05`$
 
 Critical value:
