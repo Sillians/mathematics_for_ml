@@ -114,9 +114,14 @@ To find $W^\perp$:
 Let 
 
 $$
-W = \text{span} \left\lbrace 
-\begin{bmatrix} 1 \\ 1 \\ 0 \end{bmatrix}, 
-\begin{bmatrix} 0 \\ 1 \\ 1 \end{bmatrix} 
+W = \text{span} 
+\left\lbrace 
+\begin{bmatrix} 
+1 \\ 1 \\ 0 
+\end{bmatrix}, 
+\begin{bmatrix} 
+0 \\ 1 \\ 1 
+\end{bmatrix} 
 \right\rbrace
 $$
 
