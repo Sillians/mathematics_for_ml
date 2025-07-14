@@ -23,12 +23,18 @@ A\vec{x} = \vec{b}
 $$
 
 * If a solution exists, then $`\vec{b} \in \text{Col}(A)`$.
+
+
 * If there is no solution, then $`\vec{b} \notin \text{Col}(A)`$.
 
 **Steps:**
 
 1. Set up the augmented matrix $`[A \mid \vec{b}]`$
+
+
 2. Use row-reduction (Gaussian elimination)
+
+
 3. Check if the system is consistent
 
 ---
@@ -38,7 +44,11 @@ $$
 Suppose a vector $`\vec{b}`$ contains a variable, and it's known that $`\vec{b} \in \text{Col}(A)`$. Then:
 
 * Solve $`A\vec{x} = \vec{b}`$ symbolically.
+
+
 * Determine the value(s) of the unknown that make the system consistent.
+
+
 * Those are the values for which $`\vec{b}`$ lies in the column space.
 
 ---
@@ -59,7 +69,13 @@ Use computational tools or matrix factorizations (e.g., QR decomposition) to ass
 ### **Summary**
 
 * The column space is the span of the columns of a matrix.
+
+
 * It consists of all vectors that can be written as $`A\vec{x}`$.
+
+
 * A vector lies in the column space if the corresponding linear system is consistent.
+
+
 * The **dimension** of the column space equals the **rank** of the matrix.
 
