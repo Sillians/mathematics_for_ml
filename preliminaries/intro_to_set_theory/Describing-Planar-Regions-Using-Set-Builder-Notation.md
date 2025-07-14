@@ -20,7 +20,10 @@ $$
 A **rectangular region** is bounded by horizontal and vertical lines. Suppose we have a rectangle defined by:
 
 * Horizontal bounds: $`a \leq x \leq b`$
+
+
 * Vertical bounds: $`c \leq y \leq d`$
+
 
 Then the set-builder notation is:
 
@@ -42,7 +45,10 @@ $$
 A single **linear inequality** describes a **half-plane**. A linear equation has the form $`ax + by = c`$. 
 The half-plane is defined by:
 
+
 * $`ax + by \leq c`$ (region **on or below** the line)
+
+
 * $`ax + by \geq c`$ (region **on or above** the line)
 
 **Example:**
@@ -64,6 +70,7 @@ The region **between** the lines $`y = x`$ and $`y = 2x + 1`$:
 $$
 \{ (x, y) \in \mathbb{R}^2 : x \leq y \leq 2x + 1 \}
 $$
+
 
 **Example:**
 The region **between** two vertical lines $`x = 1`$ and $`x = 3`$, and **below** the line $`y = 5`$:
@@ -88,11 +95,14 @@ $$
 
 This includes all points lying **above** the parabola and **below** the line $`y = 4`$.
 
+
 #### **(b) Circular Disk**
 
 A circle with radius $r$ centered at the origin:
 
 * **Interior (open disk):** $`x^2 + y^2 < r^2`$
+
+
 * **Closed disk:** $`x^2 + y^2 \leq r^2`$
 
 Set-builder notation:
@@ -100,6 +110,7 @@ Set-builder notation:
 $$
 \{ (x, y) \in \mathbb{R}^2 : x^2 + y^2 \leq r^2 \}
 $$
+
 
 #### **(c) Elliptical Region**
 

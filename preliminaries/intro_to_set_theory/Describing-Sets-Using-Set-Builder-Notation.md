@@ -14,7 +14,11 @@ $$
 $$
 
 * $`x`$ is a typical element.
+
+
 * $`S`$ is the universal or relevant set (e.g., $`\mathbb{N}`$, $`\mathbb{Z}`$, $`\mathbb{R}`$).
+
+
 * The condition specifies which $`x`$ belong.
 
 ---
