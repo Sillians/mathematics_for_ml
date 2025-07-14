@@ -89,18 +89,27 @@ $$
 \hat{\beta}_1 = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2}
 $$
 
-Since $`\hat{\beta}_1 \sim \mathcal{N}(\beta_1, \mathrm{Var}(\hat{\beta}_1))`$ and $`\mathrm{Var}(\hat{\beta}_1) = \frac{\sigma^2}{\sum (x_i - \bar{x})^2}`$, 
+Since 
+
+$`\hat{\beta}_1 \sim \mathcal{N}(\beta_1, \mathrm{Var}(\hat{\beta}_1))`$ 
+
+and 
+
+$`\mathrm{Var}(\hat{\beta}_1) = \frac{\sigma^2}{\sum (x_i - \bar{x})^2}`$, 
+
+
 the sample-based estimate replaces $`\sigma^2`$ with $`s^2`$, leading to:
+
 
 $$
 \frac{\hat{\beta}_1 - \beta_1}{\mathrm{SE}(\hat{\beta}_1)} \sim t_{n-2}
 $$
 
+
 Rearranging gives the confidence interval formula:
 
-$$
-\hat{\beta}_1 \pm t_{n-2,\alpha/2} \cdot \mathrm{SE}(\hat{\beta}_1)
-$$
+
+$`\hat{\beta}_1 \pm t_{n-2,\alpha/2} \cdot \mathrm{SE}(\hat{\beta}_1)`$
 
 ---
 

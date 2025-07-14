@@ -13,8 +13,14 @@ the **standard normal distribution** is used to construct the interval.
 Given:
 
 * $`\bar{X}`$: sample mean
+
+
 * $`\sigma`$: known population standard deviation
+
+
 * $`n`$: sample size
+
+
 * $`z_{\alpha/2}`$: critical value from the standard normal distribution for confidence level $`1 - \alpha`$
 
 The **confidence interval** for the population mean $`\mu`$ is:
@@ -32,14 +38,25 @@ If the population is **normally distributed**, the confidence interval is **exac
 #### **Steps**:
 
 1. Identify $`\bar{X}, \sigma, n`$
+
+
 2. Choose confidence level (e.g., 90%, 95%, 99%)
+
+
 3. Find corresponding $`z_{\alpha/2}`$ (e.g., 1.645, 1.96, 2.576)
+
+
 4. Plug into the formula
+
 
 #### **Example**:
 
 * Population is normal
+
+
 * $`\bar{X} = 100`$, $`\sigma = 10`$, $`n = 25`$, 95% confidence
+
+
 * $`z_{0.025} = 1.96`$
 
 $$
@@ -62,7 +79,11 @@ $$
 #### **Example**:
 
 * Non-normal population
+
+
 * $`\bar{X} = 78`$, $`\sigma = 12`$, $`n = 64`$, 90% confidence
+
+
 * $`z_{0.05} = 1.645`$
 
 $$
@@ -88,8 +109,14 @@ These intervals provide decision-makers with a **range of plausible values** for
 ### **6. Key Points to Remember**
 
 * Use **z-distribution** only when **population variance is known**.
+
+
 * Use **t-distribution** when $`\sigma`$ is **unknown**.
+
+
 * Confidence level determines the **width** of the interval: higher confidence ⇒ wider interval.
+
+
 * The larger the sample size $n$, the **narrower** the interval.
 
 ---
