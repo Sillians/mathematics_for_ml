@@ -21,7 +21,7 @@ Projection of vectors onto subspaces allows decomposing a vector into components
 
 ### General Formula (Arbitrary Basis)
 
-Given a subspace $`W = \text{Col}(A)`$ where $A$ is an $`n \times k`$ matrix with **linearly independent columns**, and a vector $`b \in \mathbb{R}^n\`$, 
+Given a subspace $`W = \text{Col}(A)`$ where $A$ is an $`n \times k`$ matrix with **linearly independent columns**, and a vector $`b \in \mathbb{R}^n`$, 
 the orthogonal projection of $`b`$ onto $`W`$ is:
 
 $$
