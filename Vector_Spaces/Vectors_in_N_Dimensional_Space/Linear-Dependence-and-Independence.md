@@ -22,6 +22,8 @@ is $c_1 = c_2 = \dots = c_k = 0$.
 This means:
 
 * **Independent**: No vector is a linear combination of the others
+
+
 * **Dependent**: At least one vector **can** be written as a linear combination of the others
 
 ---
@@ -49,7 +51,7 @@ $$
 = \begin{bmatrix} -1 \\ 0 \end{bmatrix}
 $$
 
-So $\mathbf{v}_3 = \begin{bmatrix} -1 \\ 0 \end{bmatrix}$ makes the set dependent.
+So $`\mathbf{v}_3 = \begin{bmatrix} -1 \\ 0 \end{bmatrix}`$ makes the set dependent.
 
 ---
 
@@ -60,8 +62,16 @@ Some sets can be classified **quickly**:
 #### **In $\mathbb{R}^n$:**
 
 * If the set has **more than $n$** vectors ⇒ it is **automatically dependent**
+
+
+
 * If any vector is a **zero vector** ⇒ the set is **dependent**
+
+
+
 * If one vector is a **multiple** of another ⇒ dependent
+
+
 
 #### **Example:**
 
@@ -88,6 +98,8 @@ $$
 Perform **row reduction (RREF)**:
 
 * If the matrix has **a pivot in every column**, the vectors are **linearly independent**
+
+
 * If **any column lacks a pivot**, they are **dependent**
 
 ---
@@ -137,7 +149,12 @@ Because one column lacks a pivot, one vector is a linear combination of the othe
 Linear independence is fundamental to:
 
 * Defining **basis and dimension**
+
+
 * Testing **invertibility** of matrices
+
+
 * Understanding **span** and **vector spaces**
+
 
 Being able to quickly assess dependence—visually, algebraically, or via row operations—is a powerful skill in linear algebra and applied mathematics.

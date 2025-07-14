@@ -20,7 +20,11 @@ is called a **linear combination** of the vectors $\mathbf{v}_i$.
 ### **2. Geometric Interpretation**
 
 * In $\mathbb{R}^2$: linear combinations of two non-parallel vectors span a **plane**.
+
+
 * In $\mathbb{R}^3$: three linearly independent vectors span the entire **space**.
+
+
 * The **span** of a set of vectors is the collection of all their linear combinations.
 
 ---
