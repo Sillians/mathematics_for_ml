@@ -116,7 +116,7 @@ $$\nabla\_{\mathbf{x}}\mathcal{L}=2A\mathbf{x}-2\lambda\mathbf{x}=0
 
 ### Example in $`\mathbb R^2`$
 
-Ellipse constraint $`x^2/4 + y^2=1`$ ⇒ scaling matrix $`B=\operatorname{diag}(2,1)`$, so let $`\mathbf{u}=B^{-1}\mathbf{x}`$ to map the ellipse to the unit circle.  Then
+Ellipse constraint $`x^2/4 + y^2=1`$ ⇒ scaling matrix $`B=\\mathrm{diag}(2,1)`$, so let $`\mathbf{u}=B^{-1}\mathbf{x}`$ to map the ellipse to the unit circle.  Then
 
 $$
 Q(\mathbf{x})=\mathbf{x}^\mathsf{T}A\mathbf{x}
@@ -172,7 +172,7 @@ Conversely, if \$A\$ has both positive and negative eigen-values, level sets of 
 
 > **Constraint** $`x^2+4y^2=1`$.
 
-*Scaling matrix* $$B=\operatorname{diag}(1,2)\Rightarrow \tilde A=B^\mathsf{T}AB=
+*Scaling matrix* $$B=\\mathrm{diag}(1,2)\Rightarrow \tilde A=B^\mathsf{T}AB=
 \begin{bmatrix}5&6\\6&32\end{bmatrix}$$.
 
 Eigenvalues of $`\tilde A`$ are $`\lambda\_{1}\approx4`$, $`\lambda\_{2}\approx33`$.
