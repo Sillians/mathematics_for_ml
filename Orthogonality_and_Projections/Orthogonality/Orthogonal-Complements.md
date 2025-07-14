@@ -121,6 +121,14 @@ $$W = \text{span} \lbrace\{
 \end{bmatrix}
 \rbrace\}$$
 
+
+$$
+W = \text{span}\left\{
+\begin{pmatrix} 1 \\ 1 \\ 0 \end{pmatrix}, 
+\begin{pmatrix} 0 \\ 1 \\ 1 \end{pmatrix}
+\right\}
+$$
+
 Form matrix:
 
 $$
