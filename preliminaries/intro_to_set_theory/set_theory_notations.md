@@ -86,7 +86,7 @@ Here is a comprehensive list of **standard set theory notations**, grouped by ca
 
 | Symbol                      | Meaning                                                            |                         |                                             |     |    
 |-----------------------------|--------------------------------------------------------------------| --------------------------------------------------- | - | ----------- |
-| $`(\mid A \mid )`$ or $\#A$ | Cardinality (number of elements in set $A$)                        |   
+| $`(\mid A \mid )`$ or $`\#A`$ | Cardinality (number of elements in set $A$)                        |   
 | $A \cong B$                 | Sets $A$ and $B$ have same cardinality (equivalent)                |                                               |   |             |
 | $A \times B$                | Cartesian product, cardinality $`(\mid A \mid  B \mid )`$ if finite |
 
