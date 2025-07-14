@@ -9,9 +9,7 @@ This guide explores how vectors can be expressed in terms of a different basis, 
 Given a vector space and a basis $`\mathcal{B} = {\mathbf{v}\_1, \mathbf{v}\_2, \dots, \mathbf{v}\_n}`$, 
 every vector $`\mathbf{x}`$ in that space can be **uniquely written** as a linear combination:
 
-$$
-\mathbf{x} = c_1\mathbf{v}_1 + c_2\mathbf{v}_2 + \dots + c_n\mathbf{v}_n
-$$
+$`\mathbf{x} = c_1\mathbf{v}_1 + c_2\mathbf{v}_2 + \dots + c_n\mathbf{v}_n`$
 
 The **coordinates of $`\mathbf{x}`$ relative to the basis $`\mathcal{B}`$** are the scalars $`(c\_1, c\_2, \dots, c\_n)`$.
 
@@ -21,9 +19,7 @@ The **coordinates of $`\mathbf{x}`$ relative to the basis $`\mathcal{B}`$** are 
 
 Given coordinates $`(c\_1, c\_2, \dots, c\_n)`$ and basis vectors $`{\mathbf{v}\_1, \mathbf{v}\_2, \dots, \mathbf{v}\_n}`$:
 
-$$
-\mathbf{x} = c_1\mathbf{v}_1 + c_2\mathbf{v}_2 + \dots + c_n\mathbf{v}_n
-$$
+$`\mathbf{x} = c_1\mathbf{v}_1 + c_2\mathbf{v}_2 + \dots + c_n\mathbf{v}_n`$
 
 **Example:**
 
@@ -32,9 +28,7 @@ Let $`\mathcal{B} = \left\{ \begin{pmatrix} 1 \\ 0 \end{pmatrix}, \begin{pmatrix
 
 Then:
 
-$$
-\mathbf{x} = 2\begin{bmatrix}1\\0\end{bmatrix} + (-1)\begin{bmatrix}1\\1\end{bmatrix} = \begin{bmatrix}2\\0\end{bmatrix} + \begin{bmatrix}-1\\-1\end{bmatrix} = \begin{bmatrix}1\\-1\end{bmatrix}
-$$
+$`\mathbf{x} = 2\begin{bmatrix}1\\0\end{bmatrix} + (-1)\begin{bmatrix}1\\1\end{bmatrix} = \begin{bmatrix}2\\0\end{bmatrix} + \begin{bmatrix}-1\\-1\end{bmatrix} = \begin{bmatrix}1\\-1\end{bmatrix}`$
 
 ---
 
@@ -51,9 +45,8 @@ and the vector: $`\mathbf{x} = \begin{pmatrix} 4 \\ 3 \end{pmatrix}`$
 
 Since $`\mathbf{x} = 4\mathbf{v}\_1 + 3\mathbf{v}\_2`$, the coordinates are:
 
-$$
-[ \mathbf{x} ]_{\mathcal{B}} = \begin{bmatrix}4\\3\end{bmatrix}
-$$
+
+$`[ \mathbf{x} ]_{\mathcal{B}} = \begin{bmatrix}4\\3\end{bmatrix}`$
 
 ---
 
@@ -61,15 +54,11 @@ $$
 
 Given $`\mathcal{B} = {\mathbf{v}\_1, \mathbf{v}\_2}`$ and a vector $`\mathbf{x}`$, solve:
 
-$$
-\mathbf{x} = c_1\mathbf{v}_1 + c_2\mathbf{v}_2
-$$
+$`\mathbf{x} = c_1\mathbf{v}_1 + c_2\mathbf{v}_2`$
 
 Set up and solve the system:
 
-$$
-\mathbf{x} = [\mathbf{v}_1 \ \mathbf{v}_2] \begin{bmatrix} c_1 \\ c_2 \end{bmatrix}
-$$
+$`\mathbf{x} = [\mathbf{v}_1 \ \mathbf{v}_2] \begin{bmatrix} c_1 \\ c_2 \end{bmatrix}`$
 
 **Example:**
 
@@ -80,9 +69,7 @@ and $`\mathcal{B} = \left\{ \begin{pmatrix} 1 \\ 2 \end{pmatrix}, \begin{pmatrix
 
 Solve:
 
-$$
-\begin{bmatrix}3\\5\end{bmatrix} = c_1\begin{bmatrix}1\\2\end{bmatrix} + c_2\begin{bmatrix}1\\1\end{bmatrix} = \begin{bmatrix}c_1 + c_2\\ 2c_1 + c_2\end{bmatrix}
-$$
+$`\begin{bmatrix}3\\5\end{bmatrix} = c_1\begin{bmatrix}1\\2\end{bmatrix} + c_2\begin{bmatrix}1\\1\end{bmatrix} = \begin{bmatrix}c_1 + c_2\\ 2c_1 + c_2\end{bmatrix}`$
 
 Equating:
 
@@ -91,9 +78,7 @@ Equating:
 
 Solving gives $`c\_1 = 2`$, $`c\_2 = 1`$, so:
 
-$$
-[\mathbf{x}]_{\mathcal{B}} = \begin{bmatrix}2\\1\end{bmatrix}
-$$
+$`[\mathbf{x}]_{\mathcal{B}} = \begin{bmatrix}2\\1\end{bmatrix}`$
 
 ---
 
@@ -103,9 +88,10 @@ Same approach as above, extended to more variables:
 
 Given $`\mathcal{B} = {\mathbf{v}\_1, \mathbf{v}\_2, \mathbf{v}\_3}`$ and $`\mathbf{x}`$, solve:
 
-$$
-\mathbf{x} = c_1\mathbf{v}_1 + c_2\mathbf{v}_2 + c_3\mathbf{v}_3
-$$
+
+$`\mathbf{x} = c_1\mathbf{v}_1 + c_2\mathbf{v}_2 + c_3\mathbf{v}_3`$
+
+
 
 **Example:**
 
@@ -126,9 +112,7 @@ $`\begin{bmatrix}1\\4\\3\end{bmatrix} = c_1\begin{bmatrix}1\\0\\0\end{bmatrix} +
 
 Combine:
 
-$$
-= \begin{bmatrix}c_1\\ c_2 + c_3\\ c_2 - c_3\end{bmatrix}
-$$
+$`= \begin{bmatrix}c_1\\ c_2 + c_3\\ c_2 - c_3\end{bmatrix}`$
 
 Equating:
 
@@ -143,9 +127,7 @@ Solving:
 
 So:
 
-$$
-[\mathbf{x}]_{\mathcal{B}} = \begin{bmatrix}1\\ \frac{7}{2}\\ \frac{1}{2}\end{bmatrix}
-$$
+$`[\mathbf{x}]_{\mathcal{B}} = \begin{bmatrix}1\\ \frac{7}{2}\\ \frac{1}{2}\end{bmatrix}`$
 
 ---
 
