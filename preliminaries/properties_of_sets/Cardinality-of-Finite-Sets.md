@@ -75,7 +75,11 @@ $$
 Cardinality helps in solving problems involving:
 
 * **Combinatorics** (number of outcomes)
+
+
 * **Probability** (defining sample spaces)
+
+
 * **Logic and proof** (e.g., pigeonhole principle)
 
 ---
@@ -89,7 +93,11 @@ A = \{1, 2, 3\}, \quad B = \{3, 4, 5\}
 $$
 
 * $`|A| = 3`$, $`|B| = 3`$
+
+
 * $`A \cap B = \{3\}`$
+
+
 * $`|A \cup B| = 3 + 3 - 1 = 5`$
 
 ---
@@ -106,13 +114,13 @@ $$
 
 ### ✅ **Summary Table**
 
-| Concept           | Formula |                |       |   |       |   |   |          |   |
-| ----------------- | ------- | -------------- | ----- | - | ----- | - | - | -------- | - |
-| Cardinality       | (       | A              | )     |   |       |   |   |          |   |
-| Empty set         | (       | \emptyset      | = 0 ) |   |       |   |   |          |   |
-| Union (general)   | (       | A \cup B       | =     | A | +     | B | - | A \cap B | ) |
-| Cartesian product | (       | A \times B     | =     | A | \cdot | B | ) |          |   |
-| Power set         | (       | \mathcal{P}(A) | = 2^{ | A | } )   |   |   |          |   |
+| Concept           | Formula                                                                      |                |       |   |       |   |   |          |   |
+| ----------------- |------------------------------------------------------------------------------| -------------- | ----- | - | ----- | - | - | -------- | - |
+| Cardinality       | $`( \mid A \mid )`$                                                          |   |       
+| Empty set         | $`( \mid \emptyset \mid = 0 )`$                                              |   |    
+| Union (general)   | $`( \mid A \cup B \mid = \mid A \mid + \mid0 B \mid - \mid A \cap B \mid )`$ |
+| Cartesian product | $`( \mid A \times B  \mid = \mid A \mid \cdot \mid B  \mid )`$               |         
+| Power set         | $`( \mid \mathcal{P}(A) \mid = 2^{ \mid A \mid } )`$                         |   |   
 
 ---
 
