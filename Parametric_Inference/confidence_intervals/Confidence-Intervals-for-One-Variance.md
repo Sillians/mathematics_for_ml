@@ -36,23 +36,13 @@ This chi‑square pivot is the key to interval estimation.
 
 For confidence level $`1-\alpha`$ (two‑tailed), let
 
-$$
-\chi^{2}_{\alpha/2,\;n-1},\quad
-\chi^{2}_{1-\alpha/2,\;n-1}
-$$
+$`\chi^{2}_{\alpha/2,\;n-1},\quad \chi^{2}_{1-\alpha/2,\;n-1}`$
 
 denote the **lower** and **upper** critical values of the chi‑square distribution with $n-1$ d.f.
 
 The exact $`(1-\alpha)`$ confidence interval is
 
-$$
-\boxed{
-\left(\,
-\frac{(n-1)S^{2}}{\chi^{2}_{1-\alpha/2,\;n-1}}\;,\;
-\frac{(n-1)S^{2}}{\chi^{2}_{\alpha/2,\;n-1}}
-\right).
-}
-$$
+$`\boxed{ \left(\, \frac{(n-1)S^{2}}{\chi^{2}_{1-\alpha/2,\;n-1}}\;,\; \frac{(n-1)S^{2}}{\chi^{2}_{\alpha/2,\;n-1}} \right). }`$
 
 ---
 
@@ -60,14 +50,7 @@ $$
 
 Simply **take square‑roots** of the variance limits:
 
-$$
-\boxed{
-\left(\,
-\sqrt{\frac{(n-1)S^{2}}{\chi^{2}_{1-\alpha/2,\;n-1}}}\;,\;
-\sqrt{\frac{(n-1)S^{2}}{\chi^{2}_{\alpha/2,\;n-1}}}
-\right).
-}
-$$
+$`\boxed{ \left(\, \sqrt{\frac{(n-1)S^{2}}{\chi^{2}_{1-\alpha/2,\;n-1}}}\;,\; \sqrt{\frac{(n-1)S^{2}}{\chi^{2}_{\alpha/2,\;n-1}}} \right). }`$
 
 ---
 
@@ -77,30 +60,19 @@ Sample size $`n = 15`$; calculated $`S^{2}=42\ \mathrm{(units^2)}`$.
 Goal: 95 % CI.
 
 *Degrees of freedom:* $`\nu = 14`$.
+
+
 From chi‑square table:
 
-$$
-\chi^{2}_{0.025,14}=\,5.629, \qquad
-\chi^{2}_{0.975,14}=\,26.119.
-$$
+$`\chi^{2}_{0.025,14}=\,5.629, \qquad \chi^{2}_{0.975,14}=\,26.119.`$
 
 **Variance CI**
 
-$$
-\left(
-\frac{14\times 42}{26.119},\;
-\frac{14\times 42}{5.629}
-\right)
-=
-\bigl(22.5,\;104.5\bigr)
-$$
+$`\left(\frac{14\times 42}{26.119},\; \frac{14\times 42}{5.629} \right) = \bigl(22.5,\;104.5\bigr)`$
 
 **Std–dev CI**
 
-$$
-\bigl(\sqrt{22.5},\;\sqrt{104.5}\bigr)
-=\;(4.75,\;10.22)
-$$
+$`\bigl(\sqrt{22.5},\;\sqrt{104.5}\bigr) =\;(4.75,\;10.22)`$
 
 Interpretation: we are 95 % confident the population variance lies between 22.5 and 104.5, equivalently the true σ is between 4.75 and 10.22.
 
