@@ -78,13 +78,13 @@ These sets are useful for defining **bounded ranges** or **symmetric sets**.
 Trigonometric sets include solutions to sine, cosine, or tangent conditions over a domain:
 
 $$
-G = \lbrace\left\{ \theta \in [0, 2\pi] \mid \sin(\theta) = \frac{1}{2} \right\}
-\Rightarrow G = \left\{ \frac{\pi}{6}, \frac{5\pi}{6} \rbrace\right\}
+G = \lbrace\{ \theta \in [0, 2\pi] \mid \sin(\theta) = \frac{1}{2} \right\}
+\Rightarrow G = \left\{ \frac{\pi}{6}, \frac{5\pi}{6} \rbrace\}
 $$
 
 $$
-H = \lbrace\left\{ x \in \mathbb{R} \mid \cos(x) = 0 \right\}
-\Rightarrow H = \left\{ \frac{\pi}{2} + n\pi \mid n \in \mathbb{Z} \rbrace\right\}
+H = \lbrace\{ x \in \mathbb{R} \mid \cos(x) = 0 \right\}
+\Rightarrow H = \left\{ \frac{\pi}{2} + n\pi \mid n \in \mathbb{Z} \rbrace\}
 $$
 
 These are often **periodic** sets with infinite elements.
