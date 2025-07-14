@@ -119,10 +119,10 @@ $$
 
 ### ✅ **Summary Table**
 
-| Transformation Type              | PDF Formula                             |                               |                                        |
-|----------------------------------| --------------------------------------- | ----------------------------- | -------------------------------------- |
-| Affine $`Y = aX + b`$            | ( f\_Y(y) = \frac{1}{                   | a                             | } f\_X\left( \frac{y - b}{a} \right) ) |
-| Monotonic Nonlinear $`Y = g(X)`$ | ( f\_Y(y) = f\_X(g^{-1}(y)) \cdot \left | \frac{d}{dy} g^{-1}(y) \right | )                                      |
+| Transformation Type              | PDF Formula                                                                              |                               |                                        |
+|----------------------------------|------------------------------------------------------------------------------------------| ----------------------------- | -------------------------------------- |
+| Affine $`Y = aX + b`$            | $`( f\_Y(y) = \frac{1}{\mid a \mid } f\_X\left( \frac{y - b}{a} \right) )`$              |
+| Monotonic Nonlinear $`Y = g(X)`$ | $`( f\_Y(y) = f\_X(g^{-1}(y)) \cdot \lbrace \mid \frac{d}{dy} g^{-1}(y) \rbrace \mid )`$ |
 
 ---
 

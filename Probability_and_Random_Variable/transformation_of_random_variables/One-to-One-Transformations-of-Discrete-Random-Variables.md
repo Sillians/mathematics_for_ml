@@ -22,8 +22,15 @@ where $g$ is a **one-to-one function**.
 To find the **probability distribution of $`Y = g(X)`$**:
 
 1. List the possible values of $`X`$ and their probabilities.
+
+
+
 2. Apply the function $`g`$ to each value of $`X`$ to obtain values of $`Y`$.
+
+
+
 3. Assign the **same probabilities** from $`X`$ to the corresponding values of $`Y`$.
+
 
 #### **Example:**
 
@@ -66,7 +73,11 @@ $$
 To compute $`P(Y \in A)`$, for any event $`A \subseteq \text{Range}(Y)`$:
 
 1. Identify the values of $`X`$ such that $`g(X) \in A`$
+
+
 2. Use the original PMF of $`X`$ to compute $`P(X \in g^{-1}(A))`$
+
+
 
 #### **Example:**
 

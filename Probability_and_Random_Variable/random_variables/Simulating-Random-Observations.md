@@ -10,14 +10,22 @@ random observations using the **inverse transform sampling method**. This method
 #### **Steps:**
 
 1. Generate a uniform random variable $`U \sim U(0, 1)`$.
+
+
 2. Compute $`X = F^{-1}(U)`$, where $`F^{-1}`$ is the inverse of the CDF.
+
+
 3. The value $X$ is a simulated observation from the original distribution.
+
+
 
 #### **Example:**
 
 Let the CDF be $`F(x) = 1 - e^{-\lambda x}`$ (Exponential distribution).
 
 * Invert: $`F^{-1}(u) = -\frac{1}{\lambda} \ln(1 - u)`$
+
+
 * Simulate: $`X = -\frac{1}{\lambda} \ln(1 - U)`$
 
 ---

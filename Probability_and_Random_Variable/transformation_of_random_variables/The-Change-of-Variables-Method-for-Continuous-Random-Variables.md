@@ -15,13 +15,21 @@ distributions of nonlinear functions of a variable.
 The method is applicable when:
 
 * The transformation is **monotonic** (strictly increasing or decreasing) on the domain of interest.
+
+
 * The original variable has a known **continuous PDF**.
+
+
 * The transformation is **differentiable**, and its inverse exists on the support of the transformed variable.
+
 
 Let:
 
 * $X$ be a continuous random variable with PDF $`f_X(x)`$,
+
+
 * $`Y = g(X)`$ be a transformation of $X$, where $g$ is one-to-one and differentiable.
+
 
 ---
 
@@ -36,6 +44,8 @@ $$
 **Explanation:**
 
 * The absolute value $`|a|`$ accounts for scaling.
+
+
 * The substitution $x = \frac{y - b}{a}$ adjusts the original density to the new variable.
 
 **Example:**
@@ -81,9 +91,9 @@ The transformation rule ensures that the **area under the PDF remains 1**, and i
 
 ### ✅ Summary:
 
-| Transformation Type  | PDF Formula                             |                               |                                        |
-| -------------------- | --------------------------------------- | ----------------------------- | -------------------------------------- |
-| Affine $`Y = aX + b`$  | ( f\_Y(y) = \frac{1}{                   | a                             | } f\_X\left( \frac{y - b}{a} \right) ) |
-| Nonlinear $`Y = g(X)`$ | ( f\_Y(y) = f\_X(g^{-1}(y)) \cdot \left | \frac{d}{dy} g^{-1}(y) \right | )                                      |
+| Transformation Type  | PDF Formula                                                                           |                               |                                        |
+| -------------------- |---------------------------------------------------------------------------------------| ----------------------------- | -------------------------------------- |
+| Affine $`Y = aX + b`$  | $`( f\_Y(y) = \frac{1}{\mid a \mid } f\_X\left( \frac{y - b}{a} \right) )`$           |
+| Nonlinear $`Y = g(X)`$ | $`( f\_Y(y) = f\_X(g^{-1}(y)) \cdot \left \mid \frac{d}{dy} g^{-1}(y) \right \mid )`$ |
 
 This method is foundational in probability, especially for distributions of derived statistics and simulations.

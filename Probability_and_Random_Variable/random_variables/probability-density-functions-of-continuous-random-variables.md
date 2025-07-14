@@ -15,9 +15,17 @@ A **continuous random variable** is one that can take **any value within an inte
 #### ✅ **Examples of Continuous Random Variables:**
 
 * The **time** a customer waits in line
+
+
 * The **temperature** in a city at a given time
+
+
 * The **height** of a randomly chosen person
+
+
 * The **proportion** of defective items in a batch
+
+
 
 These variables can take on an **uncountably infinite** number of values and are modeled using **PDFs**.
 
