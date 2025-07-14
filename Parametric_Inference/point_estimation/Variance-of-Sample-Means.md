@@ -10,12 +10,20 @@ known as the **sampling distribution of the sample mean**.
 If:
 
 * The population has a mean $`\mu`$
+
+
 * The population has variance $`\sigma^2`$
+
+
 * The sample size is $n$
+
+
 
 Then:
 
 * The **mean** of the sampling distribution of the sample mean $`\bar{X}`$ is $`\mu`$
+
+
 * The **variance** of the sample mean is:
 
 $$
@@ -71,7 +79,11 @@ $$
 Where:
 
 * $`z_{\alpha/2}`$ is the z-score corresponding to the confidence level
+
+
 * $`\sigma`$ is the population standard deviation
+
+
 * $`\text{ME}`$ is the desired margin of error
 
 If $\sigma$ is unknown, a preliminary estimate $s$ or a prior study estimate is used.
@@ -99,7 +111,11 @@ $$
 ### **Key Insights**
 
 * **Larger samples** yield **lower variance** and **smaller standard error**, making estimates more precise.
+
+
 * **Standard error** is critical in constructing **confidence intervals**.
+
+
 * Knowing or estimating population **standard deviation** is essential when determining sample size.
 
 This foundation supports reliable statistical estimation and hypothesis testing in real-world studies.

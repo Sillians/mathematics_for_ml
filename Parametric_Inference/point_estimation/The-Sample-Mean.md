@@ -10,7 +10,9 @@ $$
 X_1, X_2, \dots, X_n
 $$
 
+
 The **sample mean** $`\bar{X}`$ is defined as:
+
 
 $$
 \bar{X} = \frac{1}{n} \sum_{i=1}^{n} X_i
@@ -24,14 +26,19 @@ It serves as an estimator of the **population mean** $`\mu`$ when the full popul
 
 The sample mean $`\bar{X}`$ is a **point estimator** of the population mean $`\mu`$:
 
+
 $$
 \bar{X} \approx \mu
 $$
 
+
 This estimation becomes more accurate as:
 
 * The sample size $n$ increases (by the **Law of Large Numbers**),
+
+
 * The sample is representative of the population (i.e., random and unbiased).
+
 
 **Example**:
 If a researcher collects the heights of 100 randomly selected individuals and finds $`\bar{X} = 170 \text{ cm}`$, they estimate:
@@ -99,7 +106,11 @@ The estimated population mean is $`\mu \approx 12`$.
 ## **6. Visual Summary**
 
 * **Sample mean** aggregates the data into a single central tendency.
+
+
 * **Expected value** of the sample mean equals the population mean if the sample is random and i.i.d.
+
+
 * **Precision** increases as $n$ increases due to shrinking variance.
 
 ---
