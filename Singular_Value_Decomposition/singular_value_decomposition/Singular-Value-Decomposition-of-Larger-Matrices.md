@@ -11,7 +11,11 @@ A = U \Sigma V^\mathsf{T}
 $$
 
 * $`U \in \mathbb{R}^{m \times m}`$: orthogonal matrix whose columns are **left singular vectors**.
+
+
 * $`V \in \mathbb{R}^{n \times n}`$: orthogonal matrix whose columns are **right singular vectors**.
+
+
 * $`\Sigma \in \mathbb{R}^{m \times n}`$: diagonal matrix with nonnegative entries $`\sigma\_1 \ge \sigma\_2 \ge \dots \ge \sigma\_r > 0`$ on the diagonal (called **singular values**), where $`r = \text{rank}(A)`$.
 
 In the **reduced SVD**, we write:
@@ -23,7 +27,11 @@ $$
 with:
 
 * $`U\_r \in \mathbb{R}^{m \times r}`$
+
+
 * $`\Sigma\_r \in \mathbb{R}^{r \times r}`$
+
+
 * $`V\_r \in \mathbb{R}^{n \times r}`$
 
 ---
@@ -38,8 +46,14 @@ $$
 A^\mathsf{T}A = V \Lambda V^\mathsf{T}
 $$
 
+
+
 * $`A^\mathsf{T}A`$ is positive semi-definite.
+
+
 * The eigenvalues of $`A^\mathsf{T}A`$ are $`\lambda\_i = \sigma\_i^2`$.
+
+
 * The columns of $V$ are orthonormal eigenvectors of $`A^\mathsf{T}A`$.
 
 2. Then,
@@ -63,7 +77,11 @@ u_i = \frac{1}{\sigma_i} A v_i, \quad i = 1, \dots, r
 $$
 
 * These vectors $`u\_i`$ are orthonormal if $`A v\_i \neq 0`$.
+
+
 * The $`u\_i`$ form the first $r$ columns of $`U\_r`$.
+
+
 * If $`m > r`$, then $U$ can be completed with orthonormal vectors spanning the null space of $`A^\mathsf{T}`$.
 
 ---
@@ -73,12 +91,19 @@ $$
 #### **Case 1: Zero Singular Values**
 
 * If $`\sigma\_i = 0`$, then $`A v\_i = 0`$, and $`v\_i`$ lies in $`\ker(A)`$.
+
+
 * Such $`v\_i`$ do not contribute to the image of $A$.
+
+
+
 * The corresponding $`u\_i`$ are not defined by $`u\_i = \frac{1}{\sigma\_i} A v\_i`$, so we only use $`r = \text{rank}(A)`$ nonzero singular values to define the image.
 
 #### **Case 2: Multiple or Repeated Singular Values**
 
 * If $`\sigma\_i = \sigma\_j`$ (e.g., $`\sigma\_i = \sigma\_j = 5`$), then the subspace spanned by $`{u\_i, u\_j}`$ must be orthonormal, but $`A v\_i`$ and $`A v\_j`$ may not be.
+
+
 * In this case, we **orthonormalize** the vectors $`{A v\_i}`$ using **Gram-Schmidt** or QR **decomposition** to maintain **orthogonality**.
 
 ---
@@ -90,7 +115,10 @@ Numerical or geometric situations might require explicit orthogonalization:
 #### **Scenario:**
 
 * The computed vectors $`A v\_i`$ are linearly dependent or numerically unstable.
+
+
 * This occurs especially when singular values are close or when working with large ill-conditioned matrices.
+
 
 #### **Solution:**
 
@@ -126,8 +154,14 @@ This ensures $`U\_r^\mathsf{T} U\_r = I\_r`$.
 ### **VII. Applications of Larger SVD**
 
 * **Low-rank approximation**: Keep top-$k$ singular values/vectors for compression.
+
+
 * **Principal Component Analysis (PCA)**: Use $V$ from SVD of centered data matrix.
+
+
 * **Latent Semantic Analysis** in NLP.
+
+
 * **Pseudoinverse computation**:
 
   $$
