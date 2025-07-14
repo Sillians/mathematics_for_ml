@@ -84,11 +84,11 @@ Here is a comprehensive list of **standard set theory notations**, grouped by ca
 
 ### **7. Cardinality and Finite Sets**
 
-| Symbol       | Meaning                                             |            |                                             |   |             |
-| ------------ | --------------------------------------------------- | ---------- | ------------------------------------------- | - | ----------- |
-| (            | A                                                   | ) or $\#A$ | Cardinality (number of elements in set $A$) |   |             |
-| $A \cong B$  | Sets $A$ and $B$ have same cardinality (equivalent) |            |                                             |   |             |
-| $A \times B$ | Cartesian product, cardinality (                    | A          |                                             | B | ) if finite |
+| Symbol                      | Meaning                                                            |                         |                                             |     |    
+|-----------------------------|--------------------------------------------------------------------| --------------------------------------------------- | - | ----------- |
+| $`(\mid A \mid )`$ or $\#A$ | Cardinality (number of elements in set $A$)                        |   
+| $A \cong B$                 | Sets $A$ and $B$ have same cardinality (equivalent)                |                                               |   |             |
+| $A \times B$                | Cartesian product, cardinality $`(\mid A \mid  B \mid )`$ if finite |
 
 ---
 
