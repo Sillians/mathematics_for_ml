@@ -122,7 +122,7 @@ Numerical or geometric situations might require explicit orthogonalization:
 
 #### **Solution:**
 
-Let $`W = \[A v\_1, A v\_2, \dots, A v\_r]`$
+Let $`W = [A v\_1, A v\_2, \dots, A v\_r]`$
 
 1. Apply **QR Decomposition** to $W$:
 
