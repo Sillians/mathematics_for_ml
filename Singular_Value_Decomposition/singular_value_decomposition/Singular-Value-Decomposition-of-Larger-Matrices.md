@@ -147,7 +147,7 @@ This ensures $`U\_r^\mathsf{T} U\_r = I\_r`$.
 | Right singular vectors    | $V$        | Eigenvectors of $`A^\mathsf{T}A`$                 |
 | Singular values           | $`\Sigma`$ | Square roots of eigenvalues of $`A^\mathsf{T}A`$   |
 | Left singular vectors     | $U$        | $`u\_i = \frac{1}{\sigma\_i} A v\_i`$              |
-| Orthonormalizing \$u\_i\$ | $U$        | Apply QR on $`\[A v\_1, \dots, A v\_r]`$ if necessary |
+| Orthonormalizing \$u\_i\$ | $U$        | Apply QR on $`[A v\_1, \dots, A v\_r]`$ if necessary |
 
 ---
 

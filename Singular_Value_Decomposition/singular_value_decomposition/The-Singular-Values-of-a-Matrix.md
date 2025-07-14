@@ -11,11 +11,15 @@ $$
 
 * $`V \in \mathbb R^{n\times n}`$ orthogonal (columns = *right* singular vectors)
 
-* $`\Sigma = \operatorname{diag}\bigl(\sigma\_1,\ldots,\sigma\_r,0,\dots\bigr)`$, $`\sigma\_1\ge\dots\ge\sigma\_r>0`$
+* $`\Sigma = \\mathrm{diag}\bigl(\sigma\_1,\ldots,\sigma\_r,0,\dots\bigr)`$, $`\sigma\_1\ge\dots\ge\sigma\_r>0`$
+
+
 
 The numbers $`\sigma\_i`$ are the **singular values**.  Geometrically:
 
 * The columns of $V$ form an orthonormal basis of the domain.
+
+
 * $A$ sends the *unit* sphere into an *ellipsoid* whose semi‐axes have lengths $`\sigma\_1,\dots,\sigma\_r`$ and directions given by the corresponding columns of $U$.
 
 ---
@@ -34,6 +38,8 @@ $$
 Hence:
 
 * **Length of semi-major axis:** $`\boxed{\sigma\_1}`$
+
+
 * **Direction:** $`\mathbf u\_1`$
 
 ---
@@ -43,7 +49,7 @@ Hence:
 If the singular values are already known:
 
 $$
-\Sigma=\operatorname{diag}(\sigma_1,\sigma_2,\dots,\sigma_r,0,\dots)
+\Sigma=\\mathrm{diag}(\sigma_1,\sigma_2,\dots,\sigma_r,0,\dots)
 $$
 
 then
@@ -96,15 +102,15 @@ Suppose we have a symmetric matrix $B$ (a quadratic form) with eigen-pairs $`(\l
 
 1. Because $A$ is diagonal with positive entries, its singular values are its diagonal entries in descending order:
 
-   $$
-   \sigma_1=4,\;\sigma_2=2,\;\sigma_3=1.
-   $$
+$$
+\sigma_1=4,\;\sigma_2=2,\;\sigma_3=1.
+$$
 
 2. The unit sphere maps to the ellipsoid
 
-   $$
-   \frac{x'^2}{4^2}+\frac{y'^2}{2^2}+\frac{z'^2}{1^2}=1.
-   $$
+$$
+\frac{x'^2}{4^2}+\frac{y'^2}{2^2}+\frac{z'^2}{1^2}=1.
+$$
 
 3. The semi-major axis has length $`\sigma\_1=4`$ along the positive and negative $`x'`$-direction.
    The corresponding unit vectors in the domain are $`\pm(1,0,0)`$.
