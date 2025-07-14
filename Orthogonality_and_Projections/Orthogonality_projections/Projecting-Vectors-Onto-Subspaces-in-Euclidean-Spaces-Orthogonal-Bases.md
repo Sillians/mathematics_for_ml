@@ -11,15 +11,13 @@ projections are especially efficient to compute.
 Given a subspace $W$ of $`\mathbb{R}^n`$ spanned by orthogonal vectors $`\mathbf{u}_1, \mathbf{u}_2, \dots, \mathbf{u}_k`$, and a vector $`\mathbf{v} \in \mathbb{R}^n`$, 
 the **orthogonal projection** of $`\mathbf{v}`$ onto $W$ is:
 
-$$
-\text{proj}_W(\mathbf{v}) = \sum_{i=1}^k \frac{\mathbf{v} \cdot \mathbf{u}_i}{\|\mathbf{u}_i\|^2} \mathbf{u}_i
-$$
+$`\text{proj}_W(\mathbf{v}) = \sum_{i=1}^k \frac{\mathbf{v} \cdot \mathbf{u}_i}{\|\mathbf{u}_i\|^2} \mathbf{u}_i`$
+
 
 If the vectors are orthonormal (i.e., $`\|\mathbf{u}_i\| = 1`$), this simplifies to:
 
-$$
-\text{proj}_W(\mathbf{v}) = \sum_{i=1}^k (\mathbf{v} \cdot \mathbf{u}_i) \mathbf{u}_i
-$$
+
+$`\text{proj}_W(\mathbf{v}) = \sum_{i=1}^k (\mathbf{v} \cdot \mathbf{u}_i) \mathbf{u}_i`$
 
 ---
 
