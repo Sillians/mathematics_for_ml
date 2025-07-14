@@ -83,26 +83,6 @@ G = \{\theta \in [0, 2\pi] \mid \sin(\theta) = 1/2\}
 $$
 
 
----
-
-$$
-H = \lbrace\{ x \in \mathbb{R} \mid \cos(x) = 0 \right\}
-\Rightarrow H = \left\{ \frac{\pi}{2} + n\pi \mid n \in \mathbb{Z} \rbrace\}
-$$
-
-
-$$
-H = \{ x \in \mathbb{R} \mid \cos(x) = 0 \}
-\Rightarrow H = \{ \frac{\pi}{2} + n\pi \mid n \in \mathbb{Z} \}
-$$
-
-
-$$
-H = \left\{ x \in \mathbb{R} \mid \cos(x) = 0 \right\}
-\Rightarrow H = \left\{ \frac{\pi}{2} + n\pi \mid n \in \mathbb{Z} \right\}
-$$
-
-
 
 $$
 H = \{\, x \in \mathbb{R} \mid \cos(x) = 0 \,\}
