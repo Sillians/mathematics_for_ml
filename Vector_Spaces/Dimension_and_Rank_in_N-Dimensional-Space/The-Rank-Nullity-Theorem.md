@@ -73,17 +73,7 @@ So the solution space of $`A\mathbf{x} = \mathbf{0}`$ has dimension 3.
 
 If $`\text{Null}(A)`$ is spanned by:
 
-$$
-\left\{
-\begin{bmatrix}
-1 \\ 0 \\ 1 \\ 0
-\end{bmatrix},
-\begin{bmatrix}
-0 \\ 1 \\ -1 \\ 0
-\end{bmatrix}
-\right\}
-\Rightarrow \text{nullity}(A) = 2
-$$
+$`\left\{ \begin{bmatrix} 1 \\ 0 \\ 1 \\ 0 \end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ -1 \\ 0 \end{bmatrix} \right\} \Rightarrow \text{nullity}(A) = 2`$
 
 And $A$ has 4 columns $`\Rightarrow n = 4`$, so:
 
@@ -97,9 +87,7 @@ $$
 
 If the column space of $`A \in \mathbb{R}^{3 \times 5}`$ is spanned by 3 vectors, then:
 
-$$
-\text{rank}(A) = 3,\quad \text{nullity}(A) = 5 - 3 = \boxed{2}
-$$
+$`\text{rank}(A) = 3,\quad \text{nullity}(A) = 5 - 3 = \boxed{2}`$
 
 ---
 
@@ -117,16 +105,16 @@ $$
 
 #### **Using Rank-Nullity + Invertibility: True Statements**
 
-* If $\text{nullity}(A) = 0$, then **$A$ has full rank** $\Rightarrow$ invertible if square
+* If $`\text{nullity}(A) = 0`$, then **$A$ has full rank** $`\Rightarrow`$ invertible if square
 
 
-* If $\text{rank}(A) = n$, then columns are linearly independent
+* If $`\text{rank}(A) = n`$, then columns are linearly independent
 
 
-* If $\text{nullity}(A) > 0$, then $A$ is **not invertible**
+* If $`\text{nullity}(A) > 0`$, then $A$ is **not invertible**
 
 
-* If $\text{rank}(A) < n$, then columns are **linearly dependent**
+* If $`\text{rank}(A) < n`$, then columns are **linearly dependent**
 
 ---
 

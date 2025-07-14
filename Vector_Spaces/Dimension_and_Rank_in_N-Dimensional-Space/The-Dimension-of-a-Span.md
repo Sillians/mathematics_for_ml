@@ -14,9 +14,7 @@ set—this tells you how many directions in space the span "reaches."
   Given vectors $\mathbf{v}_1, \mathbf{v}_2, ..., \mathbf{v}_k \in \mathbb{R}^n$,
   the span is:
 
-$$
-\text{Span}(\{\mathbf{v}_1, \mathbf{v}_2, ..., \mathbf{v}_k\}) = \left\{ \sum_{i=1}^{k} c_i \mathbf{v}_i \mid c_i \in \mathbb{R} \right\}
-$$
+$`\text{Span}(\{\mathbf{v}_1, \mathbf{v}_2, ..., \mathbf{v}_k\}) = \left\{ \sum_{i=1}^{k} c_i \mathbf{v}_i \mid c_i \in \mathbb{R} \right\}`$
 
 * **Dimension of the span** = Number of linearly independent vectors among $`\mathbf{v}_1, ..., \mathbf{v}_k`$
 
@@ -47,8 +45,13 @@ When visual inspection is difficult (especially with more than 2 vectors), row r
 #### Steps:
 
 1. **Form a matrix** $A$ where each vector is a column.
+
+
 2. **Row reduce** the matrix (e.g., to row echelon or reduced row echelon form).
+
+
 3. **Count the number of pivot columns**. This is the number of linearly independent columns and hence the **dimension of the span**.
+
 
 #### Example:
 
