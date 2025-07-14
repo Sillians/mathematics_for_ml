@@ -18,7 +18,11 @@ $$
 To **visualize** a Cartesian product:
 
 * List all elements of $`A`$ along one axis (horizontal).
+
+
 * List all elements of $`B`$ along the other axis (vertical).
+
+
 * Draw lines or grid points where combinations occur.
 
 **Example:**
@@ -50,6 +54,8 @@ $$
 Note:
 
 * **Order matters**: $`(1, x) \neq (x, 1)`$
+
+
 * $`A \times B \neq B \times A`$ unless $`A = B`$ and elements are symmetrically paired
 
 ---

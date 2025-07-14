@@ -13,7 +13,11 @@ f: A \to B, \quad x \mapsto f(x)
 $$
 
 * **$`A`$**: domain of the function
+
+
 * **$`B`$**: codomain of the function
+
+
 * **$`x \mapsto f(x)`$**: describes how each element of $A$ maps to an element in $B$
 
 **Example:**
@@ -31,6 +35,8 @@ This means the function takes any real number and maps it to its square.
 To define a function:
 
 * Specify the domain and codomain
+
+
 * Write the transformation rule clearly
 
 **Example:**
@@ -52,7 +58,11 @@ Alternative notations may suppress explicit domains/codomains or emphasize the r
 **Variations:**
 
 * $`x \mapsto x^2`$ (domain/codomain implied)
+
+
 * $`f(x) = x^2`$
+
+
 * $`f: x \mapsto x^2`$
 
 These are context-dependent but equivalent in function definition.
@@ -62,6 +72,8 @@ These are context-dependent but equivalent in function definition.
 ### **4. Identifying Codomains and Ranges**
 
 * **Codomain**: the set $`B`$ in $`f: A \to B`$; what outputs *could* be.
+
+
 * **Range**: the actual set of outputs produced by applying $`f`$ to elements of $`A`$
 
 **Example:**
@@ -71,6 +83,8 @@ f: \mathbb{R} \to \mathbb{R}, \quad x \mapsto x^2
 $$
 
 * **Codomain**: $`\mathbb{R}`$
+
+
 * **Range**: $`[0, \infty)`$
 
 Thus, not all elements in the codomain are necessarily in the range.

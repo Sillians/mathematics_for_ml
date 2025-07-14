@@ -17,6 +17,8 @@ $$
 $$
 
 * Here, $I$ is the *index set*, and each $`A_i`$ is a set corresponding to index $`i \in I`$.
+
+
 * Example: Let $`I = \{1, 2, 3\}`$ and define $`A_i = \{i, i+1\}`$. Then:
 
 $$
@@ -43,6 +45,8 @@ Example:
 Let $`A_1 = \{1, 2\}, A_2 = \{2, 3\}`$, then:
 
 * $`\bigcup_{i=1}^2 A_i = \{1, 2, 3\}`$
+
+
 * $`\bigcap_{i=1}^2 A_i = \{2\}`$
 
 #### **3. Finding Unions and Intersections of (Countably) Infinite Families of Indexed Sets**

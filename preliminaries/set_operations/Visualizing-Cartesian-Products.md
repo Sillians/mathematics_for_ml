@@ -19,6 +19,8 @@ $$
 #### Geometry:
 
 * $`A \times B \subseteq \mathbb{R}^2`$
+
+
 * When $A$ and $B$ are intervals, say $`A = [0, 1]`$, $`B = [2, 3]`$, the product forms a **rectangle** on the plane.
 
 ---
@@ -28,8 +30,14 @@ $$
 Some special sets produce recognizable regions:
 
 * $`A = [0, 1], B = [0, 1]`$ ⇒ Unit square
+
+
 * $`A = \mathbb{R}, B = \{0\}`$ ⇒ The x-axis
+
+
 * $`A = \{0\}, B = \mathbb{R}`$ ⇒ The y-axis
+
+
 * $`A = \mathbb{N}, B = \mathbb{N}`$ ⇒ Lattice of discrete grid points
 
 This helps in understanding spatial structure and set behavior.

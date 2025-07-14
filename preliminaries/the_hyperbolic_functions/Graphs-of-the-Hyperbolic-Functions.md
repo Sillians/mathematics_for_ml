@@ -20,9 +20,16 @@ $$
 #### **Graph & Properties:**
 
 * **Shape**: Odd function (symmetric about the origin)
+
+
 * **Range**: $`(-\infty, \infty)`$
+
+
 * **Domain**: $`(-\infty, \infty)`$
+
+
 * **Behavior**:
+
 
   * Increases without bound as $`x \to \infty`$
   * Decreases without bound as $`x \to -\infty`$
@@ -32,6 +39,8 @@ $$
 #### **Graph Highlights:**
 
 * Smooth S-curve through origin.
+
+
 * Lies above the x-axis for $`x > 0`$, below for $`x < 0`$
 
 ---
@@ -47,8 +56,14 @@ $$
 #### **Graph & Properties:**
 
 * **Shape**: Even function (symmetric about the y-axis)
+
+
 * **Range**: $`[1, \infty)`$
+
+
 * **Domain**: $`(-\infty, \infty)`$
+
+
 * **Behavior**:
 
   * Minimum value of 1 at $`x = 0`$
@@ -58,6 +73,8 @@ $$
 #### **Graph Highlights:**
 
 * Looks like an upward-opening parabola, but grows exponentially.
+
+
 * Represents the shape of a **catenary** (hanging flexible chain).
 
 ---
@@ -71,20 +88,31 @@ $$
 $$
 
 #### **Graph & Properties:**
-
 * **Shape**: Odd function
+
+
 * **Range**: $`(-1, 1)`$
+
+
 * **Domain**: $`(-\infty, \infty)`$
+
+
 * **Horizontal Asymptotes**:
 
   * $`y = 1`$ as $`x \to \infty`$
   * $`y = -1`$ as $`x \to -\infty`$
+
+
 * **Intercept**: Passes through the origin, $`\tanh(0) = 0`$
-* **Derivative**: $`\frac{d}{dx} \tanh(x) = \operatorname{sech}^2(x)`$
+
+
+* **Derivative**: $`\frac{d}{dx} \tanh(x) = \\mathrm{sech}^2(x)`$
 
 #### **Graph Highlights:**
 
 * S-shaped curve bounded between −1 and 1.
+
+
 * Steepest slope at $`x = 0`$.
 
 ---

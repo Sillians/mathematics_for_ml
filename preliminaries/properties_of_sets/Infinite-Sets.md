@@ -18,8 +18,10 @@ Sets defined with inequalities often produce infinite sets. For example:
 * $`A = \{ x \in \mathbb{R} : x > 3 \}`$
   → Contains all real numbers greater than 3 — **uncountably infinite**.
 
+
 * $`B = \{ n \in \mathbb{Z} : n \leq -5 \}`$
   → Contains all integers less than or equal to −5 — **countably infinite**.
+
 
 * $`C = \{ x \in \mathbb{N} : x^2 < 1000 \}`$
   → This is **finite**, since it’s bounded.
@@ -34,8 +36,10 @@ Trigonometric functions are periodic, so sets defined using these often yield **
 * $`A = \{ x \in \mathbb{R} : \sin x = 0 \}`$
   → Solutions: $`x = n\pi`$, for $`n \in \mathbb{Z}`$ — **countably infinite**.
 
+
 * $`B = \{ x \in \mathbb{R} : \tan x = 1 \}`$
   → Solutions: $`x = \frac{\pi}{4} + n\pi`$, for $`n \in \mathbb{Z}`$ — **countably infinite**.
+
 
 * $`C = \{ x \in \mathbb{Q} : \cos x = 0 \}`$
   → This set is **finite or possibly empty**, since cosine only equals 0 at irrational multiples of $`\pi`$.
@@ -49,8 +53,10 @@ A derivative-based condition can also define an infinite set.
 * $`A = \{ x \in \mathbb{R} : f'(x) = 0 \}`$
   If $`f`$ is a constant function, then this is **all of $`\mathbb{R}`$** — **uncountably infinite**.
 
+
 * $`B = \{ x \in \mathbb{R} : \frac{d}{dx} \sin x = 0 \}`$
   That is, $`\cos x = 0`$ → $`x = \frac{\pi}{2} + n\pi`$, $`n \in \mathbb{Z}`$ — **countably infinite**.
+
 
 * $`C = \{ x \in \mathbb{Z} : \frac{d}{dx} x^2 = 0 \}`$
   → No such $`x \in \mathbb{Z}`$, so **empty set**.
