@@ -48,9 +48,7 @@ $$
 
 3. **Basis**:
 
-$$
-\left\{ \begin{bmatrix}1 \\ 2 \\ 3\end{bmatrix} \right\}
-$$
+$`\left\{ \begin{bmatrix}1 \\ 2 \\ 3\end{bmatrix} \right\}`$
 
 ---
 
@@ -74,74 +72,50 @@ Suppose $A \in \mathbb{R}^{2 \times n}$, and you're given a set of vectors $S = 
 
 Let
 
-$$
-A = \begin{bmatrix}
-1 & 2 & 3 \\
-0 & 1 & 1
-\end{bmatrix}, \quad S = \left\{
-\begin{bmatrix}1 \\ 0\end{bmatrix}, \begin{bmatrix}2 \\ 1\end{bmatrix}
-\right\}
-$$
+$`A = \begin{bmatrix} 1 & 2 & 3 \\0 & 1 & 1 \end{bmatrix}, \quad S = \left\{ \begin{bmatrix}1 \\ 0\end{bmatrix}, \begin{bmatrix}2 \\ 1\end{bmatrix} \right\}`$
 
 Row-reducing $A$, the pivot columns are 1 and 2. So,
 
-$$
-\text{Basis} = \left\{
-\begin{bmatrix}1 \\ 0\end{bmatrix}, \begin{bmatrix}2 \\ 1\end{bmatrix}
-\right\}
-$$
+$`\text{Basis} = \left\{ \begin{bmatrix}1 \\ 0\end{bmatrix}, \begin{bmatrix}2 \\ 1\end{bmatrix} \right\}`$
 
-Since $S$ exactly matches the basis, $S$ is indeed a basis for $\text{Col}(A)$.
+Since $S$ exactly matches the basis, $S$ is indeed a basis for $`\text{Col}(A)`$.
 
 ---
 
 ### **4. Determining Whether a Given Set Is a Basis of the Column Space of a Matrix for a Larger Matrix**
 
-Suppose $A \in \mathbb{R}^{m \times n}$ with $m > 2$. To verify if a given set $S = \{ \mathbf{v}_1, \dots, \mathbf{v}_k \} \subset \mathbb{R}^m$ is a basis of $\text{Col}(A)$:
+Suppose $`A \in \mathbb{R}^{m \times n}`$ with $`m > 2`$. To verify if a given set $`S = \{ \mathbf{v}_1, \dots, \mathbf{v}_k \} \subset \mathbb{R}^m`$ is a basis of $`\text{Col}(A)`$:
 
 **Steps**:
 
-1. Find a basis $B$ for $\text{Col}(A)$ using Gaussian elimination or by computing the rank.
+1. Find a basis $B$ for $`\text{Col}(A)`$ using Gaussian elimination or by computing the rank.
 
 2. Check if:
 
    * $S$ is linearly independent (using rank or reduced row echelon form).
-   * $\text{span}(S) = \text{span}(B)$, i.e., **same dimension and same span**.
+   * $`\text{span}(S) = \text{span}(B)`$, i.e., **same dimension and same span**.
 
 3. Alternatively:
 
    * Stack $S$ as columns of matrix $M$
    * Stack $A$'s columns as matrix $N$
-   * If $\text{rank}(M) = \text{rank}(N)$ and $\text{col}(M) \subseteq \text{col}(N)$, then $S$ is a basis.
+   * If $`\text{rank}(M) = \text{rank}(N)`$ and $`\text{col}(M) \subseteq \text{col}(N)`$, then $S$ is a basis.
 
 #### **Example**:
 
 Let
 
-$$
-A = \begin{bmatrix}
-1 & 0 & 2 & 3 \\
-2 & 0 & 4 & 6 \\
-3 & 0 & 6 & 9
-\end{bmatrix}, \quad
-S = \left\{
-\begin{bmatrix}1 \\ 2 \\ 3\end{bmatrix}, \begin{bmatrix}2 \\ 4 \\ 6\end{bmatrix}
-\right\}
-$$
+$`A = \begin{bmatrix} 1 & 0 & 2 & 3 \\2 & 0 & 4 & 6 \\3 & 0 & 6 & 9 \end{bmatrix}, \quad S = \left\{ \begin{bmatrix}1 \\ 2 \\ 3\end{bmatrix}, \begin{bmatrix}2 \\ 4 \\ 6\end{bmatrix} \right\}`$
 
 Reduce $A$ → only column 1 is a pivot. Column 3 is a multiple of column 1. So:
 
-* Basis of $\text{Col}(A)$ is:
+* Basis of $`\text{Col}(A)`$ is:
 
-  $$
-  \left\{
-  \begin{bmatrix}1 \\ 2 \\ 3\end{bmatrix}
-  \right\}
-  $$
+$`\left\{ \begin{bmatrix}1 \\ 2 \\ 3\end{bmatrix} \right\}`$
 
 * $S$ contains this vector and one dependent vector ⇒ Not linearly independent.
 
-* So $S$ is **not a basis** of $\text{Col}(A)$.
+* So $S$ is **not a basis** of $`\text{Col}(A)`$.
 
 ---
 
@@ -154,5 +128,3 @@ Reduce $A$ → only column 1 is a pivot. Column 3 is a multiple of column 1. So:
 | Check if set $S$ is a basis (larger matrix) | 1. Compare rank of $A$ and matrix with $S$'s columns <br> 2. Check span inclusion and independence             |
 
 ---
-
-Let me know if a fully worked example with symbolic entries is needed.
