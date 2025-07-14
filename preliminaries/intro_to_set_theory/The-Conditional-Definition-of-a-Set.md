@@ -78,18 +78,6 @@ These sets are useful for defining **bounded ranges** or **symmetric sets**.
 Trigonometric sets include solutions to sine, cosine, or tangent conditions over a domain:
 
 $$
-G = \lbrace\{ \theta \in [0, 2\pi] \mid \sin(\theta) = \frac{1}{2} \right\}
-\Rightarrow G = \left\{ \frac{\pi}{6}, \frac{5\pi}{6} \rbrace\}
-$$
-
-
-$$
-G = \left\{ \theta \in [0, 2\pi] \mid \sin(\theta) = \frac{1}{2} \right\}
-\Rightarrow G = \left\{ \frac{\pi}{6}, \frac{5\pi}{6} \right\}
-$$
-
-
-$$
 G = \{\theta \in [0, 2\pi] \mid \sin(\theta) = 1/2\}
 \Rightarrow G = \{\pi/6, 5\pi/6\}
 $$
@@ -100,6 +88,25 @@ $$
 $$
 H = \lbrace\{ x \in \mathbb{R} \mid \cos(x) = 0 \right\}
 \Rightarrow H = \left\{ \frac{\pi}{2} + n\pi \mid n \in \mathbb{Z} \rbrace\}
+$$
+
+
+$$
+H = \{ x \in \mathbb{R} \mid \cos(x) = 0 \}
+\Rightarrow H = \{ \frac{\pi}{2} + n\pi \mid n \in \mathbb{Z} \}
+$$
+
+
+$$
+H = \left\{ x \in \mathbb{R} \mid \cos(x) = 0 \right\}
+\Rightarrow H = \left\{ \frac{\pi}{2} + n\pi \mid n \in \mathbb{Z} \right\}
+$$
+
+
+
+$$
+H = \{\, x \in \mathbb{R} \mid \cos(x) = 0 \,\}
+\Rightarrow H = \{\, \tfrac{\pi}{2} + n\pi \mid n \in \mathbb{Z} \,\}
 $$
 
 These are often **periodic** sets with infinite elements.
