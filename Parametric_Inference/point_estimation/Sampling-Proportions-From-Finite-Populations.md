@@ -10,10 +10,20 @@ sampled items that possess a particular characteristic.
 Let:
 
 * $`N`$: population size
+
+
 * $`n`$: sample size
+
+
 * $`M`$: number of population elements with the trait
+
+
 * $`p = M / N`$: population proportion
+
+
 * $`X`$: number in the sample with the trait
+
+
 * $`\hat{p} = X / n`$: sample proportion
 
 ---

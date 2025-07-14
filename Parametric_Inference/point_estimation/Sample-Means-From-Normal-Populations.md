@@ -11,6 +11,8 @@ the behavior of the **sample mean** is particularly well-understood and useful.
 Let:
 
 * $`X_1, X_2, \dots, X_n \sim \mathcal{N}(\mu, \sigma^2)`$ be i.i.d. normal random variables.
+
+
 * The **sample mean** is $`\overline{X}_n = \dfrac{1}{n} \sum_{i=1}^n X_i`$.
 
 ---
@@ -46,7 +48,11 @@ $$
 Suppose:
 
 * $`X_i \sim \mathcal{N}(50, 25)`$
+
+
 * $`n = 16 \Rightarrow \overline{X}_{16} \sim \mathcal{N}(50, \tfrac{25}{16})`$
+
+
 * Find: $`P(\overline{X}_{16} > 52)`$
 
 **Step 1:** Compute standard deviation:
@@ -78,6 +84,8 @@ $$
 A factory claims battery lifespans follow a normal distribution with:
 
 * Mean $`\mu = 1000`$ hours
+
+
 * Std. dev. $`\sigma = 80`$ hours
 
 A quality inspector selects a **sample of 25 batteries**. What's the probability that the **average** lifespan is **less than 970 hours**?
@@ -122,8 +130,14 @@ chosen batteries is under 970 hours — low enough to potentially trigger concer
 ### **6. Applications in Practice**
 
 * **Quality control**: Is a process mean shifting?
+
+
 * **Medical trials**: Are average effects of treatment significant?
+
+
 * **Agriculture**: Is average crop yield above a threshold?
+
+
 * **Finance**: Is average daily return greater than expected?
 
 ---
@@ -131,7 +145,11 @@ chosen batteries is under 970 hours — low enough to potentially trigger concer
 ### **7. Key Insights**
 
 * When sampling from a **normal distribution**, the sample mean is also normal, regardless of sample size.
+
+
 * The **variance of the sample mean decreases** with increasing sample size, improving estimate precision.
+
+
 * Probabilities involving sample means are computed using the **standard normal distribution** via standardization.
 
 ---

@@ -7,6 +7,8 @@
 Let $`X_1, X_2, \dots, X_n`$ be **i.i.d.** random variables with:
 
 * Mean: $`\mu = \mathbb{E}[X_i]`$
+
+
 * Variance: $`\sigma^2 = \text{Var}(X_i) < \infty`$
 
 Define the sample mean:
@@ -28,7 +30,11 @@ $$
 ### **2. Why the CLT Matters**
 
 * **Universality**: Works for any distribution (discrete or continuous) with finite mean and variance.
+
+
 * **Approximation**: Allows normal approximation for sums/averages.
+
+
 * **Basis for inference**: Used in confidence intervals, hypothesis tests, control charts, etc.
 
 ---
@@ -45,16 +51,16 @@ $$
 
 3. Standardize:
 
-   $$
-   Z = \frac{\overline{X}_n - \mu}{\sigma / \sqrt{n}} \sim \mathcal{N}(0,1) \text{ approximately}
-   $$
+$$
+Z = \frac{\overline{X}_n - \mu}{\sigma / \sqrt{n}} \sim \mathcal{N}(0,1) \text{ approximately}
+$$
 
 
 4. Use standard normal table (or CDF):
 
-   $$
-   P(a < \overline{X}_n < b) = P\left( \frac{a - \mu}{\sigma / \sqrt{n}} < Z < \frac{b - \mu}{\sigma / \sqrt{n}} \right)
-   $$
+$$
+P(a < \overline{X}_n < b) = P\left( \frac{a - \mu}{\sigma / \sqrt{n}} < Z < \frac{b - \mu}{\sigma / \sqrt{n}} \right)
+$$
 
 ---
 
@@ -63,6 +69,8 @@ $$
 Let $`X_i \sim \text{Exponential}(1)`$, so:
 
 * $`\mu = 1`$, $`\sigma^2 = 1`$
+
+
 * Let $`n = 30`$, find $`P(0.9 < \overline{X}_{30} < 1.1)`$
 
 Standardize:
@@ -125,6 +133,8 @@ If $`X_i \sim`$ continuous (e.g., Uniform, Exponential, Normal), the CLT still a
 The only requirements:
 
 * i.i.d. (or weakly dependent in extensions)
+
+
 * Finite mean and variance
 
 #### **Example:**
