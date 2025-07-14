@@ -65,8 +65,14 @@ Orthogonal basis $`\{ \vec{u}_1, \vec{u}_2 \}`$
 **Steps**:
 
 1. Compute dot products: $`\vec{v} \cdot \vec{u}_i`$
+
+
 2. Compute squared norms: $`\| \vec{u}_i \|^2`$
+
+
 3. Get coefficients: $`c_i = \frac{ \vec{v} \cdot \vec{u}_i }{ \| \vec{u}_i \|^2 }`$
+
+
 4. Reconstruct: $`\vec{v}_{\text{proj}} = \sum c_i \vec{u}_i`$
 
 ---
@@ -76,6 +82,8 @@ Orthogonal basis $`\{ \vec{u}_1, \vec{u}_2 \}`$
 **Given**:
 
 * $`\vec{v} = [v_1, v_2, v_3]`$
+
+
 * Orthonormal basis $`\{ \vec{e}_1, \vec{e}_2, \vec{e}_3 \}`$
 
 **Steps**:
@@ -164,8 +172,14 @@ $$
 ### **10. Final Tips**
 
 * Always **verify orthogonality** with dot products.
+
+
 * Use **orthonormal bases** for computational ease.
+
+
 * Components w\.r.t. orthonormal bases are just dot products.
+
+
 * With orthogonal bases, divide by $`\| \vec{u}_i \|^2`$.
 
 ---
