@@ -13,9 +13,8 @@ Let $`X_1, X_2, \dots, X_n`$ be **i.i.d.** random variables with:
 
 Define the sample mean:
 
-$$
-\overline{X}_n = \frac{1}{n} \sum_{i=1}^n X_i
-$$
+$`\overline{X}_n = \frac{1}{n} \sum_{i=1}^n X_i`$
+
 
 Then the **Central Limit Theorem** states:
 

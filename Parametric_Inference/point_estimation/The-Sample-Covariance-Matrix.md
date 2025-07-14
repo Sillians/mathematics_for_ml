@@ -35,16 +35,7 @@ Where $`x_i \in \mathbb{R}^{p}`$ is the $`i`$-th observation (row of $`X`$).
 
 Equivalently, this is the **mean of each column** of $X$, written as:
 
-$$
-\mu = 
-\begin{bmatrix}
-\bar{x}_1 \\
-\bar{x}_2 \\
-\vdots \\
-\bar{x}_p
-\end{bmatrix}
-\quad \text{where } \bar{x}_j = \frac{1}{n} \sum_{i=1}^{n} x_{ij}
-$$
+$`\mu = \begin{bmatrix} \bar{x}_1 \\\bar{x}_2 \\\vdots \\\bar{x}_p \end{bmatrix} \quad \text{where } \bar{x}_j = \frac{1}{n} \sum_{i=1}^{n} x_{ij}`$
 
 ---
 
@@ -76,13 +67,14 @@ $$
 
 Or, explicitly:
 
-$$
-\Sigma_{jk} = \frac{1}{n - 1} \sum_{i=1}^{n} (x_{ij} - \bar{x}_j)(x_{ik} - \bar{x}_k)
-$$
+$`\Sigma_{jk} = \frac{1}{n - 1} \sum_{i=1}^{n} (x_{ij} - \bar{x}_j)(x_{ik} - \bar{x}_k)`$
+
 
 Each entry $`\Sigma_{jk}`$ represents the **covariance** between variable $`j`$ and variable $`k`$.
 
 * If $`j = k`$, $`\Sigma_{jj}`$ is the **sample variance** of variable $j$.
+
+
 * If $`j \ne k`$, $`\Sigma_{jk}`$ is the **sample covariance** between variables $j$ and $k$.
 
 ---
