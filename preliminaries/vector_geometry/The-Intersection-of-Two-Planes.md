@@ -11,13 +11,20 @@ and working with vector and parametric equations.
 Let two planes be given in Cartesian form:
 
 * Plane 1: $`a_1x + b_1y + c_1z = d_1`$
+
+
 * Plane 2: $`a_2x + b_2y + c_2z = d_2`$
 
 To determine their intersection:
 
 * If the planes are **parallel but not identical**, they have **no intersection**.
+
+
 * If the planes are **identical**, their intersection is the **entire plane**.
+
+
 * If the planes are **not parallel**, they intersect in a **line**.
+
 
 To check if they’re parallel, compare their normal vectors:
 

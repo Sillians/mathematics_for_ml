@@ -26,9 +26,9 @@ Where:
 
 ### **2. Finding the Vector Equation of the Plane Perpendicular to a Given Vector**
 
-If a plane is **perpendicular to a vector** $\mathbf{n}$, then $\mathbf{n}$ is the **normal vector** to the plane.
+If a plane is **perpendicular to a vector** $`\mathbf{n}`$, then $`\mathbf{n}`$ is the **normal vector** to the plane.
 
-Let $\mathbf{r} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$ and $\mathbf{r}_0 = \begin{bmatrix} x_0 \\ y_0 \\ z_0 \end{bmatrix}$ be a known point on the plane.
+Let $`\mathbf{r} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}`$ and $`\mathbf{r}_0 = \begin{bmatrix} x_0 \\ y_0 \\ z_0 \end{bmatrix}`$ be a known point on the plane.
 
 Then the plane satisfies:
 
@@ -36,7 +36,7 @@ $$
 (\mathbf{r} - \mathbf{r}_0) \cdot \mathbf{n} = 0
 $$
 
-This is the **scalar form**, which ensures every point $\mathbf{r}$ lies on the plane by being orthogonal to $\mathbf{n}$.
+This is the **scalar form**, which ensures every point $`\mathbf{r}`$ lies on the plane by being orthogonal to $\mathbf{n}$.
 
 ---
 
@@ -44,7 +44,7 @@ This is the **scalar form**, which ensures every point $\mathbf{r}$ lies on the 
 
 A vector is **parallel to a plane** if it is **orthogonal to the plane's normal vector**.
 
-Let $\mathbf{n}$ be the plane’s normal vector. Then any vector $\mathbf{v}$ such that:
+Let $`\mathbf{n}`$ be the plane’s normal vector. Then any vector $`\mathbf{v}`$ such that:
 
 $$
 \mathbf{v} \cdot \mathbf{n} = 0
@@ -52,7 +52,7 @@ $$
 
 is **parallel to the plane**.
 
-You can find such vectors by solving this dot product condition for $\mathbf{v}$.
+You can find such vectors by solving this dot product condition for $`\mathbf{v}`$.
 
 ---
 
@@ -66,20 +66,23 @@ $$
 \mathbf{r} = \mathbf{r}_1 + t\mathbf{d}
 $$
 
-Where $\mathbf{d}$ is the **direction vector** of the line.
+Where $`\mathbf{d}`$ is the **direction vector** of the line.
 
 To find the vector equation of the plane **perpendicular** to this line and passing through a point $\mathbf{r}_0$:
 
-* Use $\mathbf{d}$ as the normal vector $\mathbf{n}$
+
+* Use $`\mathbf{d}`$ as the normal vector $`\mathbf{n}`$
+
+
 * The equation becomes:
 
 $$
 (\mathbf{r} - \mathbf{r}_0) \cdot \mathbf{d} = 0
 $$
 
-Which is the scalar form of the plane.
+Which is the scalar form of the plane?
 
-You can also rewrite it in parametric/vector form by finding two vectors orthogonal to $\mathbf{d}$ and using them as the spanning vectors for the plane.
+You can also rewrite it in parametric/vector form by finding two vectors orthogonal to $`\mathbf{d}`$ and using them as the spanning vectors for the plane.
 
 ---
 

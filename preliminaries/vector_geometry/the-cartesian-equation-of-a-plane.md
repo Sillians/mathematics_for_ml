@@ -17,8 +17,13 @@ $$
 Where:
 
 * $\mathbf{n} = \langle a, b, c \rangle$ is the **normal vector** to the plane,
+
+
 * $(x, y, z)$ are the coordinates of any point on the plane,
+
+
 * $d$ is a scalar determined using a known point on the plane.
+
 
 Given a point $P_0 = (x_0, y_0, z_0)$, the Cartesian equation is:
 
@@ -34,7 +39,10 @@ $$
 If you're given:
 
 * A **normal vector** $\mathbf{n} = \langle a, b, c \rangle$,
+
+
 * A **point** $P_0 = (x_0, y_0, z_0)$,
+
 
 The Cartesian equation is:
 
@@ -62,6 +70,8 @@ A **line’s direction vector** acts as the **normal vector** for the plane **pe
 Given:
 
 * Line direction vector $\mathbf{d} = \langle a, b, c \rangle$,
+
+
 * Point on the plane $(x_0, y_0, z_0)$,
 
 Use:
@@ -83,7 +93,11 @@ $$
 Steps to convert to **vector form**:
 
 * Identify **a point** $P_0$ on the plane (choose values that satisfy the equation).
+
+
 * Find **two linearly independent vectors** $\mathbf{v}_1, \mathbf{v}_2$ that lie in the plane and are **orthogonal to the normal vector** $\mathbf{n} = \langle a, b, c \rangle$.
+
+
 * Then the **vector equation** is:
 
 $$

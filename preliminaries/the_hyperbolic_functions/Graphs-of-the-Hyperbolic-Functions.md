@@ -106,9 +106,7 @@ $$
 * **Intercept**: Passes through the origin, $`\tanh(0) = 0`$
 
 
-* **Derivative**: $`\frac{d}{dx} \tanh(x) = \\mathrm{sech}^2(x)`$
-
-$$\frac{d}{dx} \tanh(x) = \text{sech}^2(x)$$
+* **Derivative**: $$\frac{d}{dx} \tanh(x) = \text{sech}^2(x)$$
 
 #### **Graph Highlights:**
 
