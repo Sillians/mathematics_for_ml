@@ -58,21 +58,21 @@ To find **$V$**:
 1. Rearrange: $`AV = U \Sigma`$
    Multiply both sides on the right by $V$:
 
-   $$
-   A = U \Sigma V^{\mathsf T} \Rightarrow AV = U\Sigma
-   $$
+$$
+A = U \Sigma V^{\mathsf T} \Rightarrow AV = U\Sigma
+$$
 
 2. Solve for columns: if \$v\_1\$ is a column of \$V\$, then:
 
-   $$
-   Av_1 = \sigma_1 u_1 \quad \text{and} \quad Av_2 = \sigma_2 u_2
-   $$
+$$
+Av_1 = \sigma_1 u_1 \quad \text{and} \quad Av_2 = \sigma_2 u_2
+$$
 
    So:
 
-   $$
-   v_1 = A^{-1}(\sigma_1 u_1), \text{ normalized}
-   $$
+$$
+v_1 = A^{-1}(\sigma_1 u_1), \text{ normalized}
+$$
 
 If $A$ has rank 1, then $`v\_2`$ can be any orthonormal vector orthogonal to $`v\_1`$.
 
@@ -90,9 +90,9 @@ To find **$U$**:
 1. Rearrange: $`A V = U \Sigma`$
 2. Use:
 
-   $$
-   u_i = \frac{1}{\sigma_i} A v_i
-   $$
+$$
+u_i = \frac{1}{\sigma_i} A v_i
+$$
 
    Then normalize to ensure unit length.
 
