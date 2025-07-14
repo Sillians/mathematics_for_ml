@@ -19,16 +19,16 @@ If sampling is random and independent:
 
 * **Expected value**:
 
-  $$
-  \mathbb{E}[\hat{p}] = p
-  $$
+$$
+\mathbb{E}[\hat{p}] = p
+$$
 
 
 * **Standard deviation (standard error)**:
 
-  $$
-  \text{SE}(\hat{p}) = \sqrt{ \frac{p(1 - p)}{n} }
-  $$
+$$
+\text{SE}(\hat{p}) = \sqrt{ \frac{p(1 - p)}{n} }
+$$
 
 
 * $\hat{p}$ is **unbiased** and **consistent**.
@@ -68,16 +68,16 @@ If the sample size is large enough for CLT to apply, we can **approximate probab
 
 2. Compute the standard error:
 
-   $$
-   \text{SE} = \sqrt{ \frac{p(1 - p)}{n} }
-   $$
+$$
+\text{SE} = \sqrt{ \frac{p(1 - p)}{n} }
+$$
 
 
 3. Use the normal approximation:
 
-   $$
-   P\left(a \leq \hat{p} \leq b\right) \approx P\left(\frac{a - p}{\text{SE}} \leq Z \leq \frac{b - p}{\text{SE}} \right)
-   $$
+$$
+P\left(a \leq \hat{p} \leq b\right) \approx P\left(\frac{a - p}{\text{SE}} \leq Z \leq \frac{b - p}{\text{SE}} \right)
+$$
 
    where $`Z \sim \mathcal{N}(0, 1)`$
 
