@@ -13,12 +13,16 @@ $$
 where:
 
 * $U$ and $V$ are $`2 \times 2`$ orthogonal matrices (i.e., $`U^T U = V^T V = I`$),
+
+
 * $`\Sigma = \begin{bmatrix} \sigma\_1 & 0 \ 0 & \sigma\_2 \end{bmatrix}`$, with singular values $`\sigma\_1 \geq \sigma\_2 \geq 0`$,
+
+
 * The singular values are defined as:
 
-  $$
-  \sigma_i = \sqrt{\lambda_i(A^T A)}
-  $$
+$$
+\sigma_i = \sqrt{\lambda_i(A^T A)}
+$$
 
   where $`\lambda\_i`$ are the eigenvalues of $`A^T A`$.
 
@@ -38,11 +42,11 @@ $$
 
 * Compute $`A^T A`$:
 
-  $$
-  A^T A = \begin{bmatrix} 2 & 1 \\ 4 & 2 \end{bmatrix}
-           \begin{bmatrix} 2 & 4 \\ 1 & 2 \end{bmatrix}
-         = \begin{bmatrix} 5 & 10 \\ 10 & 20 \end{bmatrix}
-  $$
+$$
+A^T A = \begin{bmatrix} 2 & 1 \\ 4 & 2 \end{bmatrix}
+       \begin{bmatrix} 2 & 4 \\ 1 & 2 \end{bmatrix}
+     = \begin{bmatrix} 5 & 10 \\ 10 & 20 \end{bmatrix}
+$$
 
 * Eigenvalues: $`25`$, $`0`$ ⇒ $`\sigma\_1 = 5`$, $`\sigma\_2 = 0`$
 
@@ -65,13 +69,21 @@ $$
 Suppose we are given:
 
 * $`\Sigma = \begin{bmatrix} \sigma\_1 & 0 \ 0 & 0 \end{bmatrix}`$
+
+
 * $`V = [v\_1 \ v\_2]`$, with $`v\_1`$ known and $`\sigma\_1 \neq 0`$
+
 
 **Steps to recover $`U = [u\_1\ u\_2]`$:**
 
 1. Compute $`u\_1 = \dfrac{A v\_1}{\sigma\_1}`$
+
+
 2. Choose $`u\_2`$ as any unit vector orthogonal to $`u\_1`$
+
+
 3. Ensure $`U`$ is orthogonal: $`U^T U = I`$
+
 
 This process completes the first matrix $U$ from partial SVD information.
 
@@ -84,6 +96,8 @@ If $`A^T A`$ has two **equal** eigenvalues, then $`\sigma\_1 = \sigma\_2`$.
 This happens when:
 
 * $`A^T A = \lambda I`$ for some $`\lambda > 0`$
+
+
 * Then $`\Sigma = \sqrt{\lambda} I`$ and $A$ acts like an **isotropic scaling + rotation/reflection**
 
 #### **Example:**
@@ -99,8 +113,14 @@ This is a rotation matrix scaled by $`\sqrt{2}`$
 Then:
 
 * $`A^T A = 2 I`$
+
+
 * $`\sigma\_1 = \sigma\_2 = \sqrt{2}`$
+
+
 * Any orthonormal pair of vectors can be used for $V$; set $`V = I`$
+
+
 * Then $`U = A V \Sigma^{-1} = A \cdot \dfrac{1}{\sqrt{2}} I`$
 
 So:

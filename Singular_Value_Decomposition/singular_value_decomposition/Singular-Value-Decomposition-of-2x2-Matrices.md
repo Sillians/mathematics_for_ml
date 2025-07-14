@@ -13,13 +13,23 @@ $$
 Where:
 
 * $A$ is a real $`m \times n`$ matrix.
+
+
 * $U$ is an $`m \times m`$ orthogonal matrix (columns are orthonormal eigenvectors of $`AA^{\mathsf T}`$).
+
+
 * $V$ is an $`n \times n`$ orthogonal matrix (columns are orthonormal eigenvectors of $`A^{\mathsf T}A`$).
+
+
 * $`\Sigma`$ is an $`m \times n`$ diagonal matrix with non-negative real numbers on the diagonal (the **singular values**).
+
+
 
 In the **2×2 case**, $A$ is a $`2 \times 2`$ matrix, so:
 
 * $`U, V`$ are $`2 \times 2`$ orthogonal matrices,
+
+
 * $`\Sigma = \begin{bmatrix} \sigma\_1 & 0 \ 0 & \sigma\_2 \end{bmatrix}`$, with $`\sigma\_1 \ge \sigma\_2 \ge 0`$.
 
 ---
