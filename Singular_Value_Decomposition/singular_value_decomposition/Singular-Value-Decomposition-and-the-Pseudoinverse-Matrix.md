@@ -14,7 +14,7 @@ $$
 and a diagonal matrix
 
 $$
-\Sigma=\operatorname{diag}(\sigma_1,\dots,\sigma_r,0,\dots)
+\Sigma=\\mathrm{diag}(\sigma_1,\dots,\sigma_r,0,\dots)
 \qquad(\sigma_1\ge\dots\ge\sigma_r>0)
 $$
 
@@ -45,7 +45,7 @@ $$
 where $`\Sigma^{+}`$ is obtained by **reciprocating the non‑zero singular values** and transposing the rectangular block:
 
 $$
-\Sigma^{+}= \operatorname{diag}\!\bigl(\tfrac1{\sigma_1},\dots,\tfrac1{\sigma_r},0,\dots\bigr)^{\top}.
+\Sigma^{+}= \\mathrm{diag}\!\bigl(\tfrac1{\sigma_1},\dots,\tfrac1{\sigma_r},0,\dots\bigr)^{\top}.
 $$
 
 ---
@@ -55,13 +55,13 @@ $$
 If
 
 $$
-D = \operatorname{diag}(d_1,d_2,\dots,d_k),
+D = \\mathrm{diag}(d_1,d_2,\dots,d_k),
 $$
 
 its pseudoinverse is
 
 $$
-D^{+} = \operatorname{diag}\!\Bigl(
+D^{+} = \\mathrm{diag}\!\Bigl(
 \;\tfrac1{d_1}\mathbf 1_{\{d_1\neq0\}},\,
 \dots,\,
 \tfrac1{d_k}\mathbf 1_{\{d_k\neq0\}}
@@ -71,7 +71,7 @@ $$
 that is, **invert non‑zero diagonals, leave zeros unchanged**.
 
 *Example*
-$`D=\operatorname{diag}(5,0,2) \Rightarrow D^{+}=\operatorname{diag}\bigl(\tfrac15,0,\tfrac12\bigr).`$
+$`D=\\mathrm{diag}(5,0,2) \Rightarrow D^{+}=\\mathrm{diag}\bigl(\tfrac15,0,\tfrac12\bigr).`$
 
 ---
 
@@ -94,13 +94,13 @@ Full SVD (sketched):
 $$
 U=
 \begin{bmatrix}0&1\\1&0\end{bmatrix},\;
-\Sigma=\operatorname{diag}(4,3),\;
+\Sigma=\\mathrm{diag}(4,3),\;
 V=
 \begin{bmatrix}1&0\\0&1\end{bmatrix}.
 $$
 
 $$
-\Sigma^{+}=\operatorname{diag}\!\bigl(\tfrac14,\tfrac13\bigr),\qquad
+\Sigma^{+}=\\mathrm{diag}\!\bigl(\tfrac14,\tfrac13\bigr),\qquad
 A^{+}=V\Sigma^{+}U^{\!\top}
       =\begin{bmatrix}0&\tfrac14\\[2pt]\tfrac13&0\end{bmatrix}.
 $$
