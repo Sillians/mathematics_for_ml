@@ -36,7 +36,8 @@ This formula projects $b$ onto the column space of $A$.
 
 #### Finding the Orthogonal Projection of a Vector Onto a Plane
 
-Given a plane defined by two non-orthogonal vectors $`\vec{a}\_1, \vec{a}\_2`$, form matrix $`A = [\vec{a}\_1 \ \vec{a}\_2]\`$ and use:
+Given a plane defined by two non-orthogonal vectors $`\vec{a}\_1, \vec{a}\_2`$, 
+form matrix $`A = [\vec{a}\_1 \ \vec{a}\_2]`$ and use:
 
 $$
 \text{proj}_{\text{Plane}}(\vec{b}) = A(A^TA)^{-1}A^T \vec{b}
@@ -51,6 +52,8 @@ This yields the closest point in the plane to $`\vec{b}`$.
 Given a subspace spanned by arbitrary basis vectors $`{ \vec{u}\_1, \dots, \vec{u}\_k }`$:
 
 1. Construct matrix $`A = [\vec{u}\_1 \ \dots \ \vec{u}\_k]`$
+
+
 2. Compute projection:
 
 $$
@@ -70,7 +73,11 @@ behind **least-squares approximation**, **regression**, and **data compression**
 ###  Summary
 
 * Projections onto arbitrary subspaces use matrix projection: $`A(A^TA)^{-1}A^Tb`$.
+
+
 * This technique generalizes projection when the basis is not orthogonal.
+
+
 * Core to solving inconsistent systems, approximations, and optimization problems.
 
 ---

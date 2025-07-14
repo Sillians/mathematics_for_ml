@@ -7,12 +7,18 @@
 Projecting a vector onto a **subspace** in Euclidean space helps:
 
 * Simplify problems
+
+
 * Minimize distances
+
+
 * Solve constrained optimization problems
 
 Given a subspace $`W \subseteq \mathbb{R}^n`$ and a vector $`\mathbf{v} \in \mathbb{R}^n`$, we seek:
 
 * The **orthogonal projection** of $`\mathbf{v}`$ onto $W$
+
+
 * The **component of $`\mathbf{v}`$ orthogonal to $W$**
 
 ---
@@ -44,6 +50,8 @@ This works for **any set of linearly independent basis vectors**.
 Let:
 
 * $`\mathbf{v}`$ be a vector in $`\mathbb{R}^n`$
+
+
 * $`\hat{\mathbf{v}} = \mathrm{proj}_W(\mathbf{v})`$ be the projection
 
 Then the **distance** is:
@@ -61,6 +69,8 @@ Where $`\|\cdot\|`$ denotes the Euclidean norm.
 Let:
 
 * $\hat{\mathbf{v}} = \mathrm{proj}_W(\mathbf{v})$
+
+
 * $\theta$ be the angle between $\mathbf{v}$ and $W$
 
 Then:
@@ -82,12 +92,18 @@ $$
 Let:
 
 * The solution space of $`A\mathbf{x} = 0`$ be a subspace $`W`$
+
+
 * The **null space** of $`A`$ is the set of all vectors satisfying the equation
 
 ### **Steps**:
 
 1. Find a basis $`\{\mathbf{n}_1, \dots, \mathbf{n}_k\}`$ for $`\text{Null}(A)`$
+
+
 2. Form matrix $`N = [\mathbf{n}_1 \ \dots \ \mathbf{n}_k]`$
+
+
 3. Use the projection formula:
 
 $$

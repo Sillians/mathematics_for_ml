@@ -26,6 +26,8 @@ $$
 #### Notes:
 
 * The result is a vector parallel to $`\mathbf{u}`$.
+
+
 * The projection minimizes the distance from $`\mathbf{v}`$ to the subspace.
 
 ---
@@ -48,6 +50,8 @@ Let the solution space of a homogeneous system $`A\mathbf{x} = \mathbf{0}`$ be a
 To project $`\mathbf{v}`$ onto this space:
 
 1. **Find a basis** $`\{\mathbf{u}\}`$ for the solution space.
+
+
 2. Use the projection formula:
 
 $$
@@ -71,7 +75,11 @@ This gives the projection of $`\mathbf{v}`$ onto the null space of $A$, assuming
 ### **6. Geometric Intuition**
 
 * The projection "drops a perpendicular" from $`\mathbf{v}`$ onto the subspace.
+
+
 * The resulting vector lies **in the subspace** and represents the **closest approximation** of $`\mathbf{v}`$ within that space.
+
+
 * The orthogonal component (error or residual) is perpendicular to the subspace.
 
 ---
