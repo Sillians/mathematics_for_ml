@@ -13,9 +13,7 @@ When comparing the means of two populations with **known and unequal variances**
 
 we construct a **confidence interval for the difference in means**:
 
-$$
-(\mu_1 - \mu_2) \in \left[(\bar{x}_1 - \bar{x}_2) \pm z_{\alpha/2} \cdot \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}} \right]
-$$
+$`(\mu_1 - \mu_2) \in \left[(\bar{x}_1 - \bar{x}_2) \pm z_{\alpha/2} \cdot \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}} \right]`$
 
 Where:
 
@@ -38,9 +36,7 @@ If both populations are **normally distributed** and variances are known:
 
 #### **Formula:**
 
-$$
-CI = (\bar{x}_1 - \bar{x}_2) \pm z_{\alpha/2} \cdot \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}
-$$
+$`CI = (\bar{x}_1 - \bar{x}_2) \pm z_{\alpha/2} \cdot \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}`$
 
 #### **Example:**
 
@@ -68,9 +64,7 @@ Even if the underlying distributions are not normal, **by the Central Limit Theo
 
 Same formula applies:
 
-$$
-CI = (\bar{x}_1 - \bar{x}_2) \pm z_{\alpha/2} \cdot \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}
-$$
+$`CI = (\bar{x}_1 - \bar{x}_2) \pm z_{\alpha/2} \cdot \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}`$
 
 This allows inference on population mean differences without assuming normality of the population.
 
