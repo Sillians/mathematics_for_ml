@@ -79,9 +79,12 @@ $$
    * If $`\lambda\_1<\lambda\_2`$ the maximum occurs at $`|t|=0`$ (vector $`\mathbf{v}\_2`$) and the minimum at $`|t|=1`$ (vector $`\mathbf{v}\_1`$).
    * If $`\lambda\_1=\lambda\_2`$ the form is isotropic; every direction yields the same value.
 
+
 ### Take-away
 
 *Max* $`= \lambda\_{\max}`$ at eigenvector of $`\lambda\_{\max}`$,
+
+
 *Min* $`= \lambda\_{\min}`$ at eigenvector of $`\lambda\_{\min}`$.
 
 ---
@@ -172,8 +175,10 @@ Conversely, if \$A\$ has both positive and negative eigen-values, level sets of 
 
 > **Constraint** $`x^2+4y^2=1`$.
 
+
 *Scaling matrix* $$B=\\mathrm{diag}(1,2)\Rightarrow \tilde A=B^\mathsf{T}AB=
 \begin{bmatrix}5&6\\6&32\end{bmatrix}$$.
+
 
 Eigenvalues of $`\tilde A`$ are $`\lambda\_{1}\approx4`$, $`\lambda\_{2}\approx33`$.
 

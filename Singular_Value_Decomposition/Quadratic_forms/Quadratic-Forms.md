@@ -13,7 +13,10 @@ $$
 Where:
 
 * $`\mathbf{x} \in \mathbb{R}^n`$ is a column vector
+
+
 * $`A \in \mathbb{R}^{n \times n}`$ is a **symmetric matrix** (i.e. $`A = A^\top`$)
+
 
 If $A$ is not symmetric, use the **symmetrized form**:
 
@@ -34,7 +37,10 @@ $$
 Construct matrix $`A`$ as:
 
 * $`A_{ii} =`$ coefficient of $`x_i^2`$
+
+
 * $`A_{ij} = A_{ji} = \frac{1}{2} \times`$ coefficient of $`x_i x_j`$
+
 
 ### **Example**
 
@@ -60,7 +66,10 @@ $$
 To compute $`Q(\mathbf{x}) = \mathbf{x}^\top A \mathbf{x}`$:
 
 1. Multiply $`A\mathbf{x}`$
+
+
 2. Multiply $`\mathbf{x}^\top`$ with the result
+
 
 ### **Example**
 
@@ -114,7 +123,10 @@ $$
 From a given quadratic form, build matrix $`A`$ as:
 
 * For each $`x_i^2`$, place its coefficient in $`A_{ii}`$
+
+
 * For each $`x_i x_j`$ with $`i \ne j`$, place half the coefficient in both $`A_{ij}`$ and $`A_{ji}`$
+
 
 ### **Example**
 
@@ -146,6 +158,7 @@ $$
 * Negative definite ⇔ $`\mathbf{x}^\top A \mathbf{x} < 0`$ for all $`\mathbf{x} \ne 0`$
 * Indefinite ⇔ takes both positive and negative values
 
+
 * **Diagonalization**: There exists orthogonal matrix $P$ such that:
 
 $$
@@ -155,15 +168,17 @@ $$
 Where:
 
 * $`D = P^\top A P`$ is diagonal
+
+
 * $`\mathbf{y} = P^\top \mathbf{x}`$
 
 ---
 
 ## **Quick Reference Table**
 
-| Quadratic Form Term       | Corresponding Entry in $`A`$                         |
-| ------------------------- | -------------------------------------------------- |
-| $`x_i^2`$                   | $`A_{ii}`$                                           |
+| Quadratic Form Term           | Corresponding Entry in $`A`$                         |
+|-------------------------------| -------------------------------------------------- |
+| $`x_i^2`$                     | $`A_{ii}`$                                           |
 | $`x_i x_j`$ (for $`i \ne j`$) | $`A_{ij} = A_{ji} = \frac{1}{2} \times`$ coefficient |
 | Given $`A`$, write $`Q(x)`$   | Use $`A_{ii} x_i^2$ and $2A_{ij} x_i x_j`$ terms     |
 
