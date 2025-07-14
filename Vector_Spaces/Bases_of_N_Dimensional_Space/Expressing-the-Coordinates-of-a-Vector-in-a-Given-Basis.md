@@ -113,18 +113,16 @@ Let $`\mathbf{x} = \begin{pmatrix} 1 \\ 4 \\ 3 \end{pmatrix}`$
 
 and
 
-$$\mathcal{B} = \left\{ 
+$$\mathcal{B} = \lbrace\{ 
 \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix},\ 
 \begin{pmatrix} 0 \\ 1 \\ 1 \end{pmatrix},\ 
 \begin{pmatrix} 0 \\ 1 \\ -1 \end{pmatrix} 
-\right\}$$
+\rbrace\}$$
 
 
 Write:
 
-$$
-\begin{bmatrix}1\\4\\3\end{bmatrix} = c_1\begin{bmatrix}1\\0\\0\end{bmatrix} + c_2\begin{bmatrix}0\\1\\1\end{bmatrix} + c_3\begin{bmatrix}0\\1\\-1\end{bmatrix}
-$$
+$`\begin{bmatrix}1\\4\\3\end{bmatrix} = c_1\begin{bmatrix}1\\0\\0\end{bmatrix} + c_2\begin{bmatrix}0\\1\\1\end{bmatrix} + c_3\begin{bmatrix}0\\1\\-1\end{bmatrix}`$
 
 Combine:
 
