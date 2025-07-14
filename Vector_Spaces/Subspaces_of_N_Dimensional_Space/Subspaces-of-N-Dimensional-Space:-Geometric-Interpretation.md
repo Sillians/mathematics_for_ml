@@ -7,7 +7,11 @@
 A **subspace** of $`\mathbb{R}^n`$ is a subset $`V \subseteq \mathbb{R}^n`$ that satisfies three key properties:
 
 1. **Contains the zero vector**: $`\vec{0} \in V`$
+
+
 2. **Closed under vector addition**: If $`\vec{u}, \vec{v} \in V`$, then $`\vec{u} + \vec{v} \in V`$
+
+
 3. **Closed under scalar multiplication**: If $`\vec{v} \in V`$, and $`c \in \mathbb{R}`$, then $`c\vec{v} \in V`$
 
 Geometrically, subspaces are flat, infinite, and pass through the origin (e.g., lines or planes in $`\mathbb{R}^2`$, $`\mathbb{R}^3`$).
@@ -20,14 +24,22 @@ In $`\mathbb{R}^2`$:
 
 * **Lines through the origin** are subspaces.
   Example: Line defined by $`y = 2x`$ or $`y = -x`$
+
+
 * **Lines not through the origin** are not subspaces.
   Example: $`y = x + 1`$ violates the zero vector condition.
+
+
 * **The entire $`\mathbb{R}^2`$** is a subspace of itself.
+
+
 * **Regions (like circles or bounded areas)** are **not** subspaces due to a lack of closure and/or missing the origin.
 
 ✔️ **Check**:
 
 * Is the origin included?
+
+
 * Is the structure flat and infinitely extending?
 
 ---
@@ -41,15 +53,27 @@ In $`\mathbb{R}^3`$:
 
   * Line: $`\vec{v} = t \begin{bmatrix} 1 \\ 0 \\ 2 \end{bmatrix}`$
   * Plane: $`x + y + z = 0`$
+
+
 * **Planes not passing through the origin** are not subspaces.
   Example: $`x + y + z = 1`$
+
+
+
 * **Curved surfaces (e.g., spheres, cones)** are **not** subspaces.
+
+
 * **The whole $`\mathbb{R}^3`$** is a subspace of itself.
+
 
 ✔️ **Check**:
 
 * Does the plane or line pass through the origin?
+
+
 * Is it flat (not curved or bounded)?
+
+
 * Is it closed under vector addition and scalar multiplication?
 
 ---
@@ -82,17 +106,13 @@ Test if $`\vec{u} \in S \Rightarrow c \vec{u} \in S`$ for all scalars $`c \in \m
 
 * **Valid Subspace**:
 
-$$
-V = \left\{ \begin{bmatrix} x \\ y \end{bmatrix} \in \mathbb{R}^2 : 3x - 2y = 0 \right\}
-$$
+$`V = \left\{ \begin{bmatrix} x \\ y \end{bmatrix} \in \mathbb{R}^2 : 3x - 2y = 0 \right\}`$
 
   A line through the origin → satisfies all 3 properties.
 
 * **Invalid Subspace**:
 
-$$
-V = \left\{ \begin{bmatrix} x \\ y \end{bmatrix} \in \mathbb{R}^2 : x^2 + y^2 = 1 \right\}
-$$
+$`V = \left\{ \begin{bmatrix} x \\ y \end{bmatrix} \in \mathbb{R}^2 : x^2 + y^2 = 1 \right\}`$
 
   Circle of radius 1 → not closed under addition or scalar multiplication.
 

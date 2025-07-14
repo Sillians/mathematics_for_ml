@@ -13,8 +13,14 @@ To be a subspace, a set $`S \subseteq \mathbb{R}^n`$ must satisfy:
 ## **Examples of Subspaces**
 
 * The zero subspace: $`\{ \mathbf{0} \}`$
+
+
 * Any line through the origin in $`\mathbb{R}^2`$ or $`\mathbb{R}^3`$
+
+
 * Any plane through the origin in $`\mathbb{R}^3`$
+
+
 * The entire space $`\mathbb{R}^n`$
 
 ---
@@ -104,7 +110,11 @@ $$
 A set $`S \subseteq \mathbb{R}^n`$ is a subspace if:
 
 * $`\mathbf{0} \in S`$
+
+
 * $`\forall \mathbf{u}, \mathbf{v} \in S,\ \mathbf{u} + \mathbf{v} \in S`$
+
+
 * $`\forall \mathbf{v} \in S,\ \forall c \in \mathbb{R},\ c\mathbf{v} \in S`$
 
 A line or plane **must** pass through the origin to be a subspace.
